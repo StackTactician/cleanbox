@@ -12,7 +12,6 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-java@v4
         with: {distribution: temurin, java-version: 17}
-      - uses: actions/setup-android@v2
       - run: |
           wget https://services.gradle.org/distributions/gradle-8.7-bin.zip -q
           unzip -q gradle-8.7-bin.zip
@@ -23,9 +22,10 @@ jobs:
       - run: ./gradlew assembleRelease
       - run: |
           keytool -genkey -v -keystore debug.jks -storepass android -alias android -keypass android -keyalg RSA -validity 10000 -dname "CN=Cleanbox"
-          $ANDROID_HOME/build-tools/34.0.0/apksigner sign --ks debug.jks --ks-pass pass:android --key-pass pass:android app/build/outputs/apk/release/app-release-unsigned.apk --out Cleanbox.apk
-          $ANDROID_HOME/build-tools/34.0.0/apksigner verify Cleanbox.apk && echo "signed"
+          apksigner sign --ks debug.jks --ks-pass pass:android --key-pass pass:android app/build/outputs/apk/release/app-release-unsigned.apk --out Cleanbox.apk || $ANDROID_HOME/build-tools/34.0.0/apksigner sign --ks debug.jks --ks-pass pass:android --key-pass pass:android app/build/outputs/apk/release/app-release-unsigned.apk --out Cleanbox.apk
           ls -lh Cleanbox.apk
+          apksigner verify Cleanbox.apk 2>&1 || $ANDROID_HOME/build-tools/34.0.0/apksigner verify Cleanbox.apk 2>&1
+          echo "signed"
       - run: |
           gh release delete latest --yes || true
           git push --delete origin latest || true
