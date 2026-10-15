@@ -13,7 +13,7 @@ public class CleanboxApi {
   static final String TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjIwNjMzNTk2NzU2Njc0NzEzMTIsInV0cCI6MSwiZXhwIjoxNzk5ODQ4MDI5LCJpYXQiOjE3OTIwNzE3Mjl9.lIareVNYKuvsBLWX0NCEKFxeIuw0M2NepQNts9vlWFc";
   static final String[] API_HOSTS={"api4sg.aoneroom.com"};
   static final String BFF="/wefeed-mobile-bff";
-  static OkHttpClient client = new OkHttpClient.Builder().connectTimeout(10,TimeUnit.SECONDS).readTimeout(10,TimeUnit.SECONDS).build();
+  static OkHttpClient client = new OkHttpClient.Builder().proxy(java.net.Proxy.NO_PROXY).connectTimeout(10,TimeUnit.SECONDS).readTimeout(10,TimeUnit.SECONDS).build();
   static String hmac(String data) throws Exception{
     byte[] key=Base64.decode(GATEWAY_SECRET, Base64.DEFAULT);
     Mac mac=Mac.getInstance("HmacMD5");
