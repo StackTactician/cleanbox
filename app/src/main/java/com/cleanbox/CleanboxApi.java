@@ -58,7 +58,7 @@ public class CleanboxApi {
   }
   public static String getPlayInfo(String sid) throws Exception{
     String url="https://"+API_HOSTS[0]+BFF+"/subject-api/play-info?subjectId="+sid;
-    Map<String,String> h=new HashMap<>(); h.put("Accept","application/json"); h.put("Content-Type","application/json; charset=utf-8");
+    Map<String,String> h=new HashMap<>(); h.put("Accept","application/json");
     String sig=sign("GET",url,null,h);
     Request r=new Request.Builder().url(url).get()
       .header("Accept","application/json").header("X-Client-Info","{\"packageName\":\"com.community.oneroom\",\"versionCode\":\"50020131\",\"versionName\":\"4.0.03.0922.03\",\"osVersion\":\"12\",\"phoneBrand\":\"Infinix\",\"phoneModel\":\"X6819\",\"deviceId\":\"528e87f3691ea51b\",\"channelId\":\"gp\"}")
