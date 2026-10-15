@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/ls_dp_48" android:paddingStart="@dimen/ls_dp_12" android:paddingEnd="@dimen/ls_dp_12"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ls_iv_single_season_back" android:layout_width="@dimen/ls_dp_24" android:layout_height="@dimen/ls_dp_24" android:src="@drawable/ls_ic_nav_back" android:scaleType="centerInside" android:contentDescription="@null" />
+    <TextView android:textSize="@dimen/ls_text_size_16" android:textColor="@color/ls_white" android:ellipsize="end" android:gravity="center" android:id="@id/ls_tv_single_season_title" android:layout_width="0.0dp" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/style_font_900" />
+    <View android:id="@id/ls_iv_single_season_calendar" android:visibility="invisible" android:layout_width="@dimen/ls_dp_24" android:layout_height="@dimen/ls_dp_24" />
+</LinearLayout>

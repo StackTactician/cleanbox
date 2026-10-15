@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/bg_02" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tn.lib.view.TitleLayout android:id="@id/tool_bar" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never" app:layout_constraintTop_toBottomOf="@id/tool_bar" />
+            <com.tn.lib.widget.TnButton android:textSize="16.0sp" android:textColor="@color/gray_dark_00" android:gravity="center" android:id="@id/btn_login" android:background="@drawable/bg_brand_linear_r6" android:layout_width="match_parent" android:layout_height="44.0dp" android:layout_marginLeft="@dimen/dp_12" android:layout_marginTop="@dimen/dimens_20" android:layout_marginRight="@dimen/dp_12" android:text="@string/profile_login" android:textAllCaps="false" android:layout_marginHorizontal="@dimen/dp_12" app:layout_constraintBottom_toBottomOf="parent" style="@style/robot_bold" />
+            <TextView android:textSize="10.0sp" android:textColor="@color/white_40" android:gravity="center" android:id="@id/deviceInfoTv" android:paddingLeft="@dimen/dp_20" android:paddingTop="@dimen/dp_20" android:paddingRight="@dimen/dp_20" android:paddingBottom="60.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/dp_20" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/iv_cover" android:background="@color/skeleton" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" android:adjustViewBounds="true" app:strokeColor="@color/white_6" app:strokeWidth="1.0dp" />
+    <com.noober.background.view.BLView android:id="@id/v_stroke" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

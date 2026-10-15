@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/ls_page_bg_dark" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/ls_matches_title_bar" layout="@layout/ls_layout_matches_title_bar" />
+    <View android:background="@color/ls_white_10" android:layout_width="match_parent" android:layout_height="1.0dp" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/ls_vp_matches_sport" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/ls_pb_matches_host_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateTint="@color/ls_white_60" />
+    </FrameLayout>
+</LinearLayout>

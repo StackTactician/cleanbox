@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_sdk_text_details">Λεπτομέρειες</string>
+    <string name="upgrade_sdk_text_later">Αργότερα</string>
+    <string name="upgrade_sdk_text_later_force">Έξοδος από την Εφαρμογή</string>
+    <string name="upgrade_sdk_text_new_version">Νέα Έκδοση Διαθέσιμη</string>
+    <string name="upgrade_sdk_text_size">Μέγεθος</string>
+    <string name="upgrade_sdk_text_update">Ενημέρωση</string>
+    <string name="upgrade_sdk_text_version">Έκδοση</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/ls_ll_match_pull_down_hint" android:background="@drawable/ls_bg_match_pull_down_hint" android:visibility="gone" android:clipChildren="true" android:clipToPadding="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.transsion.livesports.ui.widget.GradientTextView android:textSize="@dimen/ls_text_size_14" android:gravity="center" android:layout_gravity="center" android:id="@id/ls_tv_match_pull_down_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ls_matches_pull_down_hint" android:maxLines="1" android:includeFontPadding="false" style="@style/style_font_400" />
+</FrameLayout>

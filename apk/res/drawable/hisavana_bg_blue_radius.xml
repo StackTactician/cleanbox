@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/hisavana_ad_color_0051E1" />
+    <corners android:radius="@dimen/hisavana_ad_dimen_4" />
+    <padding android:left="@dimen/hisavana_ad_dimen_12" android:top="@dimen/hisavana_ad_dimen_4" android:right="@dimen/hisavana_ad_dimen_12" android:bottom="@dimen/hisavana_ad_dimen_4" />
+</shape>

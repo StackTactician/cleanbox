@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/rl_container" android:paddingLeft="@dimen/mini_dp_16" android:paddingTop="@dimen/mini_dp_19" android:paddingRight="@dimen/mini_dp_16" android:paddingBottom="@dimen/mini_dp_19" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/mini_dp_16" android:paddingVertical="@dimen/mini_dp_19"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_icon" android:visibility="gone" android:layout_width="@dimen/mini_dp_24" android:layout_height="@dimen/mini_dp_24" android:layout_marginEnd="@dimen/mini_dp_4" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/mini_sp_16" android:textColor="@color/mini_color_191f2b_pure" android:ellipsize="end" android:gravity="center" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_alignTop="@id/iv_icon" android:layout_alignBottom="@id/iv_icon" android:lineSpacingExtra="@dimen/mini_dp_19" android:layout_toEndOf="@id/iv_icon" />
+</RelativeLayout>

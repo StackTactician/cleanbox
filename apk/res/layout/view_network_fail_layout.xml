@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/ivNetwork" android:layout_width="170.0dp" android:layout_height="170.0dp" android:src="@mipmap/ic_no_network" android:layout_centerInParent="true" />
+        <TextView android:textSize="14.0dp" android:textColor="@color/base_color_999999" android:id="@id/tvNetworkTips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dp" android:text="@string/no_network" android:layout_below="@id/ivNetwork" android:layout_centerInParent="true" />
+        <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/tvRetry" android:background="@drawable/libui_main_btn_selector" android:layout_width="110.0dp" android:layout_height="36.0dp" android:layout_marginTop="18.0dp" android:text="@string/network_retry" android:layout_below="@id/tvNetworkTips" android:layout_centerInParent="true" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/retry_ll" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:layout_below="@id/tvNetworkTips">
+            <TextView android:textSize="12.0sp" android:textColor="#ff884dff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Retry " />
+            <ImageView android:layout_width="12.0dp" android:layout_height="12.0dp" android:layout_marginTop="2.0dp" android:src="@drawable/ic_retry_right" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

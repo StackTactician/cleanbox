@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ad_skip_text_size">13.299988dp</dimen>
+    <dimen name="ad_skip_view_height">24.0dp</dimen>
+    <dimen name="ad_skip_view_width">58.0dp</dimen>
+    <dimen name="dimens_12">12.0dp</dimen>
+    <dimen name="dimens_13">13.0dp</dimen>
+    <dimen name="dimens_16">16.0dp</dimen>
+    <dimen name="dimens_20">20.0dp</dimen>
+    <dimen name="dimens_24">24.0dp</dimen>
+    <dimen name="dimens_48">48.0dp</dimen>
+    <dimen name="dimens_82">82.0sp</dimen>
+    <dimen name="dimens_sp_18">18.0sp</dimen>
+</resources>

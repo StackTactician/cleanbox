@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/item_root" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/bg" android:layout_width="match_parent" android:layout_height="95.0dp">
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="vertical" android:background="@drawable/bg_product_top_12_radius" android:paddingTop="8.0dp" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="59.0dp" android:paddingVertical="8.0dp">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp_14" android:textColor="@color/white_80" android:gravity="center" android:id="@id/title" android:layout_width="match_parent" android:layout_marginBottom="4.0dp" android:includeFontPadding="false" style="@style/style_medium_text" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/price" android:includeFontPadding="false" android:drawablePadding="4.0dp" android:drawableStart="@mipmap/ic_points" android:textAlignment="center" style="@style/style_medium_text" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/iv_redeem_container" android:background="@drawable/bg_product_bottom_12_radius" android:layout_width="match_parent" android:layout_height="36.0dp">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp_14" android:textColor="@color/gray_dark_00" android:gravity="center" android:id="@id/btn_redeem" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/member_redeem" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/style_medium_text" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

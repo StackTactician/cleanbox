@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textColor="@color/selector_text01_brand" android:gravity="center" android:id="@id/tvContent" android:background="@drawable/selector_btn_interest_bg" android:paddingLeft="@dimen/dp_16" android:paddingRight="@dimen/dp_16" android:layout_width="wrap_content" android:layout_height="40.0dp" android:paddingHorizontal="@dimen/dp_16" style="@style/robot_medium"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

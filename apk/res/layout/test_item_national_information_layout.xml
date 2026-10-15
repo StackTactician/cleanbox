@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" app:cardCornerRadius="8.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/llRoot" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/tvCountry" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Country:" />
+        <TextView android:id="@id/tvMcc" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Mcc:" />
+        <TextView android:id="@id/tvIso" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Iso:" />
+        <TextView android:id="@id/tvCountryCode" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="CountryCode:" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

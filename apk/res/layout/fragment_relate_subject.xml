@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_subject" android:background="@drawable/bg_subject_item" android:layout_width="match_parent" android:layout_height="48.0dp" android:layout_marginTop="8.0dp" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp">
+        <com.google.android.material.imageview.ShapeableImageView android:id="@id/iv_subject_cover" android:layout_width="32.0dp" android:layout_height="32.0dp" android:scaleType="centerCrop" android:layout_marginStart="8.0dp" app:shapeAppearance="@style/roundStyle_4" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:ellipsize="end" android:id="@id/tv_subject_name" android:layout_width="0.0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" android:layout_marginStart="8.0dp" style="@style/robot_medium" />
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="right|center" android:id="@id/iv_enter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_enter" android:tint="@color/gray_40" android:layout_marginEnd="8.0dp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipe_refresh" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="48.0dp">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_list" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

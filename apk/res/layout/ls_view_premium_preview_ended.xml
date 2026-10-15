@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/llPremiumPreviewEnded" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/ls_premium_ended_art" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="18.0sp" android:textColor="#ffdfb0" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ls_premium_upgrade_full_experience" android:fontFamily="@font/mulish_bold" />
+        <TextView android:textSize="16.0sp" android:textColor="#ccffdfb0" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="@string/ls_premium_unlock_live_access" android:fontFamily="@font/mulish_regular" />
+        <TextView android:textSize="14.0sp" android:textColor="#101114" android:gravity="center" android:background="@drawable/ls_bg_premium_button" android:layout_width="130.0dp" android:layout_height="36.0dp" android:layout_marginTop="16.0dp" android:text="@string/ls_premium_go_premium" android:fontFamily="@font/mulish_bold" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="start|top" android:id="@id/ivPremiumPreviewBack" android:background="?selectableItemBackgroundBorderless" android:padding="12.0dp" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="48.0dp" android:layout_height="48.0dp" android:src="@drawable/ls_ic_premium_preview_back" android:layout_marginStart="4.0dp" />
+</FrameLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="30.0dp" android:layout_height="76.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:id="@id/member_invite_user_pb" android:visibility="visible" android:layout_width="20.0dp" android:layout_height="20.0dp" android:indeterminateDrawable="@drawable/member_loading_yellow_mid" android:layout_centerInParent="true" />
+</RelativeLayout>

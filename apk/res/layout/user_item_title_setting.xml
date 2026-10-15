@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tn.lib.widget.TnTextView android:textSize="@dimen/sp_12" android:textColor="@color/text_02" android:id="@id/tvTitle" android:paddingLeft="@dimen/dp_12" android:paddingTop="@dimen/dp_20" android:paddingRight="@dimen/dp_12" android:layout_width="match_parent" android:layout_height="40.0dp" android:includeFontPadding="false" android:paddingHorizontal="@dimen/dp_12" style="@style/robot_medium"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

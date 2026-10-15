@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/tv_time" android:paddingLeft="12.0dp" android:paddingTop="12.0dp" android:paddingRight="12.0dp" android:paddingBottom="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="12.0dp" style="@style/robot_bold"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

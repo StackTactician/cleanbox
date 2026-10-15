@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@drawable/buttom_dialog_bg" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/base_color_999999" android:gravity="center" android:id="@id/tvFemale" android:layout_width="match_parent" android:layout_height="48.0dp" android:text="@string/profile_edit_gender_female" />
+    <View android:background="@color/color_eeeeee" android:layout_width="match_parent" android:layout_height="1.0dp" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/base_color_999999" android:gravity="center" android:id="@id/tvMale" android:layout_width="match_parent" android:layout_height="48.0dp" android:text="@string/profile_edit_gender_male" />
+    <View android:background="@color/color_eeeeee" android:layout_width="match_parent" android:layout_height="1.0dp" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/base_color_999999" android:gravity="center" android:id="@id/tvNotToSay" android:layout_width="match_parent" android:layout_height="48.0dp" android:text="@string/profile_edit_gender_not_to_say" />
+</androidx.appcompat.widget.LinearLayoutCompat>

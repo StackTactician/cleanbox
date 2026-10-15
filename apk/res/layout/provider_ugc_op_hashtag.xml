@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingLeft="12.0dp" android:paddingRight="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="12.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tn.lib.widget.TnTextView android:textSize="@dimen/text_size_14" android:textColor="@color/pair_text_191F2B" android:ellipsize="end" android:id="@id/tv_op_ugc_hashtag_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/robot_bold" />
+    <com.tn.lib.view.FlowLayout android:id="@id/fl_op_ugc_hashtag_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" app:flChildSpacing="@dimen/dp_8" app:flFlow="true" app:flRowSpacing="@dimen/dp_8" app:layout_constraintTop_toBottomOf="@id/tv_op_ugc_hashtag_title" />
+</androidx.constraintlayout.widget.ConstraintLayout>

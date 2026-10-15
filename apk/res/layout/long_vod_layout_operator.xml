@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.noober.background.view.BLLinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" app:bl_corners_radius="4.0dp" app:bl_solid_color="@color/black_80"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:id="@id/tvClose" android:layout_width="28.0dp" android:layout_height="28.0dp" android:scaleType="center" android:tint="@color/white" app:srcCompat="@mipmap/ic_close" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="6.0dp">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:maxWidth="180.0dp" android:maxLines="2" style="@style/style_import_text" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="10.0sp" android:textColor="@color/white_80" android:ellipsize="end" android:id="@id/tvTips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:layout_marginBottom="6.0dp" android:maxWidth="180.0dp" android:maxLines="2" style="@style/style_regular_text" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat android:id="@id/llButton" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <com.transsion.baseui.widget.GradientTextView android:layout_gravity="center_vertical" android:id="@id/tvButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile_go" android:includeFontPadding="false" android:layout_marginStart="12.0dp" app:gradientTvCenterColor="@color/brand_new_gradient_center" app:gradientTvEndColor="@color/brand_new_gradient_end" app:gradientTvStartColor="@color/brand_new_gradient_start" style="@style/style_import_text" />
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:id="@id/ivMore" android:layout_width="16.0dp" android:layout_height="16.0dp" android:src="@mipmap/ic_arrow_white_gradient" android:scaleType="centerCrop" android:layout_marginEnd="6.0dp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</com.noober.background.view.BLLinearLayout>

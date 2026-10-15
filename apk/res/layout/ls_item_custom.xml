@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ls_custom_grid_container" android:paddingLeft="12.0dp" android:paddingRight="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="12.0dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/ls_text_size_14" android:textColor="@color/ls_white" android:ellipsize="end" android:id="@id/ls_custom_title" android:layout_width="0.0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" style="@style/style_font_700" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ls_custom_refresh" android:paddingTop="4.0dp" android:paddingBottom="4.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingVertical="4.0dp">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="14.0dp" android:layout_height="14.0dp" android:src="@drawable/ls_ic_refresh_14dp" />
+                <TextView android:textSize="@dimen/ls_text_size_14" android:textColor="@color/ls_white_80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ls_recommend_refresh" android:layout_marginStart="2.0dp" style="@style/style_font_600" />
+            </LinearLayout>
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/ls_custom_recycle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:overScrollMode="never" android:nestedScrollingEnabled="false" />
+    </LinearLayout>
+    <com.transsion.livesports.ui.widget.OperateScrollableHost android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/ls_custom_filter_rv" android:visibility="gone" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:nestedScrollingEnabled="false" />
+    </com.transsion.livesports.ui.widget.OperateScrollableHost>
+</FrameLayout>

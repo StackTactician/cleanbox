@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_sdk_text_details">Butiran</string>
+    <string name="upgrade_sdk_text_later">Kemudian</string>
+    <string name="upgrade_sdk_text_later_force">Keluar dari Aplikasi</string>
+    <string name="upgrade_sdk_text_new_version">Versi Baharu Tersedia</string>
+    <string name="upgrade_sdk_text_size">Saiz</string>
+    <string name="upgrade_sdk_text_update">Kemas kini</string>
+    <string name="upgrade_sdk_text_version">Versi</string>
+</resources>

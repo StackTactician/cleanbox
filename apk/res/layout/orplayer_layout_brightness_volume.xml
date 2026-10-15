@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/bvRoot" android:background="@drawable/orplayer_shape_bv_bg" android:paddingLeft="12.0dp" android:paddingRight="12.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/toolbar_height" android:layout_centerHorizontal="true" android:paddingHorizontal="12.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/bvIV" android:layout_width="30.0dp" android:layout_height="30.0dp" android:layout_marginEnd="8.0dp" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ProgressBar android:id="@id/bvProgress" android:layout_width="120.0dp" android:layout_height="12.0dp" android:layout_marginTop="10.0dp" android:layout_marginBottom="10.0dp" android:progressDrawable="@drawable/orplayer_progress_drawable_trans" android:layout_marginVertical="10.0dp" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+        <ProgressBar android:id="@id/secProgress" android:visibility="gone" android:layout_width="120.0dp" android:layout_height="12.0dp" android:layout_marginTop="10.0dp" android:layout_marginBottom="10.0dp" android:progressDrawable="@drawable/orplayer_progress_drawable_second" android:layout_marginVertical="10.0dp" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/tipsLL" android:visibility="gone" android:layout_width="120.0dp" android:layout_height="12.0dp" android:layout_marginTop="10.0dp" android:layout_marginBottom="10.0dp" android:layout_marginVertical="10.0dp">
+            <View android:background="@drawable/orplayer_shape_tips_bg" android:layout_width="12.0dp" android:layout_height="12.0dp" />
+            <TextView android:textSize="10.0sp" android:textColor="@color/brand" android:gravity="end|center" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="200%" android:includeFontPadding="false" android:layout_weight="1.0" android:paddingEnd="2.0dp" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

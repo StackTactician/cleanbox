@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ls_ll_standings_group_root" android:background="@drawable/ls_bg_season_standings_card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ls_dp_16" android:clipToOutline="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ls_ll_standings_table" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/ls_ll_standings_fixed_column" android:layout_width="192.0dp" android:layout_height="wrap_content" android:divider="@drawable/ls_divider_season_standings" android:showDividers="middle" />
+        <com.transsion.livesports.ui.matches.season.DirectionAwareHorizontalScrollView android:id="@id/ls_hsv_standings_stats" android:scrollbars="none" android:layout_width="0.0dp" android:layout_height="match_parent" android:fillViewport="false" android:layout_weight="1.0" android:overScrollMode="never">
+            <LinearLayout android:orientation="vertical" android:id="@id/ls_ll_standings_scroll_content" android:layout_width="wrap_content" android:layout_height="match_parent" android:divider="@drawable/ls_divider_season_standings" android:showDividers="middle" />
+        </com.transsion.livesports.ui.matches.season.DirectionAwareHorizontalScrollView>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ls_ll_standings_legends" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@drawable/ls_divider_season_standings" android:showDividers="middle" />
+</LinearLayout>

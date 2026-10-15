@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_rating" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp"
+  xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/base_color_666666" android:id="@id/rating_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rating" android:maxLines="1" android:maxEms="20" android:layout_marginStart="16.0dp" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/cl34" android:id="@id/tv_rating" android:includeFontPadding="false" android:drawablePadding="2.0dp" android:layout_marginStart="4.0dp" app:drawableStartCompat="@mipmap/movie_detail_star_48" app:layout_constraintBottom_toBottomOf="@id/rating_name" app:layout_constraintStart_toEndOf="@id/rating_name" app:layout_constraintTop_toTopOf="@id/rating_name" style="@style/style_regular_text" />
+</androidx.constraintlayout.widget.ConstraintLayout>

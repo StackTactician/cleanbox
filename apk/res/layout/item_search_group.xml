@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="72.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/iv_avatar" android:background="@color/cl34_ff" android:layout_width="48.0dp" android:layout_height="48.0dp" android:scaleType="centerCrop" android:layout_centerVertical="true" android:layout_marginStart="16.0dp" android:layout_marginEnd="8.0dp" app:shapeAppearanceOverlay="@style/ImgRoundedCornerStyle_24" />
+    <LinearLayout android:gravity="start|center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingEnd="36.0dp" android:layout_toEndOf="@id/iv_avatar">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/text_01" android:ellipsize="end" android:gravity="start|center" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_centerVertical="true" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0dp" android:textColor="@color/base_color_666666" android:ellipsize="end" android:gravity="start|center" android:id="@id/tv_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:maxLines="1" android:singleLine="true" android:layout_below="@id/tv_name" android:layout_centerVertical="true" android:layout_toEndOf="@id/iv_avatar" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="end|center" android:id="@id/iv_select" android:visibility="gone" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/ic_group_right_select" android:layout_centerVertical="true" android:layout_marginEnd="16.0dp" android:layout_alignParentEnd="true" app:tint="@color/brand" />
+</RelativeLayout>

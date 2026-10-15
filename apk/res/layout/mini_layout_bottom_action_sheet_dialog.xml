@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/shape_mini_bottom_action_sheet_dialog_bg" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/view_padding1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/mini_dp_12" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/mini_sp_16" android:textColor="@color/mini_color_191f2b_pure" android:ellipsize="end" android:gravity="center" android:id="@id/tv_title" android:paddingLeft="@dimen/mini_dp_16" android:paddingRight="@dimen/mini_dp_16" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:paddingHorizontal="@dimen/mini_dp_16" />
+    <View android:id="@id/view_padding2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/mini_dp_4" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/mini_sp_14" android:textColor="@color/mini_color_92969E" android:ellipsize="end" android:gravity="center" android:id="@id/tv_desc" android:paddingLeft="@dimen/mini_dp_16" android:paddingRight="@dimen/mini_dp_16" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:paddingHorizontal="@dimen/mini_dp_16" />
+    <View android:id="@id/view_padding3" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/mini_dp_12" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/rv_action_items" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</LinearLayout>

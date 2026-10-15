@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/main" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/text_01" android:gravity="center" android:layout_width="match_parent" android:layout_height="50.0dp" android:text="National information" />
+    <Button android:textColor="@color/text_01" android:gravity="center" android:id="@id/btnReset" android:layout_width="match_parent" android:layout_height="50.0dp" android:text="Reset Local National information" android:textAllCaps="false" />
+    <androidx.appcompat.widget.AppCompatEditText android:id="@id/et" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:hint="输入目标Iso" android:inputType="text" android:imeOptions="actionSearch" />
+    <TextView android:textColor="@color/text_01" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="Custom Local National information：" />
+    <Button android:textColor="@color/text_01" android:id="@id/btnCustomInformation" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="当前自定义国家信息" android:textAllCaps="false" />
+    <TextView android:textColor="@color/text_01" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="All National information List：" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="8.0dp" android:layout_marginRight="8.0dp" android:layout_marginHorizontal="8.0dp" />
+</LinearLayout>

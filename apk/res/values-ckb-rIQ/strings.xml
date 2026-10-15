@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_sdk_text_details">وردەکاری</string>
+    <string name="upgrade_sdk_text_later">دواتر</string>
+    <string name="upgrade_sdk_text_later_force">دەرچوون لە بەرنامەکە</string>
+    <string name="upgrade_sdk_text_new_version">وەشانێکی نوێ بەردەستە</string>
+    <string name="upgrade_sdk_text_size">قەبارە</string>
+    <string name="upgrade_sdk_text_update">بەڕۆژکردنەوە</string>
+    <string name="upgrade_sdk_text_version">ڤێرژن</string>
+</resources>

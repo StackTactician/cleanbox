@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_icon" android:layout_width="@dimen/mini_dp_48" android:layout_height="@dimen/mini_dp_48" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+    <TextView android:textSize="@dimen/mini_sp_12" android:textColor="@color/mini_color_92969E" android:ellipsize="end" android:gravity="center" android:id="@id/tv_name" android:layout_width="@dimen/mini_dp_66" android:layout_height="@dimen/mini_dp_16" android:layout_marginTop="@dimen/mini_dp_4" android:layout_marginBottom="@dimen/mini_dp_4" android:text="" android:maxLines="1" android:layout_marginVertical="@dimen/mini_dp_4" />
+    <TextView android:textSize="@dimen/mini_sp_12" android:textColor="@color/mini_color_0081FF_pure" android:ellipsize="end" android:gravity="center" android:id="@id/tv_button" android:background="@drawable/mini_get_open_button_bg" android:layout_width="@dimen/mini_dp_60" android:layout_height="@dimen/mini_dp_24" android:layout_marginTop="@dimen/mini_dp_4" android:layout_marginBottom="@dimen/mini_dp_24" android:text="@string/mini_offlineapps_get" android:maxLines="1" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.noober.background.view.BLView android:id="@id/v_cover_1" android:layout_width="91.0dp" android:layout_height="130.0dp" app:bl_corners_radius="4.0dp" app:bl_solid_color="@color/module_04" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.noober.background.view.BLView android:id="@id/v_title_1" android:layout_width="0.0dp" android:layout_height="14.0dp" android:layout_marginTop="8.0dp" app:bl_corners_radius="4.0dp" app:bl_solid_color="@color/module_04" app:layout_constraintEnd_toEndOf="@id/v_cover_1" app:layout_constraintStart_toStartOf="@id/v_cover_1" app:layout_constraintTop_toBottomOf="@id/v_cover_1" />
+    <com.noober.background.view.BLView android:id="@id/v_des_1" android:layout_width="67.0dp" android:layout_height="14.0dp" android:layout_marginTop="8.0dp" app:bl_corners_radius="4.0dp" app:bl_solid_color="@color/module_04" app:layout_constraintStart_toStartOf="@id/v_cover_1" app:layout_constraintTop_toBottomOf="@id/v_title_1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

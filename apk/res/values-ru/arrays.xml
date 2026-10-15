@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="analysing_array">
+        <item>fzmovie.net</item>
+        <item>netnaija.com</item>
+        <item>1377x.to</item>
+        <item>123moviesfree.net</item>
+        <item>eztvtorrent.co</item>
+        <item>downloads-anymovies.co</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25</item>
+        <item>0,5</item>
+        <item>0,75</item>
+        <item>Обычная</item>
+        <item>1,25</item>
+        <item>1,5</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="long_vod_analysing_array">
+        <item>fzmovie.net</item>
+        <item>netnaija.com</item>
+        <item>1377x.to</item>
+        <item>123moviesfree.net</item>
+        <item>eztvtorrent.co</item>
+        <item>downloads-anymovies.co</item>
+    </string-array>
+</resources>

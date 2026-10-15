@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="episodes_count_text">
+        <item quantity="other">%1$s episode</item>
+    </plurals>
+    <plurals name="str_views">
+        <item quantity="other">%1$s tayangan</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="other">%1$d hari lalu</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="other">%1$d jam lalu</item>
+    </plurals>
+    <plurals name="time_minutes_ago">
+        <item quantity="other">%1$d menit lalu</item>
+    </plurals>
+    <plurals name="time_months_ago">
+        <item quantity="other">%1$d bulan lalu</item>
+    </plurals>
+    <plurals name="time_weeks_ago">
+        <item quantity="other">%1$d minggu lalu</item>
+    </plurals>
+    <plurals name="time_years_ago">
+        <item quantity="other">%1$d tahun lalu</item>
+    </plurals>
+    <plurals name="videos_count_text">
+        <item quantity="other">%1$s video</item>
+    </plurals>
+</resources>

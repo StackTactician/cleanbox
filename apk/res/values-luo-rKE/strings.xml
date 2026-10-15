@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_sdk_text_details">Weche ayanga</string>
+    <string name="upgrade_sdk_text_later">"Bang'e"</string>
+    <string name="upgrade_sdk_text_later_force">Wuog e App</string>
+    <string name="upgrade_sdk_text_new_version">Loko Manyien Nitiere</string>
+    <string name="upgrade_sdk_text_size">Romb</string>
+    <string name="upgrade_sdk_text_update">Keto manyien</string>
+    <string name="upgrade_sdk_text_version">Loko</string>
+</resources>

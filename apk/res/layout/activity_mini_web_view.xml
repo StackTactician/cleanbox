@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.cloud.tmc.miniapp.widget.NativeTitleBar android:id="@id/title_native_Bar" android:layout_width="match_parent" android:layout_height="@dimen/mini_dp_56" />
+    <ProgressBar android:id="@id/pb" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="@dimen/mini_dp_56" android:progressDrawable="@drawable/mini_progressbar_bg" style="@android:style/Widget.ProgressBar.Horizontal" />
+    <com.cloud.tmc.miniapp.widget.StatusLayout android:id="@id/sl_status" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/mini_dp_57" app:layout_constrainedHeight="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <FrameLayout android:id="@id/fl_wb" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </com.cloud.tmc.miniapp.widget.StatusLayout>
+</FrameLayout>

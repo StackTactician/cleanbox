@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/scrollview" android:fitsSystemWindows="true" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingTop="38.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@id/rl_head" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.google.android.material.imageview.ShapeableImageView android:id="@id/user_head" android:layout_width="96.0dp" android:layout_height="96.0dp" android:src="@drawable/ic_user_avatar" android:layout_centerInParent="true" app:shapeAppearanceOverlay="@style/ImgRoundedCornerStyle_48" />
+            <FrameLayout android:id="@id/fl_edit" android:layout_width="96.0dp" android:layout_height="96.0dp" android:layout_centerInParent="true">
+                <ImageView android:layout_gravity="right|bottom" android:id="@id/iv_edit" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/ic_edit_camera" android:layout_centerInParent="true" />
+            </FrameLayout>
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/rl_nickname" android:paddingBottom="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:layout_below="@id/fl_edit" android:paddingStart="10.0dp" android:paddingEnd="10.0dp">
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/text_01" android:ellipsize="end" android:gravity="center" android:id="@id/tv_nickname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="nickName" android:singleLine="true" android:layout_centerHorizontal="true" android:layout_marginEnd="13.0dp" />
+            <androidx.appcompat.widget.AppCompatImageView android:layout_width="16.0dp" android:layout_height="16.0dp" android:layout_marginTop="3.0dp" android:src="@drawable/ic_more_nickname" android:layout_centerHorizontal="true" android:layout_toEndOf="@id/tv_nickname" app:tint="@color/text_01" />
+        </RelativeLayout>
+        <com.noober.background.view.BLLinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" android:layout_marginStart="12.0dp" android:layout_marginEnd="12.0dp" app:bl_corners_radius="8.0dp" app:bl_solid_color="@color/base_white_06_p">
+            <com.transsion.usercenter.edit.widget.ProfileEditBar android:id="@id/gender_profilebar" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" app:left_text="@string/profile_gender" />
+            <View android:background="@color/base_white_10_p" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginStart="12.0dp" android:layout_marginEnd="12.0dp" />
+            <com.transsion.usercenter.edit.widget.ProfileEditBar android:id="@id/birth_profilebar" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" app:left_text="@string/profile_date_of_birth" />
+        </com.noober.background.view.BLLinearLayout>
+        <com.noober.background.view.BLConstraintLayout android:id="@id/layoutDeleteProfile" android:visibility="gone" android:layout_width="match_parent" android:layout_height="56.0dp" android:layout_marginTop="20.0dp" android:layout_marginStart="12.0dp" android:layout_marginEnd="12.0dp" app:bl_corners_radius="6.0dp" app:bl_solid_color="@color/base_white_06_p">
+            <com.tn.lib.widget.TnTextView android:textSize="14.0sp" android:textColor="@color/text_01" android:id="@id/tvDeleteKidsProfile" android:background="@null" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:layout_marginBottom="12.0dp" android:text="@string/kids_delete_profile" android:layout_marginStart="16.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/ivDeleteArrow" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@font/mulish_bold" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivDeleteArrow" android:background="@null" android:layout_width="16.0dp" android:layout_height="16.0dp" android:src="@drawable/ic_more_edit" android:contentDescription="@null" android:layout_marginEnd="16.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="@color/text_01" />
+        </com.noober.background.view.BLConstraintLayout>
+    </LinearLayout>
+    <ProgressBar android:id="@id/load_view" android:visibility="gone" android:layout_width="28.0dp" android:layout_height="28.0dp" android:layout_centerInParent="true" android:indeterminateTint="@color/main" />
+</RelativeLayout>

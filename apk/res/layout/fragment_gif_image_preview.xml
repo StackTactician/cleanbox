@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root" android:background="@color/cl31" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/thumb" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+    <FrameLayout android:id="@id/video_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.transsion.photoview.PhotoView android:id="@id/video_cover" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@mipmap/ic_default_video" />
+</FrameLayout>

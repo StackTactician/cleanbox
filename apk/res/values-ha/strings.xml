@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tranpay_abandon_transaction">Yi watsi da wannan ciniki?</string>
+    <string name="tranpay_amount">%s</string>
+    <string name="tranpay_cancel">Soke</string>
+    <string name="tranpay_cnic_number">lambar CNIC</string>
+    <string name="tranpay_confirm">Tabbatar</string>
+    <string name="tranpay_frequently_used">Ana yawan amfani dashi</string>
+    <string name="tranpay_method">Hanyar biyan kuɗi: %s</string>
+    <string name="tranpay_now">Biya yanzu</string>
+    <string name="tranpay_online_payment">Biyan kuɗi akan layi</string>
+    <string name="tranpay_order">Lambar oda: %s</string>
+    <string name="tranpay_phone_code">+%s</string>
+    <string name="tranpay_phone_number">Lambar tarho</string>
+    <string name="tranpay_please_choose_a_payment_method">Don Allah, Zabi hanyar biyan kudi</string>
+    <string name="tranpay_please_fill_in_your_information">Da fatan za a cika bayanan ku kuma danna biya kammala siyan</string>
+    <string name="tranpay_recommend">Shawara</string>
+    <string name="upgrade_sdk_text_details">Cikakken bayani</string>
+    <string name="upgrade_sdk_text_later">Daga Baya</string>
+    <string name="upgrade_sdk_text_later_force">Fita Aikace-aikace</string>
+    <string name="upgrade_sdk_text_new_version">Akwai Sabuwar Siga</string>
+    <string name="upgrade_sdk_text_size">Girma</string>
+    <string name="upgrade_sdk_text_update">Sabunta</string>
+    <string name="upgrade_sdk_text_version">version</string>
+</resources>

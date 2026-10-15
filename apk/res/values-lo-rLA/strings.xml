@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_sdk_text_details">ລາຍລະອຽດ</string>
+    <string name="upgrade_sdk_text_later">ພາບຫຼັງ</string>
+    <string name="upgrade_sdk_text_later_force">ອອກຈາກແອັບ</string>
+    <string name="upgrade_sdk_text_new_version">ມີເວີຊັນໃໝ່</string>
+    <string name="upgrade_sdk_text_size">​ຂະ​ໜາດ</string>
+    <string name="upgrade_sdk_text_update">ອັບເດດ</string>
+    <string name="upgrade_sdk_text_version">ເວີຊັນ</string>
+</resources>

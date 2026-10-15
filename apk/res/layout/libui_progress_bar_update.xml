@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="46.0dp" android:layout_height="60.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tn.lib.view.TRImageView android:id="@id/base_upload_progress_icon" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:background="@color/cl31_30_p" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.tn.lib.view.YuanProgressBar android:id="@id/base_upload_progress_progress_bar" android:layout_width="32.0dp" android:layout_height="32.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.tn.lib.view.TRImageView android:id="@id/base_upload_progress_fail_image" android:visibility="gone" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@mipmap/libui_upload_error_image" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</merge>

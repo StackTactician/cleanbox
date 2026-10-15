@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_sdk_text_details">விவரங்கள்</string>
+    <string name="upgrade_sdk_text_later">பின்னர்</string>
+    <string name="upgrade_sdk_text_later_force">செயலியிலிருந்து வெளியேறு</string>
+    <string name="upgrade_sdk_text_new_version">புதிய பதிப்பு கிடைக்கிறது</string>
+    <string name="upgrade_sdk_text_size">அளவு</string>
+    <string name="upgrade_sdk_text_update">புதுப்பி</string>
+    <string name="upgrade_sdk_text_version">பதிப்பு</string>
+</resources>

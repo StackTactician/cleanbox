@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textStyle="bold" android:textColor="@color/new_text_05" android:ellipsize="end" android:id="@id/notification_title_tv" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="3" android:paddingEnd="@dimen/dp_2" style="@style/style_medium_text" />
+</LinearLayout>

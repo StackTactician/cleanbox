@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_sdk_text_details">વિગતો</string>
+    <string name="upgrade_sdk_text_later">બાદમાં</string>
+    <string name="upgrade_sdk_text_later_force">ઍપ્લિકેશનમાંથી બહાર નીકળો</string>
+    <string name="upgrade_sdk_text_new_version">નવું સંસ્કરણ ઉપલબ્ધ છે</string>
+    <string name="upgrade_sdk_text_size">કદ</string>
+    <string name="upgrade_sdk_text_update">અપડેટ કરો</string>
+    <string name="upgrade_sdk_text_version">સંસ્કરણ</string>
+</resources>

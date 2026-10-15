@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/ll_bottom_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/mini_dp_0" android:paddingEnd="@dimen/mini_dp_4"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fl_container" style="@style/style_bottom_dialog_icon_layout">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_icon" app:srcCompat="@drawable/mini_ic_add_screen" style="@style/style_bottom_dialog_icon" />
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end" android:id="@id/iv_msg_badge" android:visibility="invisible" android:layout_width="@dimen/mini_dp_12" android:layout_height="@dimen/mini_dp_12" android:layout_marginTop="@dimen/mini_dp_14" android:src="@drawable/mini_shape_msg_badge" android:layout_marginEnd="@dimen/mini_dp_14" />
+    </FrameLayout>
+    <TextView android:id="@id/tv_name" android:text="@string/mini_dialog_add_home" style="@style/style_bottom_dialog_name" />
+</androidx.appcompat.widget.LinearLayoutCompat>

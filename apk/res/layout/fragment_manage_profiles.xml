@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/kids_color_bg" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layoutAccountsRow" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/layoutAdultProfile" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="86.0dp" android:layout_height="86.0dp">
+                <com.google.android.material.imageview.ShapeableImageView android:layout_gravity="center" android:id="@id/ivAdultAvatar" android:layout_width="80.0dp" android:layout_height="80.0dp" android:src="@drawable/ic_user_avatar" android:scaleType="centerCrop" app:shapeAppearanceOverlay="@style/circle_style" />
+                <com.noober.background.view.BLView android:layout_gravity="center" android:id="@id/viewAdultAvatarOverlay" android:layout_width="80.0dp" android:layout_height="80.0dp" app:bl_corners_radius="40.0dp" app:bl_solid_color="@color/base_color_80000000" />
+                <ImageView android:layout_gravity="center" android:id="@id/ivAdultEditIcon" android:background="@null" android:padding="3.0dp" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/ic_account_info_edit" android:contentDescription="@null" />
+            </FrameLayout>
+            <com.tn.lib.widget.TnTextView android:textSize="14.0sp" android:textColor="@color/base_white_50_p" android:ellipsize="end" android:gravity="center" android:id="@id/tvAdultName" android:layout_width="140.0dp" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:maxLines="1" android:layout_marginStart="-27.0dp" android:layout_marginEnd="-27.0dp" style="@font/mulish_regular" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/layoutKidsProfile" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="72.0dp">
+            <FrameLayout android:layout_width="86.0dp" android:layout_height="86.0dp">
+                <com.google.android.material.imageview.ShapeableImageView android:layout_gravity="center" android:id="@id/ivKidsAvatar" android:layout_width="80.0dp" android:layout_height="80.0dp" android:src="@drawable/ic_kids_avatar" android:scaleType="centerCrop" app:shapeAppearanceOverlay="@style/circle_style" />
+                <com.noober.background.view.BLView android:layout_gravity="center" android:id="@id/viewKidsAvatarOverlay" android:layout_width="80.0dp" android:layout_height="80.0dp" app:bl_corners_radius="40.0dp" app:bl_solid_color="@color/base_color_80000000" />
+                <ImageView android:layout_gravity="center" android:id="@id/ivEditIcon" android:background="@null" android:padding="3.0dp" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/ic_account_info_edit" android:contentDescription="@null" />
+            </FrameLayout>
+            <com.tn.lib.widget.TnTextView android:textSize="14.0sp" android:textColor="@color/base_white_50_p" android:ellipsize="end" android:gravity="center" android:id="@id/tvKidsName" android:layout_width="140.0dp" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:maxLines="1" android:layout_marginStart="-27.0dp" android:layout_marginEnd="-27.0dp" style="@font/mulish_regular" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/layoutAddKids" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="72.0dp">
+            <FrameLayout android:layout_width="86.0dp" android:layout_height="86.0dp">
+                <com.noober.background.view.BLLinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/ivAddKids" android:layout_width="80.0dp" android:layout_height="80.0dp" app:bl_corners_radius="40.0dp" app:bl_solid_color="@color/base_white_20_p">
+                    <ImageView android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_account_add" android:scaleType="centerInside" android:contentDescription="@null" />
+                </com.noober.background.view.BLLinearLayout>
+            </FrameLayout>
+            <com.tn.lib.widget.TnTextView android:textSize="14.0sp" android:textColor="@color/base_white_50_p" android:ellipsize="end" android:gravity="center" android:layout_width="140.0dp" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:text="@string/kids_add_account" android:maxLines="1" android:layout_marginStart="-27.0dp" android:layout_marginEnd="-27.0dp" style="@font/mulish_regular" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

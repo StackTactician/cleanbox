@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <LinearLayout android:gravity="center|top" android:orientation="vertical" android:id="@id/ll_gps" android:background="@color/bg_01" android:paddingTop="120.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/text_01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gps_tips_title" style="@style/style_medium_text" />
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white_80" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dp" android:layout_marginTop="8.0dp" android:layout_marginRight="30.0dp" android:text="@string/gps_tips" android:layout_marginHorizontal="30.0dp" style="@style/style_regula_bigger_text" />
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white_80" android:id="@id/tv_gps_btn" android:background="@drawable/bg_btn_01" android:paddingLeft="12.0dp" android:paddingTop="8.0dp" android:paddingRight="12.0dp" android:paddingBottom="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dp" android:text="@string/gps_tips_btn" android:paddingHorizontal="12.0dp" android:paddingVertical="8.0dp" style="@style/style_import_text" />
+    </LinearLayout>
+</FrameLayout>

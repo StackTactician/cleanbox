@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/long_vod_shape_resolution_member_tip_bg" android:layout_width="wrap_content" android:layout_height="36.0dp" android:minWidth="100.0dp">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:layout_width="16.0dp" android:layout_height="16.0dp" android:src="@drawable/long_vod_resolution_member_2" android:layout_marginStart="12.0dp" />
+        <TextView android:textSize="14.0sp" android:textColor="#101114" android:layout_gravity="center_vertical" android:id="@id/tvTipText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dp" style="@style/style_medium_text" />
+        <View android:layout_gravity="center_vertical" android:background="#d5d9e0" android:layout_width="1.0dp" android:layout_height="12.0dp" android:layout_marginStart="8.0dp" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/ad_yellow_light_50" android:layout_gravity="center_vertical" android:id="@id/tvRewardTip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/long_vod_reward_intercept_premium" android:layout_marginStart="4.0dp" style="@style/style_medium_text" />
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:id="@id/ivCloseTip" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/long_vod_resolution_close" android:layout_marginStart="8.0dp" android:layout_marginEnd="12.0dp" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end" android:id="@id/ivMember" android:layout_width="20.0dp" android:layout_height="8.0dp" android:src="@drawable/long_vod_resolution_member_tip_triangle" android:layout_marginStart="4.0dp" android:layout_marginEnd="12.0dp" />
+</LinearLayout>

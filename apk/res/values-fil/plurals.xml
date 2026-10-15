@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="episodes_count_text">
+        <item quantity="one">%1$s episode</item>
+        <item quantity="other">%1$s mga episode</item>
+    </plurals>
+    <plurals name="str_views">
+        <item quantity="one">%1$s panonood</item>
+        <item quantity="other">%1$s mga panonood</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="one">%1$d araw na ang nakalipas</item>
+        <item quantity="other">%1$d araw na ang nakalipas</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">%1$d oras na ang nakalipas</item>
+        <item quantity="other">%1$d oras na ang nakalipas</item>
+    </plurals>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">%1$d minuto na ang nakalipas</item>
+        <item quantity="other">%1$d minuto na ang nakalipas</item>
+    </plurals>
+    <plurals name="time_months_ago">
+        <item quantity="one">%1$d buwan na ang nakalipas</item>
+        <item quantity="other">%1$d buwan na ang nakalipas</item>
+    </plurals>
+    <plurals name="time_weeks_ago">
+        <item quantity="one">%1$d linggo na ang nakalipas</item>
+        <item quantity="other">%1$d linggo na ang nakalipas</item>
+    </plurals>
+    <plurals name="time_years_ago">
+        <item quantity="one">%1$d taon na ang nakalipas</item>
+        <item quantity="other">%1$d taon na ang nakalipas</item>
+    </plurals>
+    <plurals name="videos_count_text">
+        <item quantity="one">%1$s video</item>
+        <item quantity="other">%1$s mga video</item>
+    </plurals>
+</resources>

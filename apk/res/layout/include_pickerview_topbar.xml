@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/rv_topbar" android:background="@color/module_02" android:layout_width="match_parent" android:layout_height="48.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0dp" android:textColor="@color/text_03" android:gravity="center" android:id="@id/btnCancel" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/pickerview_cancel" android:layout_weight="1.0" android:paddingStart="@dimen/pickerview_topbar_padding" />
+    <TextView android:textSize="@dimen/pickerview_topbar_title_textsize" android:textColor="@color/pickerview_topbar_title" android:gravity="center" android:id="@id/tvTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_centerVertical="true" android:layout_toStartOf="@id/btnSubmit" android:layout_toEndOf="@id/btnCancel" />
+    <TextView android:textSize="14.0dp" android:textColor="@color/text_01" android:gravity="center" android:id="@id/btnSubmit" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/pickerview_submit" android:layout_weight="1.0" android:layout_alignParentEnd="true" />
+</LinearLayout>

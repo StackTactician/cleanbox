@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tn.lib.widget.TnTextView android:textSize="14.0sp" android:textColor="@color/white_100" android:id="@id/tvGroupName" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dp" style="@style/style_import_text" />
+    <com.google.android.flexbox.FlexboxLayout android:id="@id/flexboxGrades" android:layout_width="match_parent" android:layout_height="wrap_content" app:flexWrap="wrap" app:justifyContent="flex_start" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_sdk_text_details">विवरणहरू</string>
+    <string name="upgrade_sdk_text_later">पछि</string>
+    <string name="upgrade_sdk_text_later_force">एपबाट बाहिरिनुहोस्</string>
+    <string name="upgrade_sdk_text_new_version">नयाँ संस्करण उपलब्ध छ</string>
+    <string name="upgrade_sdk_text_size">आकार</string>
+    <string name="upgrade_sdk_text_update">अद्यावधिक गर्नुहोस्</string>
+    <string name="upgrade_sdk_text_version">संस्करण</string>
+</resources>

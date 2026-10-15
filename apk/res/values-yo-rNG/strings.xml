@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_sdk_text_details">Áwọn àlàyé</string>
+    <string name="upgrade_sdk_text_later">Nígbàmíì</string>
+    <string name="upgrade_sdk_text_later_force">Jáde Ní Ápùù</string>
+    <string name="upgrade_sdk_text_new_version">Ẹ̀dà Tuntun wà nílẹ̀</string>
+    <string name="upgrade_sdk_text_size">Ìwọ̀n</string>
+    <string name="upgrade_sdk_text_update">Mú dójú ìwọ̀n</string>
+    <string name="upgrade_sdk_text_version">Ẹ̀dà</string>
+</resources>

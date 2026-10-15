@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tn.lib.widget.TnTextView android:textSize="16.0sp" android:textColor="@color/text_01" android:layout_gravity="center_vertical" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dp" android:layout_marginRight="6.0dp" android:includeFontPadding="false" android:layout_marginHorizontal="6.0dp" style="@style/style_import_text" />
+    <com.noober.background.view.BLView android:layout_gravity="end|center" android:id="@id/v_dot" android:visibility="gone" android:layout_width="6.0dp" android:layout_height="6.0dp" android:layout_marginBottom="3.0dp" app:bl_corners_radius="3.0dp" app:bl_solid_color="@color/error_red" />
+</merge>

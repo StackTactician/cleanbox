@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:maxWidth="156.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="@color/text_01" android:ellipsize="end" android:gravity="start|center" android:id="@id/search_history_text" android:background="@drawable/bg_search_history" android:paddingLeft="@dimen/dp_8" android:paddingTop="@dimen/dp_4" android:paddingRight="@dimen/dp_8" android:paddingBottom="@dimen/dp_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="160.0dp" android:maxLines="1" android:singleLine="true" android:paddingHorizontal="@dimen/dp_8" android:paddingVertical="@dimen/dp_4" style="@style/style_regula_bigger_text" />
+    <View android:layout_width="4.0dp" android:layout_height="20.0dp" />
+    <ImageView android:id="@id/search_hot_history_more_image" android:paddingTop="4.0dp" android:paddingBottom="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_hide" android:contentDescription="@string/more" android:paddingStart="4.0dp" android:paddingEnd="2.0dp" android:paddingVertical="4.0dp" app:tint="@color/white_80" />
+</LinearLayout>

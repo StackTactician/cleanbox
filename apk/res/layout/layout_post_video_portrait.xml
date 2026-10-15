@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/portrait_root" android:background="@color/white" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:orientation="vertical" android:id="@id/vd_app_bar" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/vd_toolbar_layout" android:background="@color/cl38" android:layout_width="match_parent" android:layout_height="wrap_content" app:contentScrim="@color/white" app:layout_scrollFlags="scroll|exitUntilCollapsed">
+            <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/vd_video_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <FrameLayout android:id="@id/video_portrait_surface" android:background="#000000" android:layout_width="match_parent" android:layout_height="@dimen/post_surface_height" app:layout_constraintTop_toTopOf="parent" />
+                    <View android:id="@id/portrait_view1" android:background="@drawable/post_detail_gradient_up_50" android:layout_width="match_parent" android:layout_height="60.0dp" app:layout_constraintTop_toTopOf="parent" />
+                    <View android:id="@id/portrait_view2" android:background="@drawable/post_detail_gradient_bottom_50" android:layout_width="match_parent" android:layout_height="60.0dp" app:layout_constraintBottom_toBottomOf="parent" />
+                    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/vd_bottom_controller" android:layout_width="match_parent" android:layout_height="48.0dp" app:layout_constraintBottom_toBottomOf="parent">
+                        <androidx.appcompat.widget.AppCompatImageView android:id="@id/vd_pause" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/post_icon_pro_pause" android:scaleType="center" android:layout_marginStart="12.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                        <androidx.appcompat.widget.AppCompatSeekBar android:id="@id/vd_seekbar" android:background="@color/transparent" android:layout_width="0.0dp" android:layout_height="24.0dp" android:maxHeight="2.0dp" android:progress="0" android:progressDrawable="@drawable/post_detail_layer_seekbar" android:minHeight="2.0dp" android:thumb="@drawable/post_detail_shape_seekbar_bar" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/vd_pause" app:layout_constraintRight_toLeftOf="@id/vd_video_time" app:layout_constraintTop_toTopOf="parent" />
+                        <TextView android:textSize="11.0dp" android:textColor="@color/white" android:id="@id/vd_video_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="48.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <ProgressBar android:id="@id/vd_child_progress_bar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="3.0dp" android:max="100" android:progressDrawable="@drawable/post_detail_layer_horizontal_progress" app:layout_constraintBottom_toBottomOf="parent" style="?android:progressBarStyleHorizontal" />
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/vd_screen_change" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginBottom="12.0dp" android:src="@drawable/post_icon_full_screen" android:layout_marginEnd="12.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" />
+                    <include android:id="@id/vd_include_load" layout="@layout/post_video_loading" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <include android:id="@id/ll_header" layout="@layout/post_detail_header" />
+                <include android:id="@id/tv_post_title" layout="@layout/post_detail_title" />
+                <include android:id="@id/cl_rating" layout="@layout/post_detail_rating" />
+                <include android:id="@id/tv_post_desc" layout="@layout/post_detail_desc" />
+                <include android:id="@id/tv_post_at" layout="@layout/post_detail_post_at" />
+                <include android:id="@id/cl_post_group" layout="@layout/post_detail_group" />
+                <include layout="@layout/post_detail_divider_8dp" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.Toolbar android:id="@id/vd_toolbar" android:layout_width="match_parent" android:layout_height="44.0dp" app:contentInsetLeft="0.0dp" app:contentInsetStart="0.0dp" app:layout_collapseMode="pin">
+                <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/vd_iv_back" android:layout_width="30.0dp" android:layout_height="30.0dp" android:src="@mipmap/icon_white_back" android:scaleType="center" android:layout_marginStart="6.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="#fff" android:ellipsize="end" android:id="@id/vd_top_title" android:layout_width="0.0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="4.0dp" android:layout_marginEnd="@dimen/right_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/vd_iv_back" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout android:id="@id/container" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <include android:layout_gravity="bottom" android:id="@id/comment_input_layout" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/dialog_comment_input_edit" />
+    <include android:id="@id/loading_layout" layout="@layout/layout_video_detail_loading" />
+    <include android:id="@id/vd_include_retry" layout="@layout/layout_video_detail_retry" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

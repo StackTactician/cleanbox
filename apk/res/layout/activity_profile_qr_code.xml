@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/main" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/v_status_space" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" />
+    <com.journeyapps.barcodescanner.DecoratedBarcodeView android:id="@id/zxing_barcode_scanner" android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:zxing_scanner_layout="@layout/layout_qr_code_barcode_scanner" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivClose" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginTop="16.0dp" android:src="@mipmap/ic_close" android:tint="@color/white" android:layout_marginStart="16.0dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/v_status_space" />
+</androidx.constraintlayout.widget.ConstraintLayout>

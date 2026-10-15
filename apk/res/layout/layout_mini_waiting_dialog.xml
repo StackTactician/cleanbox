@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="@dimen/mini_dp_120" android:layout_height="@dimen/mini_dp_120" app:cardBackgroundColor="@color/mini_black70" app:cardCornerRadius="@dimen/mini_dp_15" app:cardElevation="0.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/mini_dp_120" android:minHeight="@dimen/mini_dp_120">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_loading" android:layout_width="@dimen/mini_dp_44" android:layout_height="@dimen/mini_dp_44" app:srcCompat="@drawable/mini_ic_progress" />
+        <TextView android:textSize="@dimen/mini_sp_12" android:textColor="@color/mini_color_bg_01" android:id="@id/tv_wait_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dp" android:layout_marginTop="@dimen/mini_dp_8" android:layout_marginRight="15.0dp" android:text="@string/dialog_loading_tv" android:maxLines="3" android:layout_marginHorizontal="15.0dp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

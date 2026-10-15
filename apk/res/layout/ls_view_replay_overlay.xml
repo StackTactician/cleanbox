@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/ls_black_60" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0sp" android:textColor="@color/ls_white" android:gravity="center" android:layout_gravity="center" android:id="@id/tvReplay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ls_player_replay" app:drawableTopCompat="@drawable/ls_ic_player_replay" style="@style/style_font_600" />
+</FrameLayout>

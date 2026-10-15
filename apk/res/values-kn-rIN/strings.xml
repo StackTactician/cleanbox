@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_sdk_text_details">ವಿವರಗಳು</string>
+    <string name="upgrade_sdk_text_later">ನಂತರ</string>
+    <string name="upgrade_sdk_text_later_force">ಅಪ್ಲಿಕೇಶನ್‌ನಿಂದ ನಿರ್ಗಮಿಸಿ</string>
+    <string name="upgrade_sdk_text_new_version">ಹೊಸ ಆವೃತ್ತಿ ಲಭ್ಯವಿದೆ</string>
+    <string name="upgrade_sdk_text_size">ಗಾತ್ರ</string>
+    <string name="upgrade_sdk_text_update">ಅಪ್‌ಡೇಟ್</string>
+    <string name="upgrade_sdk_text_version">ಆವೃತ್ತಿ</string>
+</resources>

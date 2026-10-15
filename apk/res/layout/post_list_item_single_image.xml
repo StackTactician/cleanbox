@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/home_item_style"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/divider" layout="@layout/post_list_item_common_divider" />
+    <androidx.cardview.widget.CardView app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/divider" style="@style/style_card_view_home">
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/root" android:paddingBottom="11.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.google.android.material.imageview.ShapeableImageView android:id="@id/iv_cover" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" />
+            <include layout="@layout/post_list_item_subject_tag" />
+            <include layout="@layout/post_list_item_title" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.cardview.widget.CardView>
+    <include android:visibility="gone" android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/home_layout_limit" />
+</androidx.constraintlayout.widget.ConstraintLayout>

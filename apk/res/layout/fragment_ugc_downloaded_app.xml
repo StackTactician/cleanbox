@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/bg_01" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/ll_content" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.google.android.material.appbar.AppBarLayout android:orientation="vertical" android:id="@id/ugcDownloadAppBarLayout" android:background="@color/bg_01" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="0.0dp">
+            <net.lucode.hackware.magicindicator.MagicIndicator android:id="@id/magicIndicator" android:layout_width="match_parent" android:layout_height="28.0dp" android:layout_marginTop="8.0dp" app:layout_scrollFlags="scroll|exitUntilCollapsed" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <com.transsion.baseui.widget.NestedScrollableHost android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="4.0dp" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <androidx.viewpager2.widget.ViewPager2 android:id="@id/view_pager" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </com.transsion.baseui.widget.NestedScrollableHost>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <FrameLayout android:id="@id/fl_all_only" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_empty_foryou" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

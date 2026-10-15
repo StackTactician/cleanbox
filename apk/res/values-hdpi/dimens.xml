@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ad_skip_text_size">8.0dp</dimen>
+    <dimen name="ad_skip_view_height">22.0dp</dimen>
+    <dimen name="ad_skip_view_width">52.669983dp</dimen>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_sdk_text_details">Егжей-тегжейі</string>
+    <string name="upgrade_sdk_text_later">Кейін</string>
+    <string name="upgrade_sdk_text_later_force">Қолданбадан шығу</string>
+    <string name="upgrade_sdk_text_new_version">Жаңа нұсқа</string>
+    <string name="upgrade_sdk_text_size">Өлшемі</string>
+    <string name="upgrade_sdk_text_update">Жаңарту</string>
+    <string name="upgrade_sdk_text_version">Нұсқа</string>
+</resources>

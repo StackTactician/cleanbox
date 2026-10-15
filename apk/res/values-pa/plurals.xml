@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="episodes_count_text">
+        <item quantity="one">%1$s ਐਪੀਸੋਡ</item>
+        <item quantity="other">%1$s ਐਪੀਸੋਡ</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">ਤੇਜ਼ੀ ਨਾਲ %d ਸਕਿੰਟ ਅੱਗੇ ਕਰੋ</item>
+        <item quantity="other">ਤੇਜ਼ੀ ਨਾਲ %d ਸਕਿੰਟ ਅੱਗੇ ਕਰੋ</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">%d ਸਕਿੰਟ ਪਿੱਛੇ ਕਰੋ</item>
+        <item quantity="other">%d ਸਕਿੰਟ ਪਿੱਛੇ ਕਰੋ</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d ਨਵੀਂ ਸੂਚਨਾ</item>
+        <item quantity="other">%d ਨਵੀਆਂ ਸੂਚਨਾਵਾਂ</item>
+    </plurals>
+    <plurals name="str_views">
+        <item quantity="one">%1$s ਵੇਖਿਆ</item>
+        <item quantity="other">%1$s ਵੇਖੇ</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="one">%1$d ਦਿਨ ਪਹਿਲਾਂ</item>
+        <item quantity="other">%1$d ਦਿਨ ਪਹਿਲਾਂ</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">%1$d ਘੰਟਾ ਪਹਿਲਾਂ</item>
+        <item quantity="other">%1$d ਘੰਟੇ ਪਹਿਲਾਂ</item>
+    </plurals>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">%1$d ਮਿੰਟ ਪਹਿਲਾਂ</item>
+        <item quantity="other">%1$d ਮਿੰਟ ਪਹਿਲਾਂ</item>
+    </plurals>
+    <plurals name="time_months_ago">
+        <item quantity="one">%1$d ਮਹੀਨਾ ਪਹਿਲਾਂ</item>
+        <item quantity="other">%1$d ਮਹੀਨੇ ਪਹਿਲਾਂ</item>
+    </plurals>
+    <plurals name="time_weeks_ago">
+        <item quantity="one">%1$d ਹਫ਼ਤਾ ਪਹਿਲਾਂ</item>
+        <item quantity="other">%1$d ਹਫ਼ਤੇ ਪਹਿਲਾਂ</item>
+    </plurals>
+    <plurals name="time_years_ago">
+        <item quantity="one">%1$d ਸਾਲ ਪਹਿਲਾਂ</item>
+        <item quantity="other">%1$d ਸਾਲ ਪਹਿਲਾਂ</item>
+    </plurals>
+    <plurals name="videos_count_text">
+        <item quantity="one">%1$s ਵੀਡੀਓ</item>
+        <item quantity="other">%1$s ਵੀਡੀਓ</item>
+    </plurals>
+</resources>

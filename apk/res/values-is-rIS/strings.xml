@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_sdk_text_details">Nánar</string>
+    <string name="upgrade_sdk_text_later">Síðar</string>
+    <string name="upgrade_sdk_text_later_force">Hætta í appi</string>
+    <string name="upgrade_sdk_text_new_version">Ný útgáfa tiltæk</string>
+    <string name="upgrade_sdk_text_size">Stærð</string>
+    <string name="upgrade_sdk_text_update">Uppfæra</string>
+    <string name="upgrade_sdk_text_version">Útgáfa</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:id="@id/ll_bv_root" android:background="@drawable/post_detail_shape_bv_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0dp" android:layout_centerHorizontal="true" android:paddingStart="6.0dp" android:paddingEnd="13.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_bv_icon" android:layout_width="30.0dp" android:layout_height="30.0dp" android:layout_marginEnd="6.0dp" />
+    <ProgressBar android:id="@id/pb_bv_progress" android:layout_width="140.0dp" android:layout_height="2.0dp" android:layout_marginTop="14.0dp" android:maxWidth="180.0dp" android:progressDrawable="@drawable/download_progress_drawable_trans" android:minWidth="154.0dp" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+</LinearLayout>

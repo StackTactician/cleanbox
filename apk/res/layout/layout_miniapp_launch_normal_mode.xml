@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_loading_img" android:layout_width="@dimen/mini_dp_72" android:layout_height="@dimen/mini_dp_72" android:layout_marginTop="@dimen/mini_dp_50" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/drawable_app_icon_place_holder_normal_mode" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:id="@id/ll_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mini_dp_4" app:layout_constraintEnd_toEndOf="@id/iv_loading_img" app:layout_constraintHorizontal_bias="0.07" app:layout_constraintStart_toStartOf="@id/iv_loading_img" app:layout_constraintTop_toBottomOf="@id/iv_loading_img">
+        <View android:background="@drawable/mini_launcher_bottom_shape_normal_mode" android:layout_width="@dimen/mini_dp_16" android:layout_height="@dimen/mini_dp_16" />
+        <View android:background="@drawable/mini_launcher_bottom_shape_normal_mode" android:layout_width="@dimen/mini_dp_16" android:layout_height="@dimen/mini_dp_16" android:layout_marginStart="@dimen/mini_dp_52" />
+        <View android:background="@drawable/mini_launcher_bottom_shape_normal_mode" android:layout_width="@dimen/mini_dp_16" android:layout_height="@dimen/mini_dp_16" android:layout_marginStart="@dimen/mini_dp_52" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <View android:background="@color/mini_color_white" android:layout_width="@dimen/mini_dp_28" android:layout_height="@dimen/mini_dp_28" app:layout_constrainedHeight="true" app:layout_constraintBottom_toBottomOf="@id/ll_bottom" app:layout_constraintEnd_toEndOf="@id/ll_bottom" />
+    <View android:background="@color/mini_color_white" android:layout_width="@dimen/mini_dp_52" android:layout_height="@dimen/mini_dp_28" android:layout_marginEnd="@dimen/mini_dp_25" app:layout_constrainedHeight="true" app:layout_constraintBottom_toBottomOf="@id/ll_bottom" app:layout_constraintEnd_toStartOf="@id/ll_bottom" />
+</androidx.constraintlayout.widget.ConstraintLayout>

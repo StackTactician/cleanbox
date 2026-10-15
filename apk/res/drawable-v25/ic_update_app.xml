@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dp" android:width="24.0dp" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="#ffffff" android:pathData="M12,12m-11,0a11,11 0,1 1,22 0a11,11 0,1 1,-22 0" />
+    <path android:fillColor="@drawable/$ic_update_app__0" android:pathData="M12,1C18.075,1 23,5.925 23,12C23,18.075 18.075,23 12,23C5.925,23 1,18.075 1,12C1,5.925 5.925,1 12,1ZM12.166,17.667C11.666,17.667 10.9,17.334 10.9,16.915L10.9,11.051L8.361,11.051C7.71,11.051 7.361,10.284 7.79,9.794L11.429,5.631C11.732,5.285 12.27,5.285 12.571,5.631L16.211,9.794C16.64,10.284 16.292,11.051 15.64,11.051L13.306,11.051L13.307,16.915C13.307,17.334 12.666,17.667 12.166,17.667Z" android:fillType="evenOdd" />
+</vector>

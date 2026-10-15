@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_sdk_text_details">Mohoro</string>
+    <string name="upgrade_sdk_text_later">Thutha-inĩ</string>
+    <string name="upgrade_sdk_text_later_force">Uma Programuinĩ</string>
+    <string name="upgrade_sdk_text_new_version">Mũthemba Mwerũ Wĩ Ho</string>
+    <string name="upgrade_sdk_text_size">Ũnene</string>
+    <string name="upgrade_sdk_text_update">Ambatĩria</string>
+    <string name="upgrade_sdk_text_version">Mũhiano</string>
+</resources>

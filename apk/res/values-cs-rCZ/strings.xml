@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_sdk_text_details">Podrobnosti</string>
+    <string name="upgrade_sdk_text_later">POZDĚJI</string>
+    <string name="upgrade_sdk_text_later_force">Ukončit aplikaci</string>
+    <string name="upgrade_sdk_text_new_version">Je k dispozici nová verze</string>
+    <string name="upgrade_sdk_text_size">Velikost</string>
+    <string name="upgrade_sdk_text_update">Aktualizovat</string>
+    <string name="upgrade_sdk_text_version">Verze</string>
+</resources>

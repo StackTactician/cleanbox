@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_sdk_text_details">Informations</string>
+    <string name="upgrade_sdk_text_later">After now</string>
+    <string name="upgrade_sdk_text_later_force">Leave App</string>
+    <string name="upgrade_sdk_text_new_version">New Version Dey Available</string>
+    <string name="upgrade_sdk_text_size">Size</string>
+    <string name="upgrade_sdk_text_update">Update</string>
+    <string name="upgrade_sdk_text_version">Version</string>
+</resources>

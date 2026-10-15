@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/fl_container" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/v_bottom_line" android:background="@color/line_01" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginLeft="12.0dp" android:layout_marginTop="4.0dp" android:layout_marginRight="12.0dp" android:layout_marginHorizontal="12.0dp" />
+</LinearLayout>

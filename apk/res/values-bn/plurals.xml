@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="episodes_count_text">
+        <item quantity="one">%1$s পর্ব</item>
+        <item quantity="other">%1$s পর্ব</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">%d সেকেন্ড ফাস্ট ফরওয়ার্ড করুন</item>
+        <item quantity="other">%d সেকেন্ড ফাস্ট ফরওয়ার্ড করুন</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">%d সেকেন্ড রিওয়াইন্ড করুন</item>
+        <item quantity="other">%d সেকেন্ড রিওয়াইন্ড করুন</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%dটি নতুন বিজ্ঞপ্তি</item>
+        <item quantity="other">%dটি নতুন বিজ্ঞপ্তি</item>
+    </plurals>
+    <plurals name="str_views">
+        <item quantity="one">%1$s বার দেখা</item>
+        <item quantity="other">%1$s বার দেখা</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="one">%1$d দিন আগে</item>
+        <item quantity="other">%1$d দিন আগে</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">%1$d ঘণ্টা আগে</item>
+        <item quantity="other">%1$d ঘণ্টা আগে</item>
+    </plurals>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">%1$d মিনিট আগে</item>
+        <item quantity="other">%1$d মিনিট আগে</item>
+    </plurals>
+    <plurals name="time_months_ago">
+        <item quantity="one">%1$d মাস আগে</item>
+        <item quantity="other">%1$d মাস আগে</item>
+    </plurals>
+    <plurals name="time_weeks_ago">
+        <item quantity="one">%1$d সপ্তাহ আগে</item>
+        <item quantity="other">%1$d সপ্তাহ আগে</item>
+    </plurals>
+    <plurals name="time_years_ago">
+        <item quantity="one">%1$d বছর আগে</item>
+        <item quantity="other">%1$d বছর আগে</item>
+    </plurals>
+    <plurals name="videos_count_text">
+        <item quantity="one">%1$s ভিডিও</item>
+        <item quantity="other">%1$s ভিডিও</item>
+    </plurals>
+</resources>

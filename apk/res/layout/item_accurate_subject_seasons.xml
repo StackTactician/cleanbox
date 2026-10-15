@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/selector_video_seasons_bg" android:layout_width="match_parent" android:layout_height="32.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/text01" android:gravity="center" android:layout_gravity="center" android:id="@id/tvName" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style_medium_text" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/text01" android:gravity="center" android:layout_gravity="center" android:id="@id/tvMore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/more" android:drawableRight="@mipmap/ic_arrow_right" style="@style/style_medium_text" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="39.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.transsion.baseui.widget.GradientTextView android:textSize="12.0sp" android:layout_gravity="center" android:id="@id/tvQuality" android:paddingLeft="12.0dp" android:paddingRight="12.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="12.0dp" style="@style/style_regular_text" />
+    <com.noober.background.view.BLView android:layout_gravity="end|center" android:id="@id/vQualityLine" android:layout_width="1.0dp" android:layout_height="8.0dp" app:bl_corners_radius="2.0dp" app:bl_solid_color="@color/white_20" />
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="16.0dp" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16.0dp" android:paddingEnd="16.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_header" android:paddingBottom="5.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="16.0dp" android:layout_height="16.0dp" android:src="@mipmap/logo_about_us" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/base_app_name" android:layout_marginStart="10.0dp" style="@style/TextAppearance.Compat.Notification" />
+    </LinearLayout>
+    <TextView android:id="@id/tv_status" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.Compat.Notification.Title" />
+    <TextView android:ellipsize="end" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dp" android:maxLines="1" style="@style/TextAppearance.Compat.Notification.Info" />
+</LinearLayout>

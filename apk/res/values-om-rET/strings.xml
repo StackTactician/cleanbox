@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_sdk_text_details">Ibsa dabalataa</string>
+    <string name="upgrade_sdk_text_later">Booda</string>
+    <string name="upgrade_sdk_text_later_force">Aappii Cufi Bahi</string>
+    <string name="upgrade_sdk_text_new_version">Gosti Haraan ni Jira</string>
+    <string name="upgrade_sdk_text_size">Hagamtaa</string>
+    <string name="upgrade_sdk_text_update">Haaromsi</string>
+    <string name="upgrade_sdk_text_version">Vershinii</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="@dimen/dp_12" android:paddingBottom="@dimen/dp_12" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/dp_12"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="11.0sp" android:textColor="@color/gray_dark_40" android:gravity="center" android:id="@id/tv_toggle" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/iv_arrow" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/style_text_400" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_arrow" android:layout_width="12.0dp" android:layout_height="12.0dp" android:layout_marginStart="4.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/tv_toggle" app:layout_constraintTop_toTopOf="parent" app:tint="@color/gray_dark_40" />
+</androidx.constraintlayout.widget.ConstraintLayout>

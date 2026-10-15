@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_sdk_text_details">ዝርዝራት</string>
+    <string name="upgrade_sdk_text_later">ዳሕራይ</string>
+    <string name="upgrade_sdk_text_later_force">ካብ ዓዉደሞያ ውጽኡ</string>
+    <string name="upgrade_sdk_text_new_version">ሓዱሽ ስርሒት ኣሎ</string>
+    <string name="upgrade_sdk_text_size">መጠን</string>
+    <string name="upgrade_sdk_text_update">ኣሐድስ</string>
+    <string name="upgrade_sdk_text_version">ስርሒት</string>
+</resources>

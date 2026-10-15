@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/base_color_80000000" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivDelete" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@mipmap/ic_delete_local_file" app:layout_constraintBottom_toTopOf="@id/tvDelete" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="9.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tvDelete" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:text="@string/download_no_local_file_tips" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/ivDelete" style="@style/style_regular_text" />
+</androidx.constraintlayout.widget.ConstraintLayout>

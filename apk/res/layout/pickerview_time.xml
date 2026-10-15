@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/libui_bottom_dialog_bg" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/timepicker" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.contrarywind.view.WheelView android:id="@id/day" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <com.contrarywind.view.WheelView android:id="@id/month" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <com.contrarywind.view.WheelView android:id="@id/year" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <com.contrarywind.view.WheelView android:id="@id/hour" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <com.contrarywind.view.WheelView android:id="@id/min" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <com.contrarywind.view.WheelView android:id="@id/second" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:background="@color/line_01" android:visibility="visible" android:layout_width="match_parent" android:layout_height="1.0dp" />
+    <include android:visibility="visible" android:layout_width="match_parent" android:layout_height="@dimen/pickerview_topbar_height" layout="@layout/include_pickerview_topbar" />
+    <TextView android:textColor="@color/cl32" android:gravity="center" android:id="@id/tv_ok" android:visibility="gone" android:layout_width="match_parent" android:layout_height="48.0dp" android:text="@string/ok" style="@style/style_regula_bigger_text" />
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/loading_bg" android:background="@color/bg_02" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:id="@id/l1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginStart="4.0dp" android:layout_marginEnd="12.0dp" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.LinearLayoutCompat style="@style/home_skeleton_1">
+            <View style="@style/home_skeleton_2" />
+            <View style="@style/home_skeleton_3" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat style="@style/home_skeleton_1">
+            <View style="@style/home_skeleton_2" />
+            <View style="@style/home_skeleton_3" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat style="@style/home_skeleton_1">
+            <View style="@style/home_skeleton_2" />
+            <View style="@style/home_skeleton_3" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat style="@style/home_skeleton_1">
+            <View style="@style/home_skeleton_2" />
+            <View style="@style/home_skeleton_3" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <View android:id="@id/l2" android:background="@color/skeleton" android:layout_width="104.0dp" android:layout_height="10.0dp" android:layout_marginTop="29.0dp" android:layout_marginStart="12.0dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/l1" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:id="@id/l3" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/l2" style="@style/home_skeleton_4">
+        <androidx.appcompat.widget.LinearLayoutCompat style="@style/home_skeleton_1">
+            <View style="@style/home_skeleton_5" />
+            <View style="@style/home_skeleton_6" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat style="@style/home_skeleton_1">
+            <View style="@style/home_skeleton_5" />
+            <View style="@style/home_skeleton_6" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat style="@style/home_skeleton_1">
+            <View style="@style/home_skeleton_5" />
+            <View style="@style/home_skeleton_6" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat android:id="@id/l4" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/l3" style="@style/home_skeleton_4">
+        <androidx.appcompat.widget.LinearLayoutCompat style="@style/home_skeleton_1">
+            <View style="@style/home_skeleton_5" />
+            <View style="@style/home_skeleton_6" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat style="@style/home_skeleton_1">
+            <View style="@style/home_skeleton_5" />
+            <View style="@style/home_skeleton_6" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat style="@style/home_skeleton_1">
+            <View style="@style/home_skeleton_5" />
+            <View style="@style/home_skeleton_6" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat android:id="@id/l5" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/l4" style="@style/home_skeleton_4">
+        <androidx.appcompat.widget.LinearLayoutCompat style="@style/home_skeleton_1">
+            <View style="@style/home_skeleton_5" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat style="@style/home_skeleton_1">
+            <View style="@style/home_skeleton_5" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat style="@style/home_skeleton_1">
+            <View style="@style/home_skeleton_5" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat android:id="@id/l6" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/l5" style="@style/home_skeleton_4">
+        <androidx.appcompat.widget.LinearLayoutCompat style="@style/home_skeleton_1">
+            <View style="@style/home_skeleton_5" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat style="@style/home_skeleton_1">
+            <View style="@style/home_skeleton_5" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat style="@style/home_skeleton_1">
+            <View style="@style/home_skeleton_5" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/loading_pb" android:visibility="visible" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/style_progress" />
+</androidx.constraintlayout.widget.ConstraintLayout>

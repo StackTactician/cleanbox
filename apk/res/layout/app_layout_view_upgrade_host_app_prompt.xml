@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/mini_color_bg_01" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/mini_dp_32" android:paddingEnd="@dimen/mini_dp_32"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/app_icon_upgrade_host_app_hint" />
+    <TextView android:textSize="@dimen/mini_sp_16" android:textStyle="bold" android:textColor="@color/mini_color_element_01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mini_dp_8" android:text="@string/mini_online_guid_flow_low_version_page_message" />
+    <TextView android:textSize="@dimen/mini_sp_16" android:textColor="@color/mini_color_element_03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mini_dp_4" android:text="@string/mini_online_guid_flow_low_version_page_detail_hint" />
+    <TextView android:textSize="@dimen/mini_sp_16" android:textStyle="bold" android:textColor="@color/mini_color_element_01" android:gravity="center" android:id="@id/tv_open_store" android:background="@drawable/app_drawable_upgrade_open_store_btn_bg" android:paddingTop="@dimen/mini_dp_10" android:paddingBottom="@dimen/mini_dp_11" android:layout_width="@dimen/mini_dp_220" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mini_dp_20" android:text="@string/mini_online_guid_flow_low_version_page_btn" />
+</LinearLayout>

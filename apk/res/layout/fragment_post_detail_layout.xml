@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_container" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tn.lib.view.TitleLayout android:id="@id/titleLayout" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/titleLayout">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.constraintlayout.widget.ConstraintLayout android:background="@color/bg_01" android:paddingTop="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll">
+                <com.transsion.postdetail.ui.view.PostDetailItemView android:id="@id/postDetailItem" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp_14" android:textColor="@color/white_60" android:id="@id/tv_comment_num" android:layout_marginTop="16.0dp" android:text="@string/comments" android:layout_marginStart="12.0dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/postDetailItem" style="@style/style_regular_text" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <FrameLayout android:id="@id/fl_comment_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <View android:id="@id/v_bottom" android:background="@color/bg_01" android:layout_width="0.0dp" android:layout_height="60.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/text_size_16" android:textColor="@color/text_02" android:ellipsize="end" android:gravity="start|center" android:id="@id/tv_comment" android:background="@drawable/comment_input_edit_bg" android:layout_width="0.0dp" android:layout_height="36.0dp" android:hint="@string/comment_hint_add" android:paddingStart="12.0dp" android:paddingEnd="12.0dp" android:layout_marginStart="12.0dp" android:layout_marginEnd="16.0dp" app:layout_constraintBottom_toBottomOf="@id/v_bottom" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/v_bottom" app:layout_goneMarginStart="16.0dp" style="@style/style_regular_text" />
+</androidx.constraintlayout.widget.ConstraintLayout>

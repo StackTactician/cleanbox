@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/ugcImmRecyclerView" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:id="@id/flUgcImmBack" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivUgcImmBack" android:padding="12.0dp" android:layout_width="48.0dp" android:layout_height="48.0dp" android:src="@mipmap/ugc_imm_video_icon_white_back" android:scaleType="center" />
+    </FrameLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@id/ugcImmPbLoading" android:visibility="gone" android:layout_width="23.0dp" android:layout_height="23.0dp" android:indeterminateTint="@color/short_tv_main" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <include android:id="@id/layoutImmDownloadingPop" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dp" android:layout_marginTop="8.0dp" android:layout_marginRight="12.0dp" android:layout_marginStart="12.0dp" android:layout_marginHorizontal="12.0dp" layout="@layout/layout_ugc_imm_video_download_pop" />
+</FrameLayout>

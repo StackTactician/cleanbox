@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:drawable="@drawable/mini_sel_login_btn_allow_bg" />
+    <item android:state_selected="false" android:drawable="@drawable/mini_login_permission_btn_deny_bg" />
+</selector>

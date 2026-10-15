@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="start|center" android:id="@id/ll_room" android:background="@drawable/movie_detail_room_bg" android:layout_width="wrap_content" android:layout_height="20.0dp" android:layout_marginTop="8.0dp" android:paddingStart="3.0dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/ll_link"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/iv_room_cover" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@mipmap/label_circle_foc" app:shapeAppearanceOverlay="@style/roundStyle_10" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="@color/cl12" android:ellipsize="end" android:id="@id/tv_room" android:visibility="visible" android:maxLines="1" android:layout_marginStart="2.0dp" android:layout_marginEnd="20.0dp" style="@style/style_regula_bigger_text" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@mipmap/ic_group_arrow" android:layout_marginStart="-20.0dp" />
+</androidx.appcompat.widget.LinearLayoutCompat>

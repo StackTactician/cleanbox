@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="48.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivCover" android:layout_width="32.0dp" android:layout_height="32.0dp" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    <TextView android:textStyle="bold" android:textColor="@color/text01" android:ellipsize="end" android:id="@id/tvTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginEnd="12.0dp" android:layout_toStartOf="@id/ivCover" />
+    <ProgressBar android:id="@id/progress" android:layout_width="match_parent" android:layout_height="3.0dp" android:layout_marginTop="6.0dp" android:max="100" android:progress="30" android:progressDrawable="@drawable/player_download_progress_drawable" android:layout_below="@id/tvTitle" android:layout_marginEnd="12.0dp" android:layout_toStartOf="@id/ivCover" style="?android:progressBarStyleHorizontal" />
+    <TextView android:textColor="@color/text02" android:id="@id/tvTimeConsuming" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <TextView android:textColor="@color/text02" android:id="@id/tvDuration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_marginEnd="12.0dp" android:layout_toStartOf="@id/ivCover" />
+</RelativeLayout>

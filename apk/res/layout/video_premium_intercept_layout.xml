@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@drawable/p_v2_play_bg" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:layout_width="wrap_content" android:layout_height="0.0dp" android:layout_weight="1.0" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/yellow_dark_90" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/p_v2_go_premium_upgrade" style="@style/style_text_700" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="#ccfaedc8" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:text="@string/p_v2_go_premium_unlock" style="@style/style_text_400" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/gray_dark_00" android:gravity="center" android:layout_gravity="center" android:id="@id/tvGoPremium" android:background="@drawable/bg_btn_radius_20_2" android:paddingLeft="24.0dp" android:paddingRight="24.0dp" android:layout_width="wrap_content" android:layout_height="36.0dp" android:layout_marginTop="24.0dp" android:text="@string/p_v2_go_premium" android:paddingHorizontal="24.0dp" style="@style/style_text_700" />
+        <View android:layout_width="wrap_content" android:layout_height="0.0dp" android:layout_weight="1.0" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivBack" android:paddingTop="12.0dp" android:paddingBottom="12.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/icon_white_back" android:scaleType="centerCrop" android:paddingStart="12.0dp" android:paddingVertical="12.0dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/v_top_space" />
+</FrameLayout>

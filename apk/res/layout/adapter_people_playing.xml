@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/item_root" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/iv_cover" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" app:shapeAppearanceOverlay="@style/corner_style_8" />
+    <com.tn.lib.widget.TnTextView android:textSize="12.0sp" android:textColor="@color/text_01" android:ellipsize="end" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:maxLines="1" style="@style/robot_medium" />
+</androidx.appcompat.widget.LinearLayoutCompat>

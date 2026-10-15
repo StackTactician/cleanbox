@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/main" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.journeyapps.barcodescanner.DecoratedBarcodeView android:id="@id/zxing_barcode_scanner" android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:zxing_scanner_layout="@layout/custom_barcode_scanner" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivClose" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginTop="16.0dp" android:src="@drawable/transfer_wifi_close" android:layout_marginStart="16.0dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/transfer_wifi_connect_scan_and_connect_device" android:layout_marginStart="38.0dp" app:layout_constraintBottom_toBottomOf="@id/ivClose" app:layout_constraintStart_toEndOf="@id/ivClose" app:layout_constraintTop_toTopOf="@id/ivClose" />
+</androidx.constraintlayout.widget.ConstraintLayout>

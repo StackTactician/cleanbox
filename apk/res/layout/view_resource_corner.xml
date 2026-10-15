@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/bg_radius_4_color_black_80" android:paddingLeft="6.0dp" android:paddingTop="2.0dp" android:paddingRight="6.0dp" android:paddingBottom="2.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="6.0dp" android:paddingVertical="2.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="11.0sp" android:textColor="@color/white_80" android:id="@id/tv_view_resource_corner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hindi" style="@style/style_regular_text" />
+</FrameLayout>

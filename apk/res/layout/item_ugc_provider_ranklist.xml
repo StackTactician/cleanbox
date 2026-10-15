@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.baseui.widget.GradientBorderView android:id="@id/home_ugc_rankinglist_root" android:background="@drawable/bg_home_rank_list" android:layout_width="wrap_content" android:layout_height="match_parent" app:borderViewEndColor="@color/transparent" app:borderViewStartColor="@color/white_6" app:borderWidth="1.0dp" app:bottomLeftCornerRadius="6.0dp" app:bottomRightCornerRadius="6.0dp" app:gradientOrientation="horizontal" app:topLeftCornerRadius="6.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/home_ugc_rankinglist_liner" android:paddingLeft="@dimen/dp_6" android:paddingRight="@dimen/dp_6" android:layout_width="300.0dp" android:layout_height="match_parent" android:paddingHorizontal="@dimen/dp_6" />
+</com.transsion.baseui.widget.GradientBorderView>

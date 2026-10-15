@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="episodes_count_text">
+        <item quantity="zero">%1$s حلقات</item>
+        <item quantity="one">%1$s حلقة</item>
+        <item quantity="two">%1$s حلقتان</item>
+        <item quantity="few">%1$s حلقات</item>
+        <item quantity="many">%1$s حلقة</item>
+        <item quantity="other">%1$s حلقات</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="zero">تقديم سريع للفيديو بمقدار %d ثانية</item>
+        <item quantity="one">تقديم سريع للفيديو بمقدار ثانية واحدة (%d)</item>
+        <item quantity="two">تقديم سريع للفيديو بمقدار ثانيتَين (%d)</item>
+        <item quantity="few">تقديم سريع للفيديو بمقدار %d ثوانٍ</item>
+        <item quantity="many">تقديم سريع للفيديو بمقدار %d ثانية</item>
+        <item quantity="other">تقديم سريع للفيديو بمقدار %d ثانية</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="zero">ترجيع الفيديو بمقدار %d ثانية</item>
+        <item quantity="one">ترجيع الفيديو بمقدار ثانية واحدة (%d)</item>
+        <item quantity="two">ترجيع الفيديو بمقدار ثانيتَين (%d)</item>
+        <item quantity="few">ترجيع الفيديو بمقدار %d ثوانٍ</item>
+        <item quantity="many">ترجيع الفيديو بمقدار %d ثانية</item>
+        <item quantity="other">ترجيع الفيديو بمقدار %d ثانية</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">إشعار جديد واحد (%d)</item>
+        <item quantity="two">إشعاران جديدان (%d)</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+        <item quantity="other">%d إشعار جديد</item>
+    </plurals>
+    <plurals name="str_views">
+        <item quantity="zero">%1$s مشاهدة</item>
+        <item quantity="one">%1$s مشاهدة</item>
+        <item quantity="two">%1$s مشاهدتان</item>
+        <item quantity="few">%1$s مشاهدات</item>
+        <item quantity="many">%1$s مشاهدة</item>
+        <item quantity="other">%1$s مشاهدات</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="zero">قبل %1$d أيام</item>
+        <item quantity="one">قبل %1$d يوم</item>
+        <item quantity="two">قبل %1$d يومين</item>
+        <item quantity="few">قبل %1$d أيام</item>
+        <item quantity="many">قبل %1$d يوم</item>
+        <item quantity="other">قبل %1$d أيام</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="zero">قبل %1$d ساعات</item>
+        <item quantity="one">قبل %1$d ساعة</item>
+        <item quantity="two">قبل %1$d ساعتين</item>
+        <item quantity="few">قبل %1$d ساعات</item>
+        <item quantity="many">قبل %1$d ساعة</item>
+        <item quantity="other">قبل %1$d ساعات</item>
+    </plurals>
+    <plurals name="time_minutes_ago">
+        <item quantity="zero">قبل %1$d دقائق</item>
+        <item quantity="one">قبل %1$d دقيقة</item>
+        <item quantity="two">قبل %1$d دقيقتين</item>
+        <item quantity="few">قبل %1$d دقائق</item>
+        <item quantity="many">قبل %1$d دقيقة</item>
+        <item quantity="other">قبل %1$d دقيقة</item>
+    </plurals>
+    <plurals name="time_months_ago">
+        <item quantity="zero">قبل %1$d أشهر</item>
+        <item quantity="one">قبل %1$d شهر</item>
+        <item quantity="two">قبل %1$d شهرين</item>
+        <item quantity="few">قبل %1$d أشهر</item>
+        <item quantity="many">قبل %1$d شهر</item>
+        <item quantity="other">قبل %1$d أشهر</item>
+    </plurals>
+    <plurals name="time_weeks_ago">
+        <item quantity="zero">قبل %1$d أسابيع</item>
+        <item quantity="one">قبل %1$d أسبوع</item>
+        <item quantity="two">قبل %1$d أسبوعين</item>
+        <item quantity="few">قبل %1$d أسابيع</item>
+        <item quantity="many">قبل %1$d أسبوع</item>
+        <item quantity="other">قبل %1$d أسابيع</item>
+    </plurals>
+    <plurals name="time_years_ago">
+        <item quantity="zero">قبل %1$d سنوات</item>
+        <item quantity="one">قبل %1$d سنة</item>
+        <item quantity="two">قبل %1$d سنتين</item>
+        <item quantity="few">قبل %1$d سنوات</item>
+        <item quantity="many">قبل %1$d سنة</item>
+        <item quantity="other">قبل %1$d سنوات</item>
+    </plurals>
+    <plurals name="videos_count_text">
+        <item quantity="zero">%1$s فيديو</item>
+        <item quantity="one">%1$s فيديو</item>
+        <item quantity="two">%1$s فيديوهان</item>
+        <item quantity="few">%1$s فيديوهات</item>
+        <item quantity="many">%1$s فيديو</item>
+        <item quantity="other">%1$s فيديوهات</item>
+    </plurals>
+</resources>

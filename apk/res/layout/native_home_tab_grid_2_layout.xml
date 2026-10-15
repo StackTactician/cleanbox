@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/flRoot" android:background="@drawable/ad_shape_btn_11_bg" android:layout_width="match_parent" android:layout_height="92.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="match_parent" app:cardCornerRadius="8.0dp" app:cardElevation="0.0dp">
+            <com.hisavana.mediation.ad.TMediaView android:layout_gravity="center_vertical" android:id="@id/coverview" android:background="@drawable/ad_shape_btn_11_bg" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:paddingLeft="2.0dp" android:paddingRight="2.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginLeft="2.0dp" android:layout_marginTop="6.0dp" android:layout_marginRight="2.0dp" android:minHeight="10.0dp" android:layout_marginHorizontal="2.0dp" android:paddingHorizontal="2.0dp" app:layout_constraintEnd_toEndOf="@id/flRoot" app:layout_constraintStart_toStartOf="@id/flRoot" app:layout_constraintTop_toTopOf="@id/flRoot">
+        <androidx.cardview.widget.CardView android:layout_gravity="center_vertical" android:id="@id/adChoicesViewCard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dp" card_view:cardBackgroundColor="@color/transparent" card_view:cardCornerRadius="4.0dp" card_view:cardElevation="0.0dp"
+          xmlns:card_view="http://schemas.android.com/apk/res-auto">
+            <com.hisavana.mediation.ad.TAdChoicesView android:id="@id/adChoicesView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </androidx.cardview.widget.CardView>
+        <com.transsion.ad.view.AdTagView android:layout_gravity="center_vertical" android:id="@id/adIcon" android:layout_width="wrap_content" android:layout_height="16.0dp" android:layout_marginStart="4.0dp" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center_vertical" android:id="@id/store_mark_container" android:background="@drawable/ad_shape_store_mark_bg" android:layout_width="wrap_content" android:layout_height="16.0dp" android:layout_marginStart="4.0dp">
+            <com.hisavana.mediation.ad.TStoreMarkView android:layout_gravity="center" android:id="@id/store_mark_view" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/text_01" android:ellipsize="end" android:id="@id/native_ad_title" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:maxLines="2" app:layout_constraintEnd_toEndOf="@id/flRoot" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/flRoot" style="@style/style_medium_text" />
+</androidx.constraintlayout.widget.ConstraintLayout>

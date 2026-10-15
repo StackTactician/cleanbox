@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_sdk_text_details">Təfərrüatlar</string>
+    <string name="upgrade_sdk_text_later">Daha sonra</string>
+    <string name="upgrade_sdk_text_later_force">Tətbiqdən çıxın</string>
+    <string name="upgrade_sdk_text_new_version">Yeni versiya mövcuddur</string>
+    <string name="upgrade_sdk_text_size">Ölçü</string>
+    <string name="upgrade_sdk_text_update">YENİLƏYİN</string>
+    <string name="upgrade_sdk_text_version">Versiya</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivBack" android:layout_width="wrap_content" android:layout_height="20.0dp" android:layout_marginTop="16.0dp" android:src="@drawable/subtitle_left" android:layout_marginStart="12.0dp" app:layout_constraintEnd_toStartOf="@id/tvStyle" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/white" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tvStyle" android:layout_width="0.0dp" android:layout_height="20.0dp" android:text="@string/subtitle_subtitle_delay" android:layout_marginStart="2.0dp" app:layout_constraintBottom_toBottomOf="@id/ivBack" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/ivBack" app:layout_constraintTop_toTopOf="@id/ivBack" style="@style/style_import_text" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tvStyle">
+        <Space android:layout_width="wrap_content" android:layout_height="0.0dp" android:layout_weight="1.0" />
+        <com.transsion.subtitle.view.SubtitleSyncAdjustView android:id="@id/viewSyncAdJustaST" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/viewSyncAdJustaND" />
+        <Space android:id="@id/space" android:layout_width="wrap_content" android:layout_height="32.0dp" />
+        <com.transsion.subtitle.view.SubtitleSyncAdjustView android:id="@id/viewSyncAdJustaND" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Space android:layout_width="wrap_content" android:layout_height="0.0dp" android:layout_weight="1.0" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

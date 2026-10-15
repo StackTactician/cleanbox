@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/llEmptyLayout" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView android:background="@color/module_01" android:layout_width="match_parent" android:layout_height="28.0dp" android:layout_marginLeft="12.0dp" android:layout_marginTop="15.0dp" android:layout_marginRight="12.0dp" android:layout_marginHorizontal="12.0dp" app:shapeAppearanceOverlay="@style/corner_style_4" />
+    <include layout="@layout/fragment_liked_music_loading_view_item_layout" />
+    <include layout="@layout/fragment_liked_music_loading_view_item_layout" />
+    <include layout="@layout/fragment_liked_music_loading_view_item_layout" />
+    <include layout="@layout/fragment_liked_music_loading_view_item_layout" />
+    <include layout="@layout/fragment_liked_music_loading_view_item_layout" />
+    <include layout="@layout/fragment_liked_music_loading_view_item_layout" />
+    <include layout="@layout/fragment_liked_music_loading_view_item_layout" />
+    <include layout="@layout/fragment_liked_music_loading_view_item_layout" />
+</androidx.appcompat.widget.LinearLayoutCompat>

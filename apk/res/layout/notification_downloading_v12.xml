@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="end" android:id="@id/tv_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/download_in_progress" android:maxLines="1" android:layout_weight="1.0" style="@style/TextAppearance.Compat.Notification" />
+    <ProgressBar android:id="@id/progress" android:layout_width="match_parent" android:layout_height="2.0dp" android:layout_marginTop="8.0dp" android:max="100" android:progress="30" android:progressDrawable="@drawable/download_progress_drawable" style="?android:progressBarStyleHorizontal" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_downloading" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dp">
+        <TextView android:ellipsize="end" android:id="@id/tv_name" android:layout_width="0.0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" style="@style/TextAppearance.Compat.Notification.Info" />
+        <TextView android:id="@id/tv_epse" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.Compat.Notification.Info" />
+        <TextView android:id="@id/tv_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="8.0dp" style="@style/TextAppearance.Compat.Notification.Info" />
+    </LinearLayout>
+</LinearLayout>

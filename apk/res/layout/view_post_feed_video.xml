@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:layout_gravity="bottom" android:id="@id/playerProgress" android:layout_width="match_parent" android:layout_height="3.0dp" android:progressDrawable="@drawable/post_feed_video_progress" style="?android:progressBarStyleHorizontal" />
+    <com.noober.background.view.BLTextView android:textSize="11.0sp" android:textColor="@color/white" android:layout_gravity="start|bottom" android:id="@id/tvVideoDuration" android:paddingLeft="3.0dp" android:paddingTop="1.0dp" android:paddingRight="3.0dp" android:paddingBottom="1.0dp" android:layout_margin="6.0dp" android:includeFontPadding="false" android:paddingHorizontal="3.0dp" android:paddingVertical="1.0dp" app:bl_corners_radius="4.0dp" app:bl_solid_color="@color/black_70" style="@style/style_regular_text" />
+    <View android:layout_gravity="end|bottom" android:id="@id/vMuteHotZone" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginBottom="6.0dp" android:layout_marginEnd="3.0dp" />
+    <com.noober.background.view.BLImageView android:layout_gravity="end|bottom" android:id="@id/ivMute" android:layout_width="18.0dp" android:layout_height="18.0dp" android:layout_marginBottom="9.0dp" android:scaleType="center" android:layout_marginEnd="6.0dp" app:bl_corners_radius="12.0dp" app:bl_solid_color="@color/black_50" app:srcCompat="@drawable/post_detail_selector_feed_video_volume" />
+</merge>

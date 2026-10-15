@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="@dimen/dp_12" android:paddingBottom="@dimen/dp_6" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp_16" android:textStyle="bold" android:textColor="@color/earn_points" android:gravity="start" android:id="@id/tv_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Redeem Rewards" android:drawablePadding="@dimen/dp_4" android:textAlignment="viewStart" app:drawableStartCompat="@mipmap/ic_earn_points" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/style_text_700" />
+</androidx.constraintlayout.widget.ConstraintLayout>

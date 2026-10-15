@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:id="@id/vd_surface_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:layout_width="20.0dp" android:layout_height="20.0dp" android:indeterminateTint="@color/main" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/tv_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="67.0dp" android:text="@string/post_loading" android:shadowColor="@color/black_50" android:shadowRadius="3.0" android:layout_marginStart="8.0dp" style="@style/style_medium_text" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/tv_speed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@color/black_50" android:shadowRadius="3.0" style="@style/style_medium_text" />
+</LinearLayout>

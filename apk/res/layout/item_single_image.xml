@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="12.0dp" android:paddingRight="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="12.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tn.lib.widget.TnTextView android:textSize="@dimen/text_size_16" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:drawablePadding="3.0dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/style_import_text" />
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/ivCover" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:scaleType="centerCrop" app:shapeAppearance="@style/corner_style_4" />
+</LinearLayout>

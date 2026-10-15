@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/home_ugc_banner_item_image" android:background="@color/base_black_15_p" android:layout_width="match_parent" android:layout_height="360.0dp" android:scaleType="centerCrop" app:layout_constraintTop_toTopOf="parent" app:shapeAppearance="@style/roundStyle_4" />
+    <View android:background="@drawable/home_bg_ugc_banner_background" android:layout_width="match_parent" android:layout_height="100.0dp" app:layout_constraintBottom_toBottomOf="parent" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/home_ugc_banner_title" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginLeft="8.0dp" android:layout_marginRight="8.0dp" android:layout_marginBottom="20.0dp" android:maxLines="1" android:layout_marginHorizontal="8.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/style_medium_text" />
+</androidx.constraintlayout.widget.ConstraintLayout>

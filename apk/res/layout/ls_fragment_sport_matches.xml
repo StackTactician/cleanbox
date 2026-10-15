@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/ls_page_bg_dark" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/ls_rv_matches_season_pills" android:paddingLeft="@dimen/ls_dp_12" android:paddingTop="@dimen/ls_dp_8" android:paddingRight="@dimen/ls_dp_12" android:paddingBottom="@dimen/ls_dp_8" android:visibility="gone" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:paddingHorizontal="@dimen/ls_dp_12" android:paddingVertical="@dimen/ls_dp_8" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/ls_vp_matches_inner" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/ls_pb_sport_matches_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateTint="@color/ls_white_60" />
+    </FrameLayout>
+</LinearLayout>

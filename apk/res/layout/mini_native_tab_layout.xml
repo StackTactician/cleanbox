@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.tabs.TabLayout android:theme="@style/Theme.Miniapp.NoActionBar" android:id="@id/mini_native_tab" android:background="@drawable/mini_tabs_background" android:layout_width="match_parent" android:layout_height="32.0dp" app:tabGravity="fill" app:tabIndicator="@drawable/mini_tablayout_selected" app:tabIndicatorColor="#99ffffff" app:tabIndicatorHeight="32.0dp" app:tabMode="fixed" app:tabPaddingBottom="0.0dp" app:tabPaddingEnd="0.0dp" app:tabPaddingStart="0.0dp" app:tabPaddingTop="0.0dp" app:tabSelectedTextColor="@color/black" app:tabTextColor="@color/white" />
+</FrameLayout>

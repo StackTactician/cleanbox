@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/card_view" android:layout_width="312.0dp" android:layout_height="wrap_content" app:cardBackgroundColor="@color/white" app:cardCornerRadius="@dimen/dp_8" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/cancel_button" android:layout_width="@dimen/dimens_24" android:layout_height="@dimen/dimens_24" android:layout_marginTop="@dimen/dp_4" android:src="@drawable/hs_ad_close" android:layout_marginEnd="@dimen/dp_4" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <FrameLayout android:id="@id/skip_button" android:background="@drawable/ssp_bg_e7e8ea_radius_8" android:paddingLeft="5.0dp" android:paddingRight="5.0dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="24.0dp" android:minWidth="45.0dp" android:paddingHorizontal="5.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="12.0sp" android:textColor="#6f7682" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/skip" />
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/hs_ad_indicator_right" />
+                </LinearLayout>
+            </FrameLayout>
+            <com.cloud.sdk.commonutil.widget.TranCircleImageView android:id="@id/icon" android:layout_width="52.0dp" android:layout_height="52.0dp" android:layout_marginTop="@dimen/dp_16" android:src="@drawable/hs_ad_miniapp_default_icon" android:layout_marginStart="@dimen/dp_16" app:bottomLeftRadiusYL="8.0dp" app:bottomRightRadiusYL="8.0dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:topLeftRadiusYL="8.0dp" app:topRightRadiusYL="8.0dp" />
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/black" android:ellipsize="end" android:gravity="start" android:id="@id/name" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:lines="1" android:layout_marginStart="@dimen/dp_8" android:layout_marginEnd="@dimen/dp_16" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/icon" app:layout_constraintTop_toTopOf="@id/icon" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="0.0dp" android:layout_height="16.0dp" android:layout_marginTop="4.0dp" android:layout_marginStart="@dimen/dp_8" app:layout_constraintEnd_toEndOf="@id/name" app:layout_constraintStart_toEndOf="@id/icon" app:layout_constraintTop_toBottomOf="@id/name">
+                <ImageView android:id="@id/category_icon" android:layout_width="@dimen/dp_16" android:layout_height="@dimen/dp_16" android:layout_marginEnd="2.0dp" />
+                <TextView android:textSize="12.0sp" android:textColor="#9fa3ac" android:id="@id/category" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/middle" android:layout_width="0.0dp" android:layout_height="34.0dp" android:layout_marginLeft="16.0dp" android:layout_marginTop="12.0dp" android:layout_marginRight="16.0dp" android:layout_marginHorizontal="16.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/icon">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#0f1a2f" android:gravity="center" android:id="@id/ratings" android:layout_width="match_parent" android:layout_height="20.0dp" />
+                    <TextView android:textSize="10.0sp" android:textColor="#6f7682" android:gravity="center" android:layout_width="match_parent" android:layout_height="14.0dp" android:text="@string/ratings" />
+                </LinearLayout>
+                <View android:layout_gravity="center" android:background="#e7e8ea" android:layout_width="1.0dp" android:layout_height="16.0dp" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+                    <TextView android:textStyle="bold" android:gravity="center" android:id="@id/users" android:layout_width="match_parent" android:layout_height="20.0dp" />
+                    <TextView android:textSize="10.0sp" android:textColor="#6f7682" android:gravity="center" android:layout_width="match_parent" android:layout_height="14.0dp" android:text="@string/users" />
+                </LinearLayout>
+                <View android:layout_gravity="center" android:background="#e7e8ea" android:layout_width="1.0dp" android:layout_height="16.0dp" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+                    <TextView android:textStyle="bold" android:gravity="center" android:id="@id/size" android:layout_width="match_parent" android:layout_height="20.0dp" />
+                    <TextView android:textSize="10.0sp" android:textColor="#6f7682" android:gravity="center" android:layout_width="match_parent" android:layout_height="14.0dp" android:text="@string/size" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="12.0sp" android:textColor="#6f7682" android:ellipsize="end" android:gravity="start" android:id="@id/description" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginLeft="16.0dp" android:layout_marginTop="12.0dp" android:layout_marginRight="16.0dp" android:maxLines="4" android:lineSpacingExtra="2.0dp" android:layout_marginHorizontal="16.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/middle" />
+            <Button android:textSize="16.0sp" android:id="@id/action_button" android:background="@drawable/ssp_bg_0052e2_4_4_4_4" android:layout_width="226.0dp" android:layout_height="36.0dp" android:layout_marginTop="16.0dp" android:layout_marginBottom="20.0dp" android:textAllCaps="false" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/description" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+    <ImageView android:id="@id/cancel_button_bottom" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_24" android:src="@drawable/hs_ad_close_white" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/card_view" />
+</androidx.constraintlayout.widget.ConstraintLayout>

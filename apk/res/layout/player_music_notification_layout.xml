@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivLogo" android:layout_width="16.0dp" android:layout_height="26.0dp" android:layout_marginTop="11.0dp" android:src="@mipmap/player_ic_notification_icon" android:layout_marginStart="16.0dp" />
+    <TextView android:textSize="12.0sp" android:gravity="center" android:id="@id/tv_app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_alignTop="@id/ivLogo" android:layout_alignBottom="@id/ivLogo" android:layout_marginStart="10.0dp" android:layout_toEndOf="@id/ivLogo" style="@style/TextAppearance.Compat.Notification" />
+    <ImageView android:id="@id/ivClose" android:visibility="gone" android:layout_width="16.0dp" android:layout_height="16.0dp" android:layout_marginTop="16.0dp" android:src="@mipmap/player_music_notification_close" android:layout_marginEnd="16.0dp" android:layout_alignParentEnd="true" />
+    <TextView android:id="@id/lineView" android:layout_width="match_parent" android:layout_height="12.0dp" android:layout_below="@id/ivLogo" />
+    <ImageView android:id="@id/ivCover" android:layout_width="48.0dp" android:layout_height="48.0dp" android:layout_marginBottom="16.0dp" android:scaleType="centerInside" android:layout_below="@id/lineView" android:layout_alignStart="@id/ivLogo" />
+    <ImageView android:id="@id/ivPlayPause" android:layout_width="32.0dp" android:layout_height="32.0dp" android:layout_alignTop="@id/ivCover" android:layout_alignBottom="@id/ivCover" android:layout_centerVertical="true" android:layout_marginEnd="16.0dp" android:layout_alignParentEnd="true" />
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/text01" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tvTitle" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="1" android:layout_alignTop="@id/ivCover" android:layout_alignBottom="@id/ivCover" android:layout_marginStart="12.0dp" android:layout_marginEnd="12.0dp" android:layout_toStartOf="@id/ivPlayPause" android:layout_toEndOf="@id/ivCover" />
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="#000" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/v_top_space" android:layout_width="0.0dp" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/guideline" android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintDimensionRatio="h,16:9" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/v_top_space" />
+    <include android:id="@id/local_video_portrait" layout="@layout/layout_local_video_portrait" />
+    <include android:id="@id/local_video_land" layout="@layout/layout_local_video_land" />
+    <include android:id="@id/local_video_middle" layout="@layout/layout_local_video_middle" />
+    <com.transsion.postdetail.ad.AdInterceptTimerView android:id="@id/enter_ad_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/flPauseAdGroup" android:visibility="gone" android:layout_width="200.0dp" android:layout_height="113.0dp" app:layout_constraintBottom_toBottomOf="@id/guideline" app:layout_constraintDimensionRatio="H,16:9" app:layout_constraintEnd_toEndOf="@id/guideline" app:layout_constraintStart_toStartOf="@id/guideline" app:layout_constraintTop_toTopOf="@id/guideline">
+        <com.transsion.ad.view.native_ad.NativeWrapperAdView android:id="@id/adContainer" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="100.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:id="@id/ivAdPauseClose" android:layout_width="20.0dp" android:layout_height="20.0dp" android:layout_margin="8.0dp" android:src="@mipmap/ad_close" app:layout_constraintEnd_toEndOf="@id/adContainer" app:layout_constraintTop_toTopOf="@id/adContainer" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:layout_gravity="center" android:id="@id/flLandAdGroup" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="@id/guideline" app:layout_constraintEnd_toEndOf="@id/guideline" app:layout_constraintStart_toStartOf="@id/guideline" app:layout_constraintTop_toTopOf="@id/guideline">
+        <com.transsion.ad.view.native_ad.NativeWrapperAdView android:id="@id/flLandAd" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <com.transsion.postdetail.ui.view.AdCountDownView android:layout_gravity="end" android:id="@id/adCountDownView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:layout_marginEnd="12.0dp" />
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end|top" android:id="@id/adCloseView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dp" app:srcCompat="@mipmap/ad_close" />
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end|bottom" android:id="@id/rotate" android:layout_width="28.0dp" android:layout_height="28.0dp" android:layout_marginBottom="10.0dp" android:src="@mipmap/ad_fullscreen" android:layout_marginEnd="12.0dp" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

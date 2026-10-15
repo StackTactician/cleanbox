@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.baseui.widget.shimmer.ShimmerLinearLayout android:orientation="vertical" android:paddingLeft="12.0dp" android:paddingRight="12.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="12.0dp" app:shimmer_auto_start="true" app:shimmer_base_alpha="1.0" app:shimmer_duration="500" app:shimmer_highlight_alpha="0.3" app:shimmer_highlight_color="@color/bg_01" app:shimmer_repeat_count="-1" app:shimmer_repeat_delay="1000" app:shimmer_width_ratio="0.25"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp">
+        <View android:background="@color/module_04" android:layout_width="36.0dp" android:layout_height="36.0dp" android:layout_marginTop="12.0dp" />
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="12.0dp">
+            <View android:background="@color/module_04" android:layout_width="240.0dp" android:layout_height="18.0dp" android:layout_marginTop="12.0dp" />
+            <View android:background="@color/module_04" android:layout_width="120.0dp" android:layout_height="15.0dp" android:layout_marginTop="6.0dp" />
+            <View android:background="@color/module_04" android:layout_width="match_parent" android:layout_height="16.0dp" android:layout_marginTop="6.0dp" />
+            <View android:background="@color/module_04" android:layout_width="match_parent" android:layout_height="16.0dp" android:layout_marginTop="6.0dp" />
+            <View android:background="@color/module_04" android:layout_width="150.0dp" android:layout_height="16.0dp" android:layout_marginTop="6.0dp" />
+            <View android:background="@color/module_04" android:layout_width="match_parent" android:layout_height="141.0dp" android:layout_marginTop="6.0dp" />
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+                <View android:background="@color/module_04" android:layout_width="20.0dp" android:layout_height="20.0dp" />
+                <View android:layout_gravity="center_horizontal" android:background="@color/module_04" android:layout_width="20.0dp" android:layout_height="20.0dp" />
+                <View android:layout_gravity="end" android:background="@color/module_04" android:layout_width="20.0dp" android:layout_height="20.0dp" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/module_04" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="16.0dp" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp">
+        <View android:background="@color/module_04" android:layout_width="36.0dp" android:layout_height="36.0dp" android:layout_marginTop="12.0dp" />
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="12.0dp">
+            <View android:background="@color/module_04" android:layout_width="240.0dp" android:layout_height="18.0dp" android:layout_marginTop="12.0dp" />
+            <View android:background="@color/module_04" android:layout_width="120.0dp" android:layout_height="15.0dp" android:layout_marginTop="6.0dp" />
+            <View android:background="@color/module_04" android:layout_width="match_parent" android:layout_height="16.0dp" android:layout_marginTop="6.0dp" />
+            <View android:background="@color/module_04" android:layout_width="match_parent" android:layout_height="16.0dp" android:layout_marginTop="6.0dp" />
+            <View android:background="@color/module_04" android:layout_width="150.0dp" android:layout_height="16.0dp" android:layout_marginTop="6.0dp" />
+            <View android:background="@color/module_04" android:layout_width="match_parent" android:layout_height="141.0dp" android:layout_marginTop="6.0dp" />
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+                <View android:background="@color/module_04" android:layout_width="20.0dp" android:layout_height="20.0dp" />
+                <View android:layout_gravity="center_horizontal" android:background="@color/module_04" android:layout_width="20.0dp" android:layout_height="20.0dp" />
+                <View android:layout_gravity="end" android:background="@color/module_04" android:layout_width="20.0dp" android:layout_height="20.0dp" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/module_04" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="16.0dp" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp">
+        <View android:background="@color/module_04" android:layout_width="36.0dp" android:layout_height="36.0dp" android:layout_marginTop="12.0dp" />
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="12.0dp">
+            <View android:background="@color/module_04" android:layout_width="240.0dp" android:layout_height="18.0dp" android:layout_marginTop="12.0dp" />
+            <View android:background="@color/module_04" android:layout_width="120.0dp" android:layout_height="15.0dp" android:layout_marginTop="6.0dp" />
+            <View android:background="@color/module_04" android:layout_width="match_parent" android:layout_height="16.0dp" android:layout_marginTop="6.0dp" />
+            <View android:background="@color/module_04" android:layout_width="match_parent" android:layout_height="16.0dp" android:layout_marginTop="6.0dp" />
+            <View android:background="@color/module_04" android:layout_width="150.0dp" android:layout_height="16.0dp" android:layout_marginTop="6.0dp" />
+            <View android:background="@color/module_04" android:layout_width="match_parent" android:layout_height="141.0dp" android:layout_marginTop="6.0dp" />
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+                <View android:background="@color/module_04" android:layout_width="20.0dp" android:layout_height="20.0dp" />
+                <View android:layout_gravity="center_horizontal" android:background="@color/module_04" android:layout_width="20.0dp" android:layout_height="20.0dp" />
+                <View android:layout_gravity="end" android:background="@color/module_04" android:layout_width="20.0dp" android:layout_height="20.0dp" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/module_04" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="16.0dp" />
+</com.transsion.baseui.widget.shimmer.ShimmerLinearLayout>

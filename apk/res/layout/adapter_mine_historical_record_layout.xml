@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/historyRoot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/cardCore" android:layout_width="96.0dp" android:layout_height="54.0dp" app:cardCornerRadius="4.0dp" app:cardElevation="0.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.google.android.material.imageview.ShapeableImageView android:id="@id/ivCore" android:layout_width="96.0dp" android:layout_height="54.0dp" android:scaleType="centerCrop" />
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="26.0dp" android:layout_height="26.0dp" android:src="@mipmap/left_top_shadow" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivCornerMark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:src="@mipmap/ic_audio_download_historical" android:layout_marginStart="4.0dp" />
+        <View android:layout_gravity="bottom" android:background="@drawable/upload_bottom_layer_4dp" android:layout_width="96.0dp" android:layout_height="22.0dp" />
+        <ProgressBar android:layout_gravity="bottom" android:id="@id/progressBar" android:layout_width="96.0dp" android:layout_height="3.0dp" android:progress="70" android:progressDrawable="@drawable/download_progress_drawable_trans" style="?android:progressBarStyleHorizontal" />
+        <ViewStub android:id="@id/viewStub" android:layout="@layout/view_stub_local_file_delete_layout" android:layout_width="96.0dp" android:layout_height="54.0dp" />
+    </androidx.cardview.widget.CardView>
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="@color/text_02" android:ellipsize="end" android:gravity="start" android:id="@id/tvTitle" android:paddingTop="4.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:textAlignment="viewStart" app:layout_constraintEnd_toEndOf="@id/cardCore" app:layout_constraintStart_toStartOf="@id/cardCore" app:layout_constraintTop_toBottomOf="@id/cardCore" style="@style/style_regula_bigger_text" />
+</androidx.constraintlayout.widget.ConstraintLayout>

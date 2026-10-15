@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/llRootView" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <FrameLayout android:id="@id/flContent" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <FrameLayout android:id="@id/flStateView" android:background="@color/bg_01" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/progressBar" android:visibility="gone" android:layout_width="23.0dp" android:layout_height="23.0dp" android:indeterminateTint="@color/brand" />
+    </FrameLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

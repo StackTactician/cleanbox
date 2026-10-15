@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/base_shape_bg_progress_dialog" android:layout_width="140.0dp" android:layout_height="100.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.tn.lib.view.YuanProgressBar android:textSize="14.0sp" android:textColor="@color/base_color_white" android:id="@id/progress_bar" android:layout_width="50.0dp" android:layout_height="50.0dp" android:layout_marginTop="14.0dp" android:lines="1" app:base_circleColor="@color/base_white_30_p" app:base_yuanCircleStrokeWidth="2.0dp" app:base_yuanProgressStrokeWidth="2.0dp" app:base_yuan_progressColor="@color/base_color_white" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/base_color_b2b2b2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dp" android:text="@string/base_loading" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

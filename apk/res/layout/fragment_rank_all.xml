@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tn.lib.view.TitleLayout android:id="@id/rank_all_title" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.compose.ui.platform.ComposeView android:id="@id/rank_all_category_container" android:layout_width="96.0dp" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/rank_all_title" />
+    <fragment android:name="com.transsion.home.fragment.rank.RankListFragment" android:id="@id/rank_all_category_item_fragment" android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/rank_all_category_container" app:layout_constraintTop_toBottomOf="@id/rank_all_title" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/rank_all_loading_frame" android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/rank_all_title">
+        <ProgressBar android:layout_gravity="center_horizontal" android:visibility="visible" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/style_progress" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:id="@id/rank_all_error" android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constraintTop_toBottomOf="@id/rank_all_title" />
+</androidx.constraintlayout.widget.ConstraintLayout>

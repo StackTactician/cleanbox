@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="120.0dp" app:cardBackgroundColor="@color/transparent" app:cardCornerRadius="4.0dp" app:cardElevation="0.0dp">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.hisavana.mediation.ad.TMediaView android:id="@id/coverview" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="214.0" app:sspScaleType="centerCrop" />
+            <LinearLayout android:orientation="vertical" android:background="@color/white_10" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="122.0">
+                <androidx.cardview.widget.CardView android:layout_gravity="center_horizontal" android:id="@id/native_ad_icon_card" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginTop="14.0dp" card_view:cardBackgroundColor="@color/transparent" card_view:cardCornerRadius="8.0dp" card_view:cardElevation="0.0dp"
+                  xmlns:card_view="http://schemas.android.com/apk/res-auto">
+                    <com.hisavana.mediation.ad.TIconView android:id="@id/native_ad_icon" android:layout_width="match_parent" android:layout_height="match_parent" />
+                </androidx.cardview.widget.CardView>
+                <TextView android:textSize="12.0sp" android:textColor="@color/white_80" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:id="@id/native_ad_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dp" android:layout_marginTop="8.0dp" android:layout_marginRight="8.0dp" android:lines="1" android:includeFontPadding="false" android:layout_marginHorizontal="8.0dp" style="@style/style_regular_text" />
+                <androidx.appcompat.widget.LinearLayoutCompat android:layout_gravity="center_horizontal" android:orientation="horizontal" android:background="@drawable/ad_shape_btn_17_bg" android:layout_width="wrap_content" android:layout_height="24.0dp" android:layout_marginLeft="8.0dp" android:layout_marginTop="8.0dp" android:layout_marginRight="8.0dp" android:minWidth="68.0dp" android:layout_marginHorizontal="8.0dp">
+                    <com.transsion.ad.view.GradientTextView android:textSize="11.0sp" android:textColor="@color/brand" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/call_to_action" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="DOWNLOAD" android:maxLines="1" android:includeFontPadding="false" android:layout_weight="1.0" android:textAllCaps="false" android:layout_marginStart="8.0dp" app:endColor="@color/live_brand_end" app:startColor="@color/live_brand_start" style="@style/style_import_text" />
+                    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="12.0dp" android:layout_height="match_parent" android:src="@mipmap/ad_arrow_left" android:layout_marginEnd="4.0dp" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="16.0dp" android:layout_marginTop="4.0dp" android:layout_marginStart="4.0dp">
+        <androidx.cardview.widget.CardView android:id="@id/adChoicesViewCard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2.0dp" card_view:cardBackgroundColor="@color/transparent" card_view:cardCornerRadius="4.0dp" card_view:cardElevation="0.0dp"
+          xmlns:card_view="http://schemas.android.com/apk/res-auto">
+            <com.hisavana.mediation.ad.TAdChoicesView android:id="@id/adChoicesView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </androidx.cardview.widget.CardView>
+        <com.transsion.ad.view.AdTagView android:id="@id/adIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:src="@mipmap/ad_icon_1" android:layout_marginStart="4.0dp" />
+        <com.hisavana.mediation.ad.TStoreMarkView android:layout_gravity="center" android:id="@id/store_mark_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dp" />
+    </LinearLayout>
+</FrameLayout>

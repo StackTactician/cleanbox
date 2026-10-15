@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@drawable/transfer_wifi_share_apk_dialog_bg" android:padding="24.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="36.0dp" android:layout_marginRight="36.0dp" android:layout_marginHorizontal="36.0dp">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/text_01" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/transfer_wifi_share_dialog_tip" style="@style/robot_medium" />
+        <com.google.android.material.imageview.ShapeableImageView android:layout_gravity="center_horizontal" android:id="@id/ivQrCode" android:background="@android:color/holo_blue_bright" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:scaleType="fitCenter" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_horizontal" android:id="@id/ivClose" android:layout_width="48.0dp" android:layout_height="48.0dp" android:layout_marginTop="30.0dp" android:src="@drawable/transfer_wifi_share_close" android:scaleType="fitCenter" />
+</LinearLayout>

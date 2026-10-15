@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/include_image_select_title_bar" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.cloud.tmc.miniapp.widget.StatusLayout android:id="@id/sl_image_select_status" android:layout_width="match_parent" android:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_image_select_list" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </com.cloud.tmc.miniapp.widget.StatusLayout>
+    </FrameLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

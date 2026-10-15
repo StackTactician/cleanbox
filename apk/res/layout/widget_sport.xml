@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/widget_root" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/widget_upcoming_container" android:background="@mipmap/bg_football_layer1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/widget_bg_layer2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:layout_alignParentBottom="true" android:contentDescription="@null" android:layout_alignParentEnd="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dp" android:layout_alignParentTop="true" android:layout_marginStart="14.0dp" android:layout_marginEnd="14.0dp">
+            <TextView android:textSize="12.0dp" android:textColor="@color/black_50" android:id="@id/widget_upcoming_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dp" android:text="@string/widget_sport_upcoming_match" android:includeFontPadding="false" style="@style/widget_sport_text_semibold" />
+            <TextView android:textSize="20.0dp" android:textColor="@color/black" android:ellipsize="end" android:id="@id/widget_match_time" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:autoSizeTextType="uniform" android:autoSizeMaxTextSize="20.0dp" style="@style/widget_sport_text_bold" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_marginStart="14.0dp" android:layout_marginEnd="14.0dp">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="6.0dp">
+                <ImageView android:id="@id/widget_team1_logo" android:layout_width="28.0dp" android:layout_height="28.0dp" android:contentDescription="@null" />
+                <TextView android:textSize="12.0dp" android:textColor="@color/black_80" android:ellipsize="end" android:gravity="start|center" android:id="@id/widget_team1_name" android:layout_width="0.0dp" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" android:textDirection="locale" android:textAlignment="viewStart" android:layout_marginStart="6.0dp" style="@style/widget_sport_text_semibold" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/widget_team2_logo" android:layout_width="28.0dp" android:layout_height="28.0dp" android:contentDescription="@null" />
+                <TextView android:textSize="12.0dp" android:textColor="@color/black_80" android:ellipsize="end" android:gravity="start|center" android:id="@id/widget_team2_name" android:layout_width="0.0dp" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" android:textDirection="locale" android:textAlignment="viewStart" android:layout_marginStart="6.0dp" style="@style/widget_sport_text_semibold" />
+            </LinearLayout>
+            <TextView android:visibility="invisible" android:layout_width="match_parent" android:layout_height="14.0dp" android:text="" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/widget_default_container" android:background="@mipmap/bg_default_layer1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/widget_fallback_layer2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/bg_default_layer2" android:scaleType="centerInside" android:layout_alignParentBottom="true" android:contentDescription="@null" android:layout_alignParentEnd="true" />
+        <TextView android:textSize="12.0dp" android:textColor="@color/black_50" android:id="@id/widget_fallback_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dp" android:text="@string/widget_sport_feel_the_action" android:includeFontPadding="false" android:layout_alignParentTop="true" android:layout_marginStart="14.0dp" style="@style/widget_sport_text_semibold" />
+        <TextView android:textSize="18.0dp" android:textColor="@color/black" android:id="@id/widget_fallback_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:text="@string/widget_sport_live_match_buzz" android:includeFontPadding="false" android:layout_below="@id/widget_fallback_subtitle" android:layout_marginStart="12.0dp" style="@style/widget_sport_text_bold" />
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_marginStart="14.0dp" android:layout_marginEnd="14.0dp">
+            <TextView android:textSize="12.0dp" android:textColor="@color/black" android:gravity="center" android:id="@id/widget_watch_now_btn" android:background="@drawable/bg_watch_now_btn" android:layout_width="match_parent" android:layout_height="30.0dp" android:text="@string/widget_sport_watch_now" android:includeFontPadding="false" style="@style/widget_sport_text_bold" />
+            <TextView android:visibility="invisible" android:layout_width="match_parent" android:layout_height="14.0dp" android:text="" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

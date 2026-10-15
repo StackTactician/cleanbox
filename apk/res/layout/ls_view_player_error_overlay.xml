@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.noober.background.view.BLFrameLayout android:layout_width="match_parent" android:layout_height="match_parent" app:bl_gradient_angle="0" app:bl_gradient_endColor="@color/ls_match_card_live_end" app:bl_gradient_startColor="@color/ls_match_card_live_start"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:textColor="@color/ls_white" android:id="@id/tvErrorMsg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ls_player_error_msg" style="@style/style_font_400" />
+        <com.noober.background.view.BLTextView android:textSize="16.0sp" android:textColor="@color/ls_white" android:gravity="center" android:id="@id/btnRetry" android:paddingLeft="20.0dp" android:paddingRight="20.0dp" android:layout_width="wrap_content" android:layout_height="36.0dp" android:layout_marginTop="12.0dp" android:minWidth="120.0dp" android:text="@string/ls_player_retry" android:paddingHorizontal="20.0dp" app:bl_corners_radius="20.0dp" app:bl_solid_color="@color/ls_white_10" style="@style/style_font_600" />
+    </LinearLayout>
+</com.noober.background.view.BLFrameLayout>

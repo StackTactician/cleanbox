@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView android:layout_gravity="center_vertical" android:id="@id/iv_post_cover_2" android:layout_width="32.0dp" android:layout_height="22.0dp" android:scaleType="centerCrop" android:layout_marginStart="17.0dp" app:shapeAppearance="@style/roundStyle_2" />
+    <com.noober.background.view.BLView android:id="@id/v_post_bg" android:layout_width="42.0dp" android:layout_height="28.0dp" android:layout_marginStart="2.0dp" app:bl_corners_radius="2.0dp" app:bl_solid_color="#28292c" />
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/iv_post_cover_1" android:layout_width="42.0dp" android:layout_height="28.0dp" android:scaleType="centerCrop" app:shapeAppearance="@style/roundStyle_2" />
+</FrameLayout>

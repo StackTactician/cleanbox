@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.transsion.ad.view.native_ad.NativeWrapperAdView android:id="@id/adView" android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constraintDimensionRatio="h,16:9" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.cardview.widget.CardView android:id="@id/ad_detail_btn" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="127.0dp" android:layout_height="36.0dp" android:layout_marginBottom="30.0dp" app:cardBackgroundColor="@color/white" app:cardCornerRadius="18.0dp" app:cardElevation="10.0dp" app:layout_constraintBottom_toBottomOf="@id/adView" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/gray_dark_00" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="72.0dp" android:text="View Details" android:drawableEnd="@mipmap/ic_arrow_right" android:drawableTint="@color/gray_dark_00" style="@style/style_text_700" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView android:id="@id/ad_detail_arrow" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="44.0dp" android:layout_height="44.0dp" android:layout_marginTop="40.0dp" app:cardBackgroundColor="@color/white" app:cardCornerRadius="22.0dp" app:cardElevation="10.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/adView">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:background="@drawable/ic_arrow_down_black" android:layout_width="22.0dp" android:layout_height="22.0dp" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

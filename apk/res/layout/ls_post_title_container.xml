@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:id="@id/ls_post_title_container" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/ls_text_size_14" android:textColor="@color/ls_text_01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="&quot;" style="@style/style_font_600" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/ls_text_size_14" android:textColor="@color/ls_text_01" android:ellipsize="end" android:id="@id/ls_postTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" style="@style/style_font_600" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/ls_text_size_14" android:textColor="@color/ls_text_01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="&quot;" style="@style/style_font_600" />
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/bg_01" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/v_top_bg" android:layout_width="0.0dp" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <net.lucode.hackware.magicindicator.MagicIndicator android:id="@id/magic_indicator" android:layout_width="match_parent" android:layout_height="40.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/v_top_bg" />
+    <com.transsion.baseui.widget.NestedScrollableHost android:id="@id/nsh_view_pager" android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintBottom_toTopOf="@id/v_bottom_tools" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/magic_indicator">
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/view_pager" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </com.transsion.baseui.widget.NestedScrollableHost>
+    <com.transsnet.downloader.widget.TransferSelectSeriesListView android:id="@id/v_series_list" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintBottom_toTopOf="@id/v_bottom_tools" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.transsnet.downloader.widget.TransferBottomToolsView android:id="@id/v_bottom_tools" android:layout_width="0.0dp" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

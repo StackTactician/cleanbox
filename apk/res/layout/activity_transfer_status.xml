@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/v_top_bg" android:layout_width="0.0dp" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.tn.lib.view.TitleLayout android:id="@id/tool_bar" android:background="@color/bg_01" android:layout_width="match_parent" android:layout_height="@dimen/dimens_48" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/v_top_bg" app:titleText="@string/transfer_status_title" />
+    <LinearLayout android:orientation="vertical" android:id="@id/bottom_layout" android:background="@color/bg_01" android:paddingLeft="16.0dp" android:paddingTop="12.0dp" android:paddingRight="16.0dp" android:paddingBottom="24.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="16.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/connect_info_layout" android:background="@drawable/bg_transfer_link_container" android:paddingLeft="12.0dp" android:paddingRight="12.0dp" android:layout_width="match_parent" android:layout_height="40.0dp" android:paddingHorizontal="12.0dp">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/transfer_connected_state_image" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@mipmap/transfer_ic_link" android:scaleType="fitXY" android:tint="@color/text_01" android:importantForAccessibility="no" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/text_03" android:ellipsize="end" android:id="@id/transfer_connected_devicename" android:layout_width="0.0dp" android:layout_height="wrap_content" android:lines="1" android:layout_weight="1.0" android:layout_marginStart="4.0dp" />
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/text_01" android:id="@id/transfer_connect_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/transfer_disconnect" android:layout_marginStart="12.0dp" />
+        </LinearLayout>
+        <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/sendMore" android:background="@drawable/libui_main_btn_selector" android:layout_width="match_parent" android:layout_height="40.0dp" android:layout_marginTop="16.0dp" android:text="@string/transfer_send_more" />
+    </LinearLayout>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/cl_root" android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constraintBottom_toTopOf="@id/bottom_layout" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tool_bar">
+        <com.google.android.material.appbar.AppBarLayout android:orientation="vertical" android:background="@color/bg_01" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="0.0dp">
+            <net.lucode.hackware.magicindicator.MagicIndicator android:id="@id/magic_indicator" android:layout_width="match_parent" android:layout_height="40.0dp" />
+            <View android:background="@color/line_01" android:layout_width="match_parent" android:layout_height="1.0dp" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <com.transsion.baseui.widget.NestedScrollableHost android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <androidx.viewpager2.widget.ViewPager2 android:id="@id/view_pager" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </com.transsion.baseui.widget.NestedScrollableHost>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <FrameLayout android:id="@id/fl_select_page_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

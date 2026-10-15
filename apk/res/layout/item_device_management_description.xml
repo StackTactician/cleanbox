@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="8.0dp" android:paddingBottom="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tn.lib.widget.TnTextView android:textSize="11.0sp" android:textColor="@color/white_60" android:gravity="start" android:id="@id/bottomDescription" android:layout_width="0.0dp" android:layout_height="wrap_content" android:textAlignment="viewStart" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/style_regular_text" />
+</androidx.constraintlayout.widget.ConstraintLayout>

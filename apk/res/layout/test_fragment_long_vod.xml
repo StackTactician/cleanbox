@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fl_player_container" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.transsion.player.longvideo.ui.LongVodPlayerView android:id="@id/player_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </FrameLayout>
+    <TextView android:textSize="100.0dp" android:textColor="@color/white" android:gravity="center" android:background="@color/main" android:layout_width="0.0dp" android:layout_height="0.0dp" android:text="内容" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/fl_player_container" />
+    <FrameLayout android:id="@id/fl_full_player_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <include android:id="@id/layout_sync_adjust" layout="@layout/long_vod_layout_subtitle_sync_adjust" />
+</androidx.constraintlayout.widget.ConstraintLayout>

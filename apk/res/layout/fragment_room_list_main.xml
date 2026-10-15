@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/clRootView" android:background="@color/bg_01" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_top_bg" android:layout_width="0.0dp" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_back" android:layout_width="48.0dp" android:layout_height="48.0dp" android:src="@mipmap/icon_white_back" android:scaleType="center" app:layout_collapseMode="pin" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/iv_top_bg" />
+    <net.lucode.hackware.magicindicator.MagicIndicator android:layout_gravity="center_horizontal" android:id="@id/magic_indicator" android:background="@drawable/download_main_tab_bg" android:layout_width="wrap_content" android:layout_height="34.0dp" app:layout_constraintBottom_toBottomOf="@id/iv_back" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/iv_back" />
+    <View android:background="@color/line_01" android:layout_width="match_parent" android:layout_height="1.0dp" app:layout_constraintBottom_toBottomOf="@id/iv_back" />
+    <com.transsion.baseui.widget.NestedScrollableHost android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/iv_back">
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/view_pager" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </com.transsion.baseui.widget.NestedScrollableHost>
+</androidx.constraintlayout.widget.ConstraintLayout>

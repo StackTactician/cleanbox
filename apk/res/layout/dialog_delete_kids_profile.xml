@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.noober.background.view.BLConstraintLayout android:layout_gravity="center" android:paddingTop="24.0dp" android:paddingBottom="24.0dp" android:layout_width="280.0dp" android:layout_height="wrap_content" android:paddingStart="24.0dp" android:paddingEnd="24.0dp" app:bl_corners_radius="16.0dp" app:bl_solid_color="@color/kids_color_dialog_bg">
+        <com.tn.lib.widget.TnTextView android:textSize="16.0sp" android:textColor="@color/base_color_white" android:gravity="center" android:id="@id/tvTitle" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/kids_delete_confirm_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@font/mulish_bold" />
+        <com.tn.lib.widget.TnTextView android:textSize="12.0sp" android:textColor="@color/base_white_80_p" android:gravity="center" android:id="@id/tvDesc" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:text="@string/kids_delete_confirm_desc" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tvTitle" style="@font/mulish_regular" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tvDesc">
+            <com.noober.background.view.BLTextView android:textSize="14.0sp" android:textColor="@color/base_color_white" android:gravity="center" android:id="@id/tvCancel" android:layout_width="0.0dp" android:layout_height="36.0dp" android:text="@string/cancel" android:layout_weight="1.0" app:bl_corners_radius="8.0dp" app:bl_solid_color="@color/base_white_10_p" style="@font/mulish_bold" />
+            <Space android:layout_width="12.0dp" android:layout_height="wrap_content" />
+            <com.noober.background.view.BLTextView android:textSize="14.0sp" android:textColor="@color/kids_color_bg" android:gravity="center" android:id="@id/tvDelete" android:background="@drawable/shape_download_group_button" android:layout_width="0.0dp" android:layout_height="36.0dp" android:text="@string/kids_delete_confirm_btn" android:layout_weight="1.0" style="@font/mulish_bold" />
+        </LinearLayout>
+    </com.noober.background.view.BLConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="42.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tn.lib.view.TRImageView android:id="@id/iv_close" android:padding="8.0dp" android:layout_width="28.0dp" android:layout_height="28.0dp" android:src="@mipmap/libui_iv_close_circle" />
+    <TextView android:textColor="@color/cl33" android:id="@id/tv_tip" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginTop="7.0dp" android:layout_marginBottom="7.0dp" android:layout_weight="1.0" style="@style/style_regular_text" />
+    <TextView android:textColor="@color/cl03" android:gravity="center" android:id="@id/tv_get_more" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginStart="8.0dp" android:layout_marginEnd="@dimen/right_margin" style="@style/style_regular_text" />
+</merge>

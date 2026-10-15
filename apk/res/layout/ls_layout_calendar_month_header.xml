@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="@dimen/ls_dp_48"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/ls_dp_12" android:paddingRight="@dimen/ls_dp_12" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" android:paddingHorizontal="@dimen/ls_dp_12">
+        <View android:visibility="invisible" android:layout_width="@dimen/ls_dp_20" android:layout_height="@dimen/ls_dp_20" android:importantForAccessibility="no" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ls_ll_calendar_month_nav" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/ls_iv_calendar_month_prev" android:layout_width="@dimen/ls_dp_16" android:layout_height="@dimen/ls_dp_16" android:src="@drawable/ls_ic_arrow_right" android:scaleType="centerInside" android:contentDescription="@null" android:rotation="180.0" />
+            <TextView android:textSize="@dimen/ls_text_size_16" android:textColor="@color/ls_white" android:gravity="center" android:id="@id/ls_tv_calendar_month_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ls_dp_24" android:layout_marginRight="@dimen/ls_dp_24" android:includeFontPadding="false" android:layout_marginHorizontal="@dimen/ls_dp_24" style="@style/style_font_600" />
+            <ImageView android:id="@id/ls_iv_calendar_month_next" android:layout_width="@dimen/ls_dp_16" android:layout_height="@dimen/ls_dp_16" android:src="@drawable/ls_ic_arrow_right" android:scaleType="centerInside" android:contentDescription="@null" />
+        </LinearLayout>
+        <ImageView android:id="@id/ls_iv_calendar_close" android:layout_width="@dimen/ls_dp_20" android:layout_height="@dimen/ls_dp_20" android:src="@drawable/ls_ic_close_20" android:scaleType="centerInside" android:contentDescription="@null" android:layout_marginStart="@dimen/ls_dp_12" />
+    </LinearLayout>
+    <View android:background="@color/ls_white_10" android:layout_width="match_parent" android:layout_height="1.0dp" />
+</LinearLayout>

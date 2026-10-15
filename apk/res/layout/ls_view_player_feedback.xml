@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/feedbackRoot" android:background="@drawable/ls_bg_player_seek_preview" android:paddingLeft="12.0dp" android:paddingTop="8.0dp" android:paddingRight="12.0dp" android:paddingBottom="8.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="12.0dp" android:paddingVertical="8.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivFeedbackIcon" android:layout_width="30.0dp" android:layout_height="30.0dp" android:layout_marginEnd="8.0dp" />
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ProgressBar android:id="@id/pbFeedback" android:layout_width="120.0dp" android:layout_height="12.0dp" android:layout_marginTop="9.0dp" android:layout_marginBottom="9.0dp" android:max="100" android:progressDrawable="@drawable/ls_progress_drawable_player" android:layout_marginVertical="9.0dp" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+        <ProgressBar android:id="@id/pbFeedbackBrand" android:visibility="gone" android:layout_width="120.0dp" android:layout_height="12.0dp" android:layout_marginTop="9.0dp" android:layout_marginBottom="9.0dp" android:max="100" android:progressDrawable="@drawable/ls_progress_drawable_player_brand" android:layout_marginVertical="9.0dp" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/tipsLayout" android:visibility="gone" android:layout_width="120.0dp" android:layout_height="12.0dp" android:layout_marginTop="9.0dp" android:layout_marginBottom="9.0dp" android:layout_marginVertical="9.0dp">
+            <View android:background="@drawable/ls_shape_player_tips_bg" android:layout_width="12.0dp" android:layout_height="12.0dp" />
+            <TextView android:textSize="10.0sp" android:textColor="@color/ls_brand_gradient_center" android:gravity="end|center" android:id="@id/tvTipsPercent" android:layout_width="0.0dp" android:layout_height="match_parent" android:includeFontPadding="false" android:layout_weight="1.0" android:paddingEnd="2.0dp" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

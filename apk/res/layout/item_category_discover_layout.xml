@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.noober.background.view.BLConstraintLayout android:layout_width="match_parent" android:layout_height="44.0dp" app:bl_corners_radius="6.0dp" app:bl_solid_color="@color/white_10"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivCategoryNameImage" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="22.0dp" android:scaleType="fitCenter" android:adjustViewBounds="true" android:maxWidth="120.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.tn.lib.widget.TnTextView android:textColor="@color/white_80" android:gravity="center" android:id="@id/tvCategoryName" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/style_medium_text" />
+</com.noober.background.view.BLConstraintLayout>

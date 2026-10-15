@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/cover_gradient" android:background="@mipmap/arc_gradient_cover" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="260.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ProgressBar android:layout_gravity="center|bottom" android:id="@id/progressBar" android:visibility="gone" android:layout_width="24.0dp" android:layout_height="wrap_content" android:layout_marginBottom="95.0dp" android:indeterminate="true" android:indeterminateTint="@color/white" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/white" android:layout_gravity="center|bottom" android:id="@id/pull_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="84.0dp" android:text="Pull to refresh" android:drawableTop="@drawable/ic_loading_white" style="@style/style_text_700" />
+    </FrameLayout>
+    <View android:id="@id/cover_transparent" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/cover_gradient" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+name: build cleanbox
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with: {distribution: temurin, java-version: 17}
+      - run: sudo apt-get update && sudo apt-get install -y apktool apksigner
+      - run: apktool b apk -o cleanbox.apk
+      - run: apksigner sign --ks /tmp/debug.jks cleanbox.apk || echo "sign skip"
+      - uses: actions/upload-artifact@v4
+        with: {name: cleanbox, path: cleanbox.apk}

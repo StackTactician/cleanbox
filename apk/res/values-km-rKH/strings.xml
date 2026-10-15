@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_sdk_text_details">ព័ត៌មានលម្អិត</string>
+    <string name="upgrade_sdk_text_later">រោយមក</string>
+    <string name="upgrade_sdk_text_later_force">ចេញពីកម្មវិធី</string>
+    <string name="upgrade_sdk_text_new_version">មានកំណែថ្មី</string>
+    <string name="upgrade_sdk_text_size">ទំហំ</string>
+    <string name="upgrade_sdk_text_update">ធ្វើ​បច្ចុប្បន្នភាព</string>
+    <string name="upgrade_sdk_text_version">កំណែ</string>
+</resources>

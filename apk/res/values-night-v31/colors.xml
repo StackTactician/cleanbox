@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tpush_notification_action_btn_text">#ffffffff</color>
+    <color name="tpush_notification_action_btn_text_disable">#ffffffff</color>
+    <color name="tpush_notification_btn_bg">#666c6c6c</color>
+    <color name="tpush_notification_btn_disable_bg">#666c6c6c</color>
+    <color name="tpush_notification_text">#b3ffffff</color>
+    <color name="tpush_notification_text_title">#ffffffff</color>
+</resources>

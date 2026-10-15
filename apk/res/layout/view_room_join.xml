@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:background="@color/main" android:layout_width="wrap_content" android:layout_height="24.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/text_01" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_join" android:paddingLeft="12.0dp" android:paddingRight="12.0dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:includeFontPadding="false" android:drawablePadding="2.0dp" android:paddingHorizontal="12.0dp" style="@style/style_import_text" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/pb_loading" android:visibility="gone" android:layout_width="20.0dp" android:layout_height="20.0dp" android:layout_marginLeft="20.0dp" android:layout_marginRight="20.0dp" android:indeterminateTint="@color/white" android:layout_marginHorizontal="20.0dp" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/iv_join" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</merge>

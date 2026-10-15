@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_sdk_text_details">Išsamiai</string>
+    <string name="upgrade_sdk_text_later">Vėliau</string>
+    <string name="upgrade_sdk_text_later_force">Išeiti iš programėlės</string>
+    <string name="upgrade_sdk_text_new_version">Yra nauja versija</string>
+    <string name="upgrade_sdk_text_size">Dydis</string>
+    <string name="upgrade_sdk_text_update">Naujinti</string>
+    <string name="upgrade_sdk_text_version">Versija</string>
+</resources>

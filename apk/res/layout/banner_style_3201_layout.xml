@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/ivBanner" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.cloud.sdk.commonutil.widget.TranCircleImageView android:id="@id/iv_main_image" android:layout_width="match_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" app:bottomLeftRadiusYL="8.0dp" app:bottomRightRadiusYL="8.0dp" app:topLeftRadiusYL="8.0dp" app:topRightRadiusYL="8.0dp" />
+    </FrameLayout>
+    <include android:id="@id/ad_flag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hisavana_ad_dimen_12" android:layout_marginEnd="@dimen/hisavana_ad_dimen_12" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/hs_include_ad_flag" />
+    <com.cloud.hisavana.sdk.api.view.StoreMarkView android:id="@id/ps_mark_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dp" app:layout_constraintBottom_toBottomOf="@id/ad_flag" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/ad_flag" />
+</androidx.constraintlayout.widget.ConstraintLayout>

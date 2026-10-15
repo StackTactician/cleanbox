@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/short_tv_bg" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/sub_movie_header_bg" android:background="@drawable/short_tv_filter_title_gradient_bg" android:layout_width="match_parent" android:layout_height="80.0dp" />
+    <include android:id="@id/ll_tab_movie" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/short_tv_home_layout_movie_tabs" />
+    <View android:id="@id/popup_filter_view_linear" android:background="@color/short_tv_white_10" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/ll_tab_movie" />
+    <com.transsion.shorttv._channel.ui.widget.ShortTvPopupFilterView android:orientation="horizontal" android:id="@id/popup_filter_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dp" android:layout_marginTop="12.0dp" android:layout_marginRight="12.0dp" android:layout_marginBottom="8.0dp" android:layout_marginHorizontal="12.0dp" app:layout_constraintTop_toBottomOf="@id/popup_filter_view_linear" />
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipe_refresh" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/movie_list" android:paddingLeft="8.0dp" android:paddingRight="8.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="8.0dp" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</LinearLayout>

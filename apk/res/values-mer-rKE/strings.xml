@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_sdk_text_details">Maelezo</string>
+    <string name="upgrade_sdk_text_later">Thaa ingî</string>
+    <string name="upgrade_sdk_text_later_force">Uma kîrî App</string>
+    <string name="upgrade_sdk_text_new_version">Vashoni Înjerû Îrîo</string>
+    <string name="upgrade_sdk_text_size">Unene</string>
+    <string name="upgrade_sdk_text_update">Anakia</string>
+    <string name="upgrade_sdk_text_version">Vashoni</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_sdk_text_details">Детали</string>
+    <string name="upgrade_sdk_text_later">Подоцна</string>
+    <string name="upgrade_sdk_text_later_force">Излези од апликацијата</string>
+    <string name="upgrade_sdk_text_new_version">Достапна е нова верзија</string>
+    <string name="upgrade_sdk_text_size">Големина</string>
+    <string name="upgrade_sdk_text_update">Ажурирање</string>
+    <string name="upgrade_sdk_text_version">Верзија</string>
+</resources>

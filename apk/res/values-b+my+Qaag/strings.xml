@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_sdk_text_details">အေသးစိတ္</string>
+    <string name="upgrade_sdk_text_later">ေနာက္ပိုင္းမွ</string>
+    <string name="upgrade_sdk_text_later_force">အက္ပ္မွ ထြက္ရန္</string>
+    <string name="upgrade_sdk_text_new_version">ဗားရွင္းအသစ္ ရွိသည္</string>
+    <string name="upgrade_sdk_text_size">အ႐ြယ္အစား</string>
+    <string name="upgrade_sdk_text_update">အဆင့္ျမွင့္တင္ပါ</string>
+    <string name="upgrade_sdk_text_version">ဗားရွင္း</string>
+</resources>

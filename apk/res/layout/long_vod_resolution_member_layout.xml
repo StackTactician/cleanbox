@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.transsion.baseui.widget.GradientTextView android:textSize="16.0sp" android:id="@id/gradientTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="20.0dp" style="@style/style_medium_text" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:id="@id/ivMember" android:layout_width="24.0dp" android:layout_height="16.0dp" android:src="@drawable/long_vod_member_1" android:layout_marginStart="4.0dp" />
+</LinearLayout>

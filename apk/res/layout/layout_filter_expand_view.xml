@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingBottom="@dimen/dp_16" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tn.lib.view.FlowLayout android:id="@id/flow_layout" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" app:flChildSpacing="@dimen/dp_12" app:flFlow="true" app:flRowSpacing="@dimen/dp_16" />
+    <androidx.appcompat.widget.AppCompatTextView android:gravity="top" android:id="@id/tvExpand" android:background="@drawable/bg_selected_filter_item" android:padding="@dimen/dp_2" android:visibility="invisible" android:layout_width="20.0dp" android:layout_height="@dimen/dp_20" android:drawableTop="@drawable/selector_arrow_expand_ic" android:layout_marginStart="@dimen/dp_12" />
+</LinearLayout>

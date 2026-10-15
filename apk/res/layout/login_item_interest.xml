@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/login_shape_interest_bg" android:layout_width="wrap_content" android:layout_height="35.0dp" android:layout_marginTop="8.0dp" android:layout_marginBottom="8.0dp" android:paddingStart="16.0dp" android:paddingEnd="16.0dp" android:layout_marginStart="4.0dp" android:layout_marginEnd="4.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_interest" android:layout_width="22.0dp" android:layout_height="22.0dp" android:src="@mipmap/login_interest_sport" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="15.0sp" android:textColor="@color/login_color_interest_tv" android:gravity="center" android:id="@id/tv_interest" android:layout_width="wrap_content" android:layout_height="35.0dp" android:maxLines="1" android:singleLine="true" android:layout_marginStart="4.0dp" />
+</LinearLayout>

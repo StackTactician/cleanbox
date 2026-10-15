@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tn.lib.widget.TnTextView android:textSize="18.0sp" android:textStyle="bold" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:text="@string/short_tv_history_title" android:layout_marginStart="16.0dp" style="@style/style_title_text" />
+    <com.transsion.baseui.widget.OperateScrollableHost android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" />
+    </com.transsion.baseui.widget.OperateScrollableHost>
+    <com.tn.lib.widget.TnTextView android:textSize="18.0sp" android:textStyle="bold" android:id="@id/tv_title_trending" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:text="@string/short_tv_most_trending" android:layout_marginStart="16.0dp" style="@style/style_title_text" />
+</merge>

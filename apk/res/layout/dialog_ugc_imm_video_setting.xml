@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.noober.background.view.BLView android:layout_width="match_parent" android:layout_height="10.0dp" app:bl_corners_topRadius="7.0dp" app:bl_solid_color="#757678" app:bl_stroke_color="#757678" app:bl_stroke_width="2.0dp" />
+    <com.noober.background.view.BLLinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="468.0dp" android:layout_marginTop="1.0dp" app:bl_corners_topRadius="8.0dp" app:bl_solid_color="@color/gray_dark_00">
+        <com.noober.background.view.BLView android:layout_gravity="center_horizontal" android:id="@id/vDragHandle" android:layout_width="48.0dp" android:layout_height="4.0dp" android:layout_marginTop="8.0dp" app:bl_corners_radius="2.0dp" app:bl_solid_color="@color/white_20" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <FrameLayout android:id="@id/flUgcImmContainer" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="16.0dp" />
+    </com.noober.background.view.BLLinearLayout>
+</FrameLayout>

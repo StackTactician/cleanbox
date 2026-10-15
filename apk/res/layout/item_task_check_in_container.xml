@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.transsion.member.view.CheckInView android:id="@id/member_check_in_view" android:layout_width="match_parent" android:layout_height="wrap_content" app:civ_activeEndLayout="@layout/layout_item_check_in_end_active_style2" app:civ_activeItemLayout="@layout/layout_item_check_in_active_style2" app:civ_doneEndLayout="@layout/layout_item_check_in_end_done_style2" app:civ_doneItemLayout="@layout/layout_item_check_in_done_style2" app:civ_length="7" app:civ_unActiveEndLayout="@layout/layout_item_check_in_end_unactive_style2" app:civ_unActiveItemLayout="@layout/layout_item_check_in_unactive_style2" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="@dimen/mini_dp_57"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/view_line_top" android:background="@color/mini_color_bg_01" android:layout_width="match_parent" android:layout_height="@dimen/mini_dp_1" android:layout_above="@id/tab_navigation" />
+    <com.google.android.material.tabs.TabLayout android:theme="@style/Theme.Miniapp.NoActionBar" android:id="@id/tab_navigation" android:background="@color/mini_color_bg_01" android:layout_width="match_parent" android:layout_height="@dimen/mini_dp_56" android:layout_alignParentBottom="true" android:contentDescription="@string/dialog_loading_tv" app:tabBackground="@null" app:tabGravity="fill" app:tabIndicatorHeight="@dimen/mini_dp_0" app:tabMode="fixed" app:tabPaddingBottom="@dimen/mini_dp_0" app:tabPaddingEnd="@dimen/mini_dp_0" app:tabPaddingStart="@dimen/mini_dp_0" app:tabPaddingTop="@dimen/mini_dp_0" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.noober.background.view.BLFrameLayout android:id="@id/root_view" android:layout_width="128.0dp" android:layout_height="182.0dp" app:bl_corners_radius="6.0dp" app:bl_solid_color="@color/white_6"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:shapeAppearanceOverlay="@style/corner_style_6" app:srcCompat="@mipmap/ic_room_post_more" />
+    <com.tn.lib.widget.TnTextView android:textColor="@color/white" android:layout_gravity="center" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/more" android:includeFontPadding="false" android:drawablePadding="2.0dp" app:drawableEndCompat="@mipmap/ic_arrow_right_white" style="@style/style_medium_text" />
+</com.noober.background.view.BLFrameLayout>

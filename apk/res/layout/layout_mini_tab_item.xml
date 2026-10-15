@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/mini_tab_top" android:layout_width="@dimen/mini_dp_0" android:layout_height="@dimen/mini_dp_1" android:layout_centerHorizontal="true" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_tab_icon" android:layout_width="@dimen/mini_dp_24" android:layout_height="@dimen/mini_dp_24" android:layout_below="@id/mini_tab_top" android:layout_centerHorizontal="true" />
+    <View android:id="@id/view_line_top" android:layout_width="@dimen/mini_dp_0" android:layout_height="@dimen/mini_dp_4" android:layout_below="@id/iv_tab_icon" android:layout_centerHorizontal="true" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/mini_sp_10" android:textColor="@color/mini_color_191f2b" android:id="@id/tv_tab_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/view_line_top" android:layout_centerHorizontal="true" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_red_icon" android:visibility="gone" android:layout_width="@dimen/mini_dp_18" android:layout_height="@dimen/mini_dp_11" android:layout_marginLeft="-1.0dp" android:layout_marginStart="@dimen/mini_dp_m_5" android:layout_toEndOf="@id/iv_tab_icon" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_red" android:visibility="gone" android:layout_width="@dimen/mini_dp_8" android:layout_height="@dimen/mini_dp_8" android:src="@drawable/mini_shape_tab_red" android:layout_marginStart="@dimen/mini_dp_m_4" android:layout_toEndOf="@id/iv_tab_icon" android:translationZ="@dimen/mini_dp_2" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_badge" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="@dimen/mini_dp_16" android:minWidth="@dimen/mini_dp_30" android:layout_marginStart="@dimen/mini_dp_m_8" android:layout_toEndOf="@id/iv_tab_icon" />
+</RelativeLayout>

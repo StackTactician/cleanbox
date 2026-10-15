@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/llPremiumNo" android:background="@drawable/ad_shape_tag" android:paddingLeft="@dimen/dp_8" android:paddingTop="@dimen/dp_6" android:paddingRight="@dimen/dp_8" android:paddingBottom="@dimen/dp_6" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/dp_8" android:paddingVertical="@dimen/dp_6">
+        <TextView android:textSize="@dimen/sp_12" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/tvEnterAd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="HD Previewing" style="@style/style_text_400" />
+        <TextView android:textSize="@dimen/sp_12" android:textColor="#ffdfb0" android:layout_gravity="center_vertical" android:id="@id/tvGoAdFree" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/post_count_down_get_ad_free" android:layout_marginStart="8.0dp" style="@style/style_text_700" />
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:id="@id/ivRight" android:layout_width="12.0dp" android:layout_height="12.0dp" android:src="@drawable/view_count_down_back" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llPremiumYes" android:background="@drawable/ad_shape_tip_video" android:paddingLeft="@dimen/dp_8" android:paddingRight="@dimen/dp_8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="24.0dp" android:paddingHorizontal="@dimen/dp_8">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:layout_width="11.0dp" android:layout_height="11.0dp" android:src="@mipmap/p_v2_premium_2" />
+        <TextView android:textSize="@dimen/sp_12" android:textColor="#ffdfb0" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/p_v2_ads_skipped_for_premium" android:layout_marginStart="4.0dp" style="@style/style_text_700" />
+    </LinearLayout>
+</FrameLayout>

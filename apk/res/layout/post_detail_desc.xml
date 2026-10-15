@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tn.lib.view.expand.ExpandView android:textSize="16.0sp" android:textColor="@color/text_02" android:id="@id/tv_post_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" android:paddingStart="16.0dp" android:paddingEnd="16.0dp" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_rating" app:pop_expand_hint_color="@color/cl01" app:pop_hint_text_size="14.0sp" app:pop_reverse_Lines="5" app:pop_shrink_hint_color="@color/cl01"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_sdk_text_details">Detalizēta informācija</string>
+    <string name="upgrade_sdk_text_later">Vēlāk</string>
+    <string name="upgrade_sdk_text_later_force">Iziet no lietotnes</string>
+    <string name="upgrade_sdk_text_new_version">Pieejama jauna versija</string>
+    <string name="upgrade_sdk_text_size">Lielums</string>
+    <string name="upgrade_sdk_text_update">Atjaunināt</string>
+    <string name="upgrade_sdk_text_version">Versija</string>
+</resources>

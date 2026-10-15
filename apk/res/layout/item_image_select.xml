@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cloud.tmc.miniapp.widget.RatioFrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" app:sizeRatio="1:1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_image_select" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+    <View android:id="@id/view_mask" android:background="@color/mini_black6" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:layout_gravity="end" android:id="@id/fl_image_select_check" android:paddingTop="@dimen/mini_dp_3" android:paddingBottom="@dimen/mini_dp_20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/mini_dp_20" android:paddingEnd="@dimen/mini_dp_3">
+        <TextView android:textColor="@color/mini_color_white" android:gravity="center" android:id="@id/cb_image_select_check" android:background="@drawable/mini_sel_image_select_bg" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="@dimen/mini_dp_28" android:layout_height="@dimen/mini_dp_28" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_qr_preview" android:visibility="invisible" android:layout_width="@dimen/mini_dp_28" android:layout_height="@dimen/mini_dp_28" />
+    </FrameLayout>
+</com.cloud.tmc.miniapp.widget.RatioFrameLayout>

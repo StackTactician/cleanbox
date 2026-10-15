@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end" android:id="@id/iv_triangle" android:layout_width="@dimen/mini_dp_8" android:layout_height="@dimen/mini_dp_6" android:layout_marginTop="@dimen/mini_dp_4" android:src="@drawable/mini_ic_triangle" android:layout_marginEnd="@dimen/mini_dp_48" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:background="@drawable/mini_shape_popwindow_bg" android:paddingLeft="@dimen/mini_dp_12" android:paddingRight="@dimen/mini_dp_12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/mini_dp_16" android:paddingHorizontal="@dimen/mini_dp_12">
+        <TextView android:textSize="@dimen/mini_sp_14" android:textColor="@color/mini_color_white" android:ellipsize="end" android:gravity="center" android:id="@id/tv_msg_toast" android:layout_width="wrap_content" android:layout_height="@dimen/mini_dp_42" android:text="@string/mini_toast_msg_bubble_tips" android:maxLines="1" />
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:id="@id/iv_msg_jump" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mini_bubble_arrow" android:layout_marginStart="@dimen/mini_dp_4" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

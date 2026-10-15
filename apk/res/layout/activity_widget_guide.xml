@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/gray_dark_00" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tn.lib.view.TitleLayout android:id="@id/mTitleLayout" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <ScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="12.0dp" android:paddingTop="12.0dp" android:paddingRight="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="12.0dp">
+            <TextView android:textSize="16.0sp" android:textColor="@color/white" android:paddingBottom="4.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/widget_add_guide_tips_1" style="@style/style_text_700" />
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="176.0dp">
+                <ImageView android:background="@drawable/bg_radius_9_color_white_6p" android:paddingTop="12.0dp" android:paddingBottom="12.0dp" android:layout_width="match_parent" android:layout_height="176.0dp" android:src="@mipmap/bg_widget_guide_1" android:paddingVertical="12.0dp" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_radius_8_color_white_10p" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-46.0dp" android:text="@string/widget_long_press" android:layout_marginStart="122.0dp" style="@style/style_text_600" />
+            </LinearLayout>
+            <TextView android:textSize="16.0sp" android:textColor="@color/white" android:paddingTop="24.0dp" android:paddingBottom="4.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/widget_add_guide_tips_2" style="@style/style_text_700" />
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="176.0dp">
+                <ImageView android:background="@drawable/bg_radius_9_color_white_6p" android:paddingTop="12.0dp" android:paddingBottom="41.0dp" android:layout_width="match_parent" android:layout_height="176.0dp" android:src="@mipmap/bg_widget_guide_2" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_radius_8_color_white_10p" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-46.0dp" android:text="@string/widget_tap" android:layout_marginStart="124.0dp" style="@style/style_text_600" />
+            </LinearLayout>
+            <TextView android:textSize="16.0sp" android:textColor="@color/white" android:paddingTop="24.0dp" android:paddingBottom="4.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/widget_add_guide_tips_3" style="@style/style_text_700" />
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="176.0dp">
+                <ImageView android:background="@drawable/bg_radius_9_color_white_6p" android:paddingTop="12.0dp" android:paddingBottom="12.0dp" android:layout_width="match_parent" android:layout_height="176.0dp" android:src="@mipmap/bg_widget_guide_3" android:paddingVertical="12.0dp" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_radius_8_color_white_10p" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-77.0dp" android:text="@string/widget_tap" android:layout_marginStart="185.0dp" style="@style/style_text_600" />
+            </LinearLayout>
+            <TextView android:textSize="16.0sp" android:textColor="@color/white" android:paddingTop="24.0dp" android:paddingBottom="4.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/widget_add_guide_tips_4" style="@style/style_text_700" />
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="176.0dp">
+                <ImageView android:background="@drawable/bg_radius_9_color_white_6p" android:paddingTop="12.0dp" android:paddingBottom="12.0dp" android:layout_width="match_parent" android:layout_height="176.0dp" android:src="@mipmap/bg_widget_guide_4" android:paddingVertical="12.0dp" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_radius_8_color_white_10p" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-88.0dp" android:text="@string/widget_swipe" android:layout_marginStart="110.0dp" style="@style/style_text_600" />
+            </LinearLayout>
+            <TextView android:textSize="16.0sp" android:textColor="@color/white" android:paddingTop="24.0dp" android:paddingBottom="4.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/widget_add_guide_tips_5" style="@style/style_text_700" />
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="176.0dp">
+                <ImageView android:background="@drawable/bg_radius_9_color_white_6p" android:paddingTop="12.0dp" android:paddingBottom="31.0dp" android:layout_width="match_parent" android:layout_height="176.0dp" android:src="@mipmap/bg_widget_guide_5" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/white" android:layout_gravity="end" android:background="@drawable/bg_radius_8_color_white_10p" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-46.0dp" android:text="@string/widget_tap" android:layout_marginEnd="120.0dp" style="@style/style_text_600" />
+            </LinearLayout>
+            <TextView android:textSize="16.0sp" android:textColor="@color/white" android:paddingTop="24.0dp" android:paddingBottom="4.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/widget_add_guide_tips_6" style="@style/style_text_700" />
+            <ImageView android:background="@drawable/bg_radius_9_color_white_6p" android:paddingTop="12.0dp" android:paddingBottom="12.0dp" android:layout_width="match_parent" android:layout_height="176.0dp" android:src="@mipmap/bg_widget_guide_6" android:paddingVertical="12.0dp" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/white_80" android:paddingTop="24.0dp" android:paddingBottom="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/widget_add_guide_tips_end" style="@style/style_text_400" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

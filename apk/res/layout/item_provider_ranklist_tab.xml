@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textColor="@color/text_02" android:id="@id/sub_operation_rankinglist_tab_text" android:background="@drawable/bg_radius_12_f03930" android:paddingLeft="8.0dp" android:paddingTop="4.0dp" android:paddingRight="8.0dp" android:paddingBottom="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:backgroundTint="@color/white" android:paddingHorizontal="8.0dp" android:paddingVertical="4.0dp" style="@style/style_medium_text"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

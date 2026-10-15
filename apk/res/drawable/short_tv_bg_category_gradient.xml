@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:topLeftRadius="16.0dp" android:topRightRadius="16.0dp" />
+    <gradient android:startColor="@color/short_tv_category_gradient_end" android:endColor="@color/short_tv_category_gradient_start" android:useLevel="true" android:angle="90.0" android:type="linear" android:centerColor="@color/short_tv_category_gradient_end" />
+</shape>

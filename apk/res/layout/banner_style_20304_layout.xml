@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/ivBanner" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.cloud.sdk.commonutil.widget.TranCircleImageView android:id="@id/iv_main_image" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:adjustViewBounds="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="20:3" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </FrameLayout>
+    <include android:id="@id/ad_flag" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/hs_include_ad_flag_no_close" />
+    <com.cloud.hisavana.sdk.api.view.AdCloseView android:id="@id/ad_close_view" android:layout_width="@dimen/ad_badge_height" android:layout_height="@dimen/ad_badge_height" android:layout_marginEnd="4.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/ad_flag" />
+    <com.cloud.hisavana.sdk.api.view.StoreMarkView android:id="@id/ps_mark_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/hisavana_ad_dimen_4" app:layout_constraintBottom_toBottomOf="@id/ad_flag" app:layout_constraintStart_toEndOf="@id/ad_flag" app:layout_constraintTop_toTopOf="@id/ad_flag" />
+</androidx.constraintlayout.widget.ConstraintLayout>

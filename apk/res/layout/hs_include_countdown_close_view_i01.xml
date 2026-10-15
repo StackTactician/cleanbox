@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/close_view" android:background="@drawable/ad_99000000_12_12_12_12" android:layout_width="@dimen/dimens_24" android:layout_height="@dimen/dimens_24" android:src="@drawable/hs_ad_close2" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/hisavana_ad_dimen_12sp" android:textColor="@color/white" android:gravity="center" android:id="@id/skip_view" android:background="@drawable/ad_end_card_skip_bg" android:visibility="invisible" android:layout_width="42.0dp" android:layout_height="@dimen/dimens_24" android:text="@string/hs_btn_skip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

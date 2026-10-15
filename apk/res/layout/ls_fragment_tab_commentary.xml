@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/llRefreshBar" android:background="@drawable/ls_bg_commentary_refresh" android:visibility="visible" android:layout_width="match_parent" android:layout_height="30.0dp">
+        <ImageView android:id="@id/ivRefreshIcon" android:layout_width="12.0dp" android:layout_height="12.0dp" android:src="@drawable/ls_detail_ic_commentary_refresh" android:scaleType="centerInside" />
+        <com.transsion.livesports.base.widget.GradientTextView android:textSize="12.0sp" android:id="@id/tvRefreshText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ls_commentary_refresh" android:includeFontPadding="false" android:layout_marginStart="2.0dp" app:gradientTvCenterColor="@color/ls_brand_gradient_center" app:gradientTvEndColor="@color/ls_brand_gradient_end" app:gradientTvStartColor="@color/ls_brand_gradient_start" style="@style/style_font_700" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rvTab" android:paddingTop="12.0dp" android:paddingBottom="24.0dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/pbLoading" android:visibility="gone" android:layout_width="24.0dp" android:layout_height="24.0dp" android:indeterminateTint="@color/ls_brand_gradient_center" />
+    </FrameLayout>
+</LinearLayout>

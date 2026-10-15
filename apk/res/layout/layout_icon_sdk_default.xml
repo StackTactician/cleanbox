@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/upgrade_dialog_icon_bg" android:layout_width="@dimen/upgrade_dp_56" android:layout_height="@dimen/upgrade_dp_56"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.transsion.upgradesdk.view.UpgradeRoundedImageView android:layout_gravity="center" android:id="@id/iv_icon" android:layout_width="@dimen/upgrade_dp_56" android:layout_height="@dimen/upgrade_dp_56" android:src="@drawable/icon_update_sdk_default" app:cornerRadius="@dimen/upgrade_dp_18" />
+</FrameLayout>

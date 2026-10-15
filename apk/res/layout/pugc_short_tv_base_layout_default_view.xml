@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center|top" android:orientation="vertical" android:paddingTop="96.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="26.0dp" android:paddingEnd="26.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.transsion.shorttv_pugc.base.widget.TRImageView android:id="@id/iv_default_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" />
+    <TextView android:textColor="@color/short_tv_text_01" android:id="@id/tv_default_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" style="@style/short_tv_style_medium_text" />
+    <TextView android:textColor="@color/short_tv_text_03" android:gravity="center" android:id="@id/tv_desc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dp" style="@style/short_tv_style_regular_text" />
+    <LinearLayout android:id="@id/ll_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:layout_marginStart="12.0dp" android:layout_marginEnd="12.0dp">
+        <com.noober.background.view.BLTextView android:textColor="@color/short_tv_text_01" android:gravity="center" android:id="@id/btn_left" android:visibility="gone" android:layout_width="133.0dp" android:layout_height="36.0dp" android:layout_marginStart="4.0dp" android:layout_marginEnd="4.0dp" app:bl_corners_radius="4.0dp" app:bl_solid_color="@color/short_tv_white_10" style="@style/short_tv_style_medium_text" />
+        <com.noober.background.view.BLTextView android:textColor="@color/short_tv_text_01" android:gravity="center" android:id="@id/btn_right" android:visibility="gone" android:layout_width="133.0dp" android:layout_height="36.0dp" android:layout_marginStart="4.0dp" android:layout_marginEnd="4.0dp" app:bl_corners_radius="4.0dp" app:bl_solid_color="@color/short_tv_white_10" style="@style/short_tv_style_medium_text" />
+    </LinearLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:id="@id/ll_tip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/short_tv_error_red" android:id="@id/tv_tip_operation" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/short_tv_style_regular_text" />
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/short_tv_error_red" android:id="@id/tv_tip_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-1.0dp" android:layout_marginStart="2.0dp" style="@style/short_tv_style_regular_text" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</merge>

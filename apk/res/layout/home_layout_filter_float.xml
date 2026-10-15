@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_tab_filter" android:background="@color/bg_04" android:layout_width="match_parent" android:layout_height="44.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/text_01" android:ellipsize="end" android:gravity="center" android:id="@id/filter_name_1" android:visibility="gone" android:layout_width="0.0dp" android:text="@string/filter" android:maxLines="1" android:drawablePadding="2.0dp" android:paddingStart="44.0dp" android:paddingEnd="44.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/style_medium_text" />
+</androidx.constraintlayout.widget.ConstraintLayout>

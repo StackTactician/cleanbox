@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tn.lib.widget.TnTextView android:textSize="18.0sp" android:textColor="@color/new_text_05" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tv_title" android:paddingLeft="12.0dp" android:paddingRight="12.0dp" android:layout_width="wrap_content" android:layout_height="28.0dp" android:minWidth="48.0dp" android:paddingHorizontal="12.0dp" style="@style/style_import_text" />
+    <com.noober.background.view.BLView android:layout_gravity="end|center" android:id="@id/v_badge" android:visibility="gone" android:layout_width="6.0dp" android:layout_height="6.0dp" android:layout_marginBottom="6.0dp" android:layout_marginEnd="6.0dp" app:bl_corners_radius="3.0dp" app:bl_solid_color="@color/error_red" />
+    <com.noober.background.view.BLTextView android:textSize="8.0sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="end|center" android:id="@id/tv_badge" android:paddingLeft="2.0dp" android:paddingRight="2.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="7.0dp" android:minWidth="12.0dp" android:paddingHorizontal="2.0dp" app:bl_corners_bottomRightRadius="3.0dp" app:bl_corners_topRadius="3.0dp" app:bl_solid_color="@color/error_red" style="@style/style_import_text" />
+</merge>

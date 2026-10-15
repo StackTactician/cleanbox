@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="end|center" android:id="@id/ll_subject" android:background="@drawable/movie_detail_subject_bg" android:layout_width="wrap_content" android:layout_height="20.0dp" android:layout_marginTop="8.0dp" android:paddingStart="3.0dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/ll_link"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/iv_subject_cover" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@mipmap/movie_detail_icon_movie" app:shapeAppearanceOverlay="@style/roundStyle_10" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="@color/cl11" android:ellipsize="end" android:id="@id/tv_subject" android:visibility="visible" android:maxLines="1" android:layout_marginStart="2.0dp" android:layout_marginEnd="20.0dp" style="@style/style_regula_bigger_text" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@mipmap/ic_subject_arrow" android:layout_marginStart="-20.0dp" />
+</androidx.appcompat.widget.LinearLayoutCompat>

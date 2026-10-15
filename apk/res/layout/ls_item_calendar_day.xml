@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="@dimen/ls_dp_36" android:minHeight="@dimen/ls_dp_36"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center" android:id="@id/ls_v_calendar_day_selected" android:background="@drawable/ls_bg_calendar_day_selected" android:visibility="gone" android:layout_width="@dimen/ls_dp_36" android:layout_height="@dimen/ls_dp_36" />
+    <TextView android:textSize="@dimen/ls_text_size_16" android:textColor="@color/ls_white" android:gravity="center" android:id="@id/ls_tv_calendar_day" android:layout_width="match_parent" android:layout_height="match_parent" android:includeFontPadding="false" style="@style/style_font_600" />
+</FrameLayout>

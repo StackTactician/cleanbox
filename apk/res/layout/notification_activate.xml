@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="4.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_activate_icon" android:layout_width="40.0dp" android:layout_height="40.0dp" android:scaleType="centerInside" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="6.0dp">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/gray_light_80" android:ellipsize="end" android:id="@id/notification_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/gray_dark_30" android:ellipsize="end" android:id="@id/notification_content_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:maxLines="1" />
+    </LinearLayout>
+    <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/gray_dark_00" android:id="@id/btn_activate_cta" android:background="@drawable/bg_btn_01_radius_35" android:paddingLeft="16.0dp" android:paddingTop="6.0dp" android:paddingRight="16.0dp" android:paddingBottom="7.0dp" android:layout_width="wrap_content" android:layout_height="28.0dp" android:text="OPEN" android:maxLines="1" android:layout_marginStart="6.0dp" android:paddingHorizontal="16.0dp" />
+</LinearLayout>

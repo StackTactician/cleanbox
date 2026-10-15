@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.noober.background.view.BLLinearLayout android:orientation="horizontal" android:paddingLeft="8.0dp" android:paddingRight="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dp" android:layout_marginTop="12.0dp" android:layout_marginRight="12.0dp" android:layout_marginHorizontal="12.0dp" android:paddingHorizontal="8.0dp" app:bl_corners_radius="4.0dp" app:bl_solid_color="@color/module_05">
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/text_02" android:paddingTop="13.0dp" android:paddingBottom="13.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/location_permission_tips" android:drawablePadding="2.0dp" android:layout_weight="1.0" android:paddingVertical="13.0dp" app:drawableStartCompat="@drawable/ic_location" style="@style/style_regular_text" />
+        <com.noober.background.view.BLTextView android:textColor="@color/text_02" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tv_allow" android:layout_width="49.0dp" android:layout_height="24.0dp" android:text="@string/permission_notice_allow" app:bl_corners_radius="4.0dp" app:bl_solid_color="@color/white_10" style="@style/style_regular_text" />
+    </com.noober.background.view.BLLinearLayout>
+</FrameLayout>

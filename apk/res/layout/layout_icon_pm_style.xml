@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.imageview.ShapeableImageView android:id="@id/iv_icon" android:layout_width="@dimen/upgrade_dp_56" android:layout_height="@dimen/upgrade_dp_56" android:src="@drawable/icon_update_sdk_default"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.widget.Space android:id="@id/guideline_status_bar" android:layout_width="0.0dp" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <android.widget.Space android:id="@id/guideline_player" android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintDimensionRatio="h,16:9" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/guideline_status_bar" />
+    <android.widget.Space android:id="@id/guideline_bottom_controller" android:layout_width="0.0dp" android:layout_height="40.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/guideline_player" />
+    <View android:id="@id/v_bg_start" android:layout_width="0.0dp" android:layout_height="0.0dp" android:layout_weight="1.0" app:layout_constraintBottom_toBottomOf="@id/guideline_bottom_controller" app:layout_constraintEnd_toEndOf="@id/guideline_player" app:layout_constraintStart_toStartOf="@id/guideline_player" app:layout_constraintTop_toTopOf="@id/guideline_player" />
+    <View android:id="@id/v_bg_end" android:background="@color/subtitle_list_dialog_bg_color" android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/v_bg_start" />
+    <androidx.core.widget.NestedScrollView android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="@id/v_bg_end" app:layout_constraintEnd_toEndOf="@id/v_bg_end" app:layout_constraintStart_toStartOf="@id/v_bg_end" app:layout_constraintTop_toTopOf="@id/v_bg_end">
+        <include android:id="@id/layout_options" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/layout_subtitle_options" />
+    </androidx.core.widget.NestedScrollView>
+</merge>

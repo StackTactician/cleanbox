@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.ad.view.native_ad.NativeWrapperAdView android:id="@id/ad_container" android:paddingLeft="@dimen/dp_16" android:paddingRight="@dimen/dp_16" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/dp_16"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

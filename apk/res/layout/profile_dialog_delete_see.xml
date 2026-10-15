@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/libui_bottom_dialog_bg_12dp" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="153.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/text_01" android:gravity="center" android:layout_width="match_parent" android:layout_height="48.0dp" android:text="@string/profile_see_del_tips" android:layout_marginStart="38.0dp" android:layout_marginEnd="38.0dp" style="@style/style_regula_bigger_text" />
+    <View android:background="@color/line_01" android:layout_width="match_parent" android:layout_height="1.0dp" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/main" android:gravity="center" android:id="@id/tv_confirm" android:layout_width="match_parent" android:layout_height="48.0dp" android:text="@string/profile_see_del_confirm" style="@style/robot_medium" />
+    <View android:background="@color/line_02" android:layout_width="match_parent" android:layout_height="8.0dp" android:alpha="0.12" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/text_01" android:gravity="center" android:id="@id/tv_cancel" android:layout_width="match_parent" android:layout_height="48.0dp" android:text="@string/profile_see_del_cancel" style="@style/style_regular_text" />
+</LinearLayout>

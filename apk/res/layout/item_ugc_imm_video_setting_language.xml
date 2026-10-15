@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.noober.background.view.BLFrameLayout android:layout_width="match_parent" android:layout_height="44.0dp" android:layout_marginBottom="12.0dp" app:bl_corners_radius="4.0dp" app:bl_gradient_angle="0" app:bl_gradient_centerColor="@color/brand_new_gradient_center_20" app:bl_gradient_endColor="@color/brand_new_gradient_end_20" app:bl_gradient_startColor="@color/brand_new_gradient_start_20"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.transsion.baseui.widget.GradientTextView android:textSize="14.0sp" android:textColor="@color/text_03" android:gravity="center" android:id="@id/tvLanguage" android:layout_width="match_parent" android:layout_height="match_parent" app:gradientTvCenterColor="@color/brand_new_gradient_center" app:gradientTvEndColor="@color/brand_new_gradient_end" app:gradientTvStartColor="@color/brand_new_gradient_start" style="@style/style_medium_text" />
+</com.noober.background.view.BLFrameLayout>

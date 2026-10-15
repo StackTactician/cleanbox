@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tn.lib.widget.TnTextView android:textSize="@dimen/text_size_14" android:textColor="@color/text_01" android:id="@id/sub_operation_filter_title" android:paddingBottom="6.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_12" android:layout_marginRight="@dimen/dp_12" android:layout_marginHorizontal="@dimen/dp_12" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/style_import_text" />
+    <com.transsion.baseui.widget.OperateScrollableHost android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/sub_operation_filter_title">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/sub_operation_filter_recycler" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </com.transsion.baseui.widget.OperateScrollableHost>
+</androidx.constraintlayout.widget.ConstraintLayout>

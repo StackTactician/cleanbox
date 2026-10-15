@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/libui_bottom_dialog_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@drawable/divider_person_edit_gray" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/text_03" android:gravity="center" android:id="@id/tv_first" android:layout_width="match_parent" android:layout_height="48.0dp" style="@style/style_medium_text" />
+    <TextView android:textColor="@color/text_01" android:gravity="center" android:id="@id/tv_second" android:layout_width="match_parent" android:layout_height="48.0dp" style="@style/style_medium_text" />
+    <TextView android:textColor="@color/text_03" android:gravity="center" android:id="@id/tv_third" android:layout_width="match_parent" android:layout_height="48.0dp" style="@style/style_medium_text" />
+</LinearLayout>

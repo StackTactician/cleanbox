@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tn.lib.view.TitleLayout android:layout_width="match_parent" android:layout_height="wrap_content" app:titleText="User Center" />
+    <TextView android:gravity="center" android:id="@id/btnEdit" android:background="@android:color/holo_blue_bright" android:layout_width="match_parent" android:layout_height="50.0dp" android:layout_marginTop="10.0dp" android:text="编辑资料 点击头像查看大图点击Edit profile打个人资料修改" />
+    <TextView android:gravity="center" android:id="@id/btnFollowing" android:background="@android:color/holo_blue_bright" android:layout_width="match_parent" android:layout_height="50.0dp" android:layout_marginTop="10.0dp" android:text="Following" />
+    <TextView android:gravity="center" android:id="@id/btnFollowers" android:background="@android:color/holo_blue_bright" android:layout_width="match_parent" android:layout_height="50.0dp" android:layout_marginTop="10.0dp" android:text="Followers" />
+</androidx.appcompat.widget.LinearLayoutCompat>

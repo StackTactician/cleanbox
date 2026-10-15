@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:background="@color/module_01" android:layout_width="match_parent" android:layout_height="48.0dp" android:paddingStart="12.0dp" android:paddingEnd="0.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivDance" android:visibility="gone" android:layout_width="16.0dp" android:layout_height="match_parent" android:layout_marginEnd="8.0dp" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="match_parent" />
+    <View android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivShuffle" android:paddingLeft="10.0dp" android:paddingRight="10.0dp" android:visibility="gone" android:layout_width="40.0dp" android:layout_height="match_parent" android:src="@drawable/music_iv_shuffle_0" android:layout_marginEnd="14.0dp" android:paddingHorizontal="10.0dp" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivLoop" android:paddingLeft="10.0dp" android:paddingRight="10.0dp" android:layout_width="40.0dp" android:layout_height="match_parent" android:src="@drawable/music_iv_loop_normal" android:layout_marginEnd="4.0dp" android:paddingHorizontal="10.0dp" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivClose" android:paddingLeft="10.0dp" android:paddingRight="10.0dp" android:layout_width="40.0dp" android:layout_height="match_parent" android:src="@drawable/music_iv_close" android:layout_marginEnd="2.0dp" android:paddingHorizontal="10.0dp" />
+</androidx.appcompat.widget.LinearLayoutCompat>

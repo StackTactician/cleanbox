@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:padding="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/avatarImage" android:layout_width="60.0dp" android:layout_height="60.0dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.tn.lib.widget.TnTextView android:textSize="12.0sp" android:gravity="center" android:id="@id/avatarName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Username" app:layout_constraintEnd_toEndOf="@id/avatarImage" app:layout_constraintStart_toStartOf="@id/avatarImage" app:layout_constraintTop_toBottomOf="@id/avatarImage" />
+    <View android:id="@id/onlineIndicator" android:background="@drawable/shape_circle" android:visibility="gone" android:layout_width="10.0dp" android:layout_height="10.0dp" app:layout_constraintBottom_toBottomOf="@id/avatarImage" app:layout_constraintEnd_toEndOf="@id/avatarImage" />
+</androidx.constraintlayout.widget.ConstraintLayout>

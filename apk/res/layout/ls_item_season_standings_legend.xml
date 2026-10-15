@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="@dimen/ls_dp_56"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="start|center" android:id="@id/ls_v_standings_legend_accent" android:layout_width="@dimen/ls_dp_4" android:layout_height="@dimen/ls_dp_32" />
+    <TextView android:textSize="@dimen/ls_text_size_14" android:textColor="@color/ls_white" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/ls_tv_standings_legend" android:paddingLeft="@dimen/ls_dp_12" android:paddingRight="@dimen/ls_dp_12" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="1" android:includeFontPadding="false" android:paddingHorizontal="@dimen/ls_dp_12" style="@style/style_font_400" />
+</FrameLayout>

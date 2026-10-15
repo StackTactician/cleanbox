@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="@dimen/dimens_48"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_back" android:layout_width="48.0dp" android:layout_height="48.0dp" android:src="@mipmap/icon_white_back" android:scaleType="center" android:layout_marginStart="8.0dp" app:shapeAppearanceOverlay="@style/ImgRoundedStyle" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp_16" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_title" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

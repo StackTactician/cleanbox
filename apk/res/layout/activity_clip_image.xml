@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/SystemBarTint_Style"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.transsion.publish.view.clip.ClipImageView android:id="@id/src_pic" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.transsion.publish.view.clip.ClipView android:id="@id/clipview" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <RelativeLayout android:id="@id/clTitle" android:layout_width="match_parent" android:layout_height="44.0dp">
+        <androidx.appcompat.widget.AppCompatImageButton android:id="@id/btn_back" android:background="@null" android:padding="10.0dp" android:layout_width="42.0dp" android:layout_height="match_parent" android:src="@drawable/ic_title_close" android:scaleType="centerInside" android:layout_marginStart="5.0dp" android:layout_alignParentStart="true" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="14.0dp" android:textColor="@color/cl01" android:gravity="center" android:id="@id/tvDone" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/profile_crop_confirm" android:layout_marginEnd="16.0dp" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@id/clip_loading" android:visibility="gone" android:layout_width="28.0dp" android:layout_height="28.0dp" android:layout_centerInParent="true" android:indeterminateTint="@color/cl01" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/room_cache_item_bg_color" android:paddingTop="24.0dp" android:paddingBottom="24.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="@color/white_60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/room_cache_end_text" style="@style/style_regular_text" />
+    <com.transsion.baseui.widget.GradientTextView android:textSize="14.0sp" android:ellipsize="end" android:id="@id/refresh_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/room_refresh_more" android:lines="1" android:drawablePadding="2.0dp" android:drawableStart="@drawable/room_cache_end_refresh_icon" android:layout_marginStart="4.0dp" app:gradientTvCenterColor="@color/brand_new_gradient_center" app:gradientTvEndColor="@color/brand_new_gradient_end" app:gradientTvStartColor="@color/brand_new_gradient_start" style="@style/style_import_text" />
+</LinearLayout>

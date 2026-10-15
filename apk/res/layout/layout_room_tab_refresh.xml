@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.noober.background.view.BLTextView android:textColor="@color/new_text_05" android:gravity="center" android:paddingLeft="12.0dp" android:paddingTop="12.0dp" android:paddingRight="12.0dp" android:paddingBottom="12.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/room_Tap_to_Refresh" android:includeFontPadding="false" android:paddingHorizontal="12.0dp" android:paddingVertical="12.0dp" app:bl_corners_radius="8.0dp" app:bl_solid_color="@color/white" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/style_medium_text" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-0.5dp" app:srcCompat="@drawable/ic_room_tab_refresh_angle" />
+</LinearLayout>

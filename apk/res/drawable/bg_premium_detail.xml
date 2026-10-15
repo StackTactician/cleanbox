@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <clip android:gravity="left" android:clipOrientation="horizontal">
+            <rotate android:fromDegrees="45.0" android:toDegrees="45.0" android:pivotX="50.0%" android:pivotY="50.0%">
+                <shape android:shape="rectangle">
+                    <gradient android:startColor="@color/white_10" android:endColor="@color/white_0" android:angle="0.0" android:type="linear" />
+                </shape>
+            </rotate>
+        </clip>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#19000000" />
+        </shape>
+    </item>
+    <corners android:radius="@dimen/dp_8" />
+</layer-list>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_01" android:clickable="true" android:layout_width="match_parent" android:layout_height="49.0dp" android:layout_weight="2.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/view_line3" android:background="@color/white_10" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_alignParentTop="true" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:id="@id/ff_put" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingStart="12.0dp" android:paddingEnd="12.0dp" android:layout_alignParentEnd="true">
+        <ImageView android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/ic_op_put" />
+    </FrameLayout>
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/white_80" android:id="@id/tvInputNum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0/1000" android:layout_centerVertical="true" android:paddingStart="12.0dp" android:paddingEnd="12.0dp" android:layout_alignParentEnd="true" style="@style/style_regular_text" />
+</RelativeLayout>

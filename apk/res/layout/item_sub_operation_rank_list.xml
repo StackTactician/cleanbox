@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/sub_operation_ranklist_title_linear" android:paddingLeft="@dimen/dp_12" android:paddingRight="@dimen/dp_12" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/dp_12" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.tn.lib.widget.TnTextView android:textSize="@dimen/sp_14" android:textColor="@color/white" android:id="@id/sub_operation_ranklist_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/education_add_course" style="@style/style_import_text" />
+        <com.tn.lib.widget.TnTextView android:textSize="12.0sp" android:textColor="@color/white_60" android:ellipsize="end" android:id="@id/sub_operation_ranklist_all" android:maxWidth="68.0dp" android:text="@string/all" android:maxLines="1" android:includeFontPadding="false" android:layout_centerVertical="true" android:layout_alignParentEnd="true" app:drawableEndCompat="@mipmap/ic_arrow_right" app:drawableTint="@color/white_60" style="@style/style_regular_text" />
+    </RelativeLayout>
+    <com.transsion.baseui.widget.OperateScrollableHost android:id="@id/sub_operation_ranklist_title_tab_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" app:layout_constraintTop_toBottomOf="@id/sub_operation_ranklist_title_linear">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/sub_operation_ranklist_title_tab_recycler" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.transsion.baseui.widget.OperateScrollableHost>
+    <com.transsion.baseui.widget.OperateScrollableHost android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" app:layout_constraintTop_toBottomOf="@id/sub_operation_ranklist_title_tab_layout">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/sub_operation_ranklist_recycler" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.transsion.baseui.widget.OperateScrollableHost>
+</androidx.constraintlayout.widget.ConstraintLayout>

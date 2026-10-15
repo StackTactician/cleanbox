@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/ll_tab_movie" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.tabs.TabLayout android:id="@id/tab_movie" android:background="@color/transparent" android:layout_width="0.0dp" android:layout_height="40.0dp" android:layout_marginEnd="10.0dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tabIndicator="@null" app:tabIndicatorColor="@color/transparent" app:tabMinWidth="30.0dp" app:tabMode="scrollable" app:tabPaddingEnd="10.0dp" app:tabPaddingStart="14.0dp" app:tabRippleColor="@null" app:tabSelectedTextColor="@color/text_01" app:tabTextAppearance="@style/style_tab_layout" app:tabTextColor="@color/text_02" />
+    <View android:id="@id/divider" android:background="@color/line_01" android:visibility="visible" android:layout_width="match_parent" android:layout_height="1.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tab_movie" />
+</androidx.constraintlayout.widget.ConstraintLayout>

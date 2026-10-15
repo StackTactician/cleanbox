@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_sdk_text_details">Ọganihu</string>
+    <string name="upgrade_sdk_text_later">Iyesobo</string>
+    <string name="upgrade_sdk_text_later_force">Wọrọ ke App</string>
+    <string name="upgrade_sdk_text_new_version">Obufa Nsiondi Odu</string>
+    <string name="upgrade_sdk_text_size">Nkak</string>
+    <string name="upgrade_sdk_text_update">Update</string>
+    <string name="upgrade_sdk_text_version">Nkọọkọ</string>
+</resources>

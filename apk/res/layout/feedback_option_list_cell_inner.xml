@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/shape_clip_corners_2" android:paddingTop="8.0dp" android:paddingBottom="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dp" android:paddingStart="12.0dp" android:paddingEnd="12.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatCheckBox android:layout_gravity="center_vertical" android:id="@id/innerRadioButton" android:background="@color/clear" android:clickable="false" android:layout_width="16.0dp" android:layout_height="16.0dp" android:button="@drawable/selector_green_radio" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/pair_text_191F2B" android:layout_gravity="center_vertical" android:id="@id/innerTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dp" />
+</LinearLayout>

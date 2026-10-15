@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipe_refresh" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <com.tn.lib.widget.TnTextView android:textSize="14.0sp" android:textColor="@color/white_80" android:ellipsize="end" android:gravity="center" android:id="@id/tv_selected_tags" android:background="@color/bg_01" android:paddingTop="@dimen/dp_8" android:paddingBottom="@dimen/dp_8" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" style="@style/style_regular_text" />
+    <ViewStub android:layout_gravity="center|top" android:id="@id/loading_stub" android:layout="@layout/home_empty_view_loading_two_column" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" />
+    <ViewStub android:layout_gravity="center|top" android:id="@id/no_result_stub" android:layout="@layout/home_empty_no_result" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="91.0dp" />
+    <ViewStub android:id="@id/no_network_stub" android:layout="@layout/home_empty_no_network" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

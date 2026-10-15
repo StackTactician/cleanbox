@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_sdk_text_details">Detajet</string>
+    <string name="upgrade_sdk_text_later">Më vonë</string>
+    <string name="upgrade_sdk_text_later_force">Dil nga aplikacioni</string>
+    <string name="upgrade_sdk_text_new_version">Versioni i ri i disponueshëm</string>
+    <string name="upgrade_sdk_text_size">Madhësia</string>
+    <string name="upgrade_sdk_text_update">Përditëso</string>
+    <string name="upgrade_sdk_text_version">Versioni</string>
+</resources>

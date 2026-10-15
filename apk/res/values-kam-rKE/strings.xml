@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_sdk_text_details">Maũelesyo</string>
+    <string name="upgrade_sdk_text_later">Saa ingĩ</string>
+    <string name="upgrade_sdk_text_later_force">Uma Vulongulamunĩ</string>
+    <string name="upgrade_sdk_text_new_version">Mũthemba Mweũ Nũũkwatĩkana</string>
+    <string name="upgrade_sdk_text_size">Ũnene</string>
+    <string name="upgrade_sdk_text_update">Alyũla</string>
+    <string name="upgrade_sdk_text_version">Mũthemba</string>
+</resources>

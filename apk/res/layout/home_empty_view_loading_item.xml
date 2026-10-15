@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/item1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" app:layout_constraintEnd_toStartOf="@id/item2" app:layout_constraintHorizontal_chainStyle="spread" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <View style="@style/home_movie_style_divider1" />
+        <View style="@style/home_movie_style_divider2" />
+        <View style="@style/home_movie_style_divider3" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/item2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layout_marginStart="8.0dp" app:layout_constraintEnd_toStartOf="@id/item3" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toEndOf="@id/item1" app:layout_constraintTop_toTopOf="parent">
+        <View style="@style/home_movie_style_divider1" />
+        <View style="@style/home_movie_style_divider2" />
+        <View style="@style/home_movie_style_divider3" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/item3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layout_marginStart="8.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toEndOf="@id/item2" app:layout_constraintTop_toTopOf="parent">
+        <View style="@style/home_movie_style_divider1" />
+        <View style="@style/home_movie_style_divider2" />
+        <View style="@style/home_movie_style_divider3" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

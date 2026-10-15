@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_sdk_text_details">Chiditeiri</string>
+    <string name="upgrade_sdk_text_later">Kare</string>
+    <string name="upgrade_sdk_text_later_force">Karwe ase Eapu</string>
+    <string name="upgrade_sdk_text_new_version">Efashoni Enyia Ekonyorekana</string>
+    <string name="upgrade_sdk_text_size">Obonene</string>
+    <string name="upgrade_sdk_text_update">Obomanyi</string>
+    <string name="upgrade_sdk_text_version">Efashoni</string>
+</resources>

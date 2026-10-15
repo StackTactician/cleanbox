@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="88.0dp" android:layout_height="48.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.transsion.baseui.widget.GradientTextView android:textSize="12.0sp" android:ellipsize="end" android:layout_gravity="center" android:id="@id/ranking_category_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dp" android:layout_marginRight="8.0dp" android:maxLines="2" android:includeFontPadding="false" android:layout_marginHorizontal="8.0dp" app:gradientTvCenterColor="@color/brand_new_gradient_center" app:gradientTvEndColor="@color/brand_new_gradient_end" app:gradientTvStartColor="@color/brand_new_gradient_start" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/style_medium_text" />
+</androidx.constraintlayout.widget.ConstraintLayout>

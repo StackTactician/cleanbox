@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_sdk_text_details">Tarkemmat tiedot</string>
+    <string name="upgrade_sdk_text_later">Myöhemmin</string>
+    <string name="upgrade_sdk_text_later_force">Poistu sovelluksesta</string>
+    <string name="upgrade_sdk_text_new_version">Uusi versio saatavilla</string>
+    <string name="upgrade_sdk_text_size">Koko</string>
+    <string name="upgrade_sdk_text_update">Siirry päivittämään</string>
+    <string name="upgrade_sdk_text_version">Versio</string>
+</resources>

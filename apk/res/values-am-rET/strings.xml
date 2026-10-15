@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_sdk_text_details">ዝርዝሮች</string>
+    <string name="upgrade_sdk_text_later">በኋላ</string>
+    <string name="upgrade_sdk_text_later_force">ከመተግበሪያ ውጣ</string>
+    <string name="upgrade_sdk_text_new_version">አዲስ ስሪት ይገኛል</string>
+    <string name="upgrade_sdk_text_size">መጠን</string>
+    <string name="upgrade_sdk_text_update">አዘምን</string>
+    <string name="upgrade_sdk_text_version">ስሪት</string>
+</resources>

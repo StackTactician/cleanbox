@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_sdk_text_details">ਵੇਰਵੇ</string>
+    <string name="upgrade_sdk_text_later">"ਬਾਅਦ 'ਚ"</string>
+    <string name="upgrade_sdk_text_later_force">ਐਪ ਵਿੱਚੋਂ ਬਾਹਰ ਜਾਓ</string>
+    <string name="upgrade_sdk_text_new_version">ਨਵਾਂ ਵਰਜ਼ਨ ਉਪਲਬਧ ਹੈ</string>
+    <string name="upgrade_sdk_text_size">ਆਕਾਰ</string>
+    <string name="upgrade_sdk_text_update">ਅੱਪਡੇਟ ਕਰੋ</string>
+    <string name="upgrade_sdk_text_version">ਵਰਜਨ</string>
+</resources>
