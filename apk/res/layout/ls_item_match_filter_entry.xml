@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="64.0dp" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <FrameLayout android:id="@id/ls_fl_icon_container" android:layout_width="52.0dp" android:layout_height="52.0dp">
-        <com.google.android.material.imageview.ShapeableImageView android:id="@id/ls_iv_match_filter_icon" android:background="@color/ls_white" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:shapeAppearanceOverlay="@style/ls_corner_style_circle" />
-    </FrameLayout>
-    <TextView android:textSize="@dimen/ls_text_size_11" android:textColor="@color/ls_white_80" android:ellipsize="end" android:gravity="center" android:id="@id/ls_tv_match_filter_label" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ls_dp_4" android:maxLines="1" style="@style/style_font_400" />
-</LinearLayout>

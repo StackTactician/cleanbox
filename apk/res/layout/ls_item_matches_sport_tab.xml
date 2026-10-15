@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:paddingLeft="@dimen/ls_dp_4" android:paddingRight="@dimen/ls_dp_4" android:layout_width="match_parent" android:layout_height="match_parent" android:minWidth="@dimen/ls_dp_48" android:paddingHorizontal="@dimen/ls_dp_4"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
-        <Space android:layout_width="0.0dp" android:layout_height="@dimen/ls_dp_6" />
-        <TextView android:textSize="@dimen/ls_text_size_16" android:textColor="@color/ls_white_80" android:ellipsize="end" android:gravity="center" android:id="@id/ls_tv_matches_sport_tab_label" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:importantForAccessibility="no" style="@style/style_font_600" />
-        <View android:id="@id/ls_view_matches_sport_tab_indicator" android:background="@color/ls_white" android:visibility="invisible" android:layout_width="@dimen/ls_dp_20" android:layout_height="@dimen/ls_dp_2" android:layout_marginTop="@dimen/ls_dp_4" />
-    </LinearLayout>
-</FrameLayout>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector android:height="20.0dp" android:width="50.0dp" android:viewportWidth="50.0" android:viewportHeight="20.0"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
-    <path android:fillColor="@drawable/$bg_movie_cover_mask__0" android:pathData="M0,0H50V16C50,18.209 48.209,20 46,20H4C1.791,20 0,18.209 0,16V0Z" />
-</vector>

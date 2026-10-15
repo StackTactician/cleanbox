@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:textSize="10.0dp" android:textColor="#f08028" android:ellipsize="end" android:gravity="center" android:id="@id/tv_tag" android:background="@drawable/trending_tag_bg" android:paddingLeft="4.0dp" android:paddingRight="4.0dp" android:layout_width="wrap_content" android:layout_height="16.0dp" android:maxWidth="96.0dp" android:minWidth="32.0dp" android:lines="1" android:includeFontPadding="false" android:textAlignment="center" android:paddingHorizontal="4.0dp" style="@style/style_medium_text"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

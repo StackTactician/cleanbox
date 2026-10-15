@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="10.0sp" android:textColor="@color/base_color_101114" android:ellipsize="end" android:gravity="center" android:id="@id/common_tag_text" android:background="@drawable/bg_common_tag_text" android:layout_width="wrap_content" android:layout_height="14.0dp" android:maxWidth="48.0dp" android:text="@string/common_tag_default_text" android:lines="1" android:includeFontPadding="false" android:fontFamily="@font/mulish_bold" android:paddingStart="4.0dp" android:paddingEnd="4.0dp" />
-    <com.google.android.material.imageview.ShapeableImageView android:id="@id/common_tag_icon" android:visibility="gone" android:layout_width="18.0dp" android:layout_height="18.0dp" android:scaleType="centerCrop" app:shapeAppearanceOverlay="@style/CommonTagIconShape" />
-</FrameLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <androidx.cardview.widget.CardView android:id="@id/flRoot" android:visibility="visible" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_marginLeft="@dimen/ls_dp_12" android:layout_marginRight="@dimen/ls_dp_12" android:layout_marginHorizontal="@dimen/ls_dp_12" app:cardCornerRadius="@dimen/ls_dp_6" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="20:3"
-      xmlns:app="http://schemas.android.com/apk/res-auto" />
-</androidx.constraintlayout.widget.ConstraintLayout>

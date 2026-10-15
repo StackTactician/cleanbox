@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="12.0dp" android:paddingRight="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="12.0dp"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/ls_text_size_14" android:textColor="@color/ls_white" android:ellipsize="end" android:id="@id/ls_tv_feeds_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" style="@style/style_font_700" />
-</LinearLayout>

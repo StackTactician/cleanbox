@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_gravity="center" android:id="@id/flLandAdGroup" android:background="@color/module_01" android:layout_width="match_parent" android:layout_height="match_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.transsion.ad.view.native_ad.NativeWrapperAdView android:id="@id/flLandAd" android:background="@android:color/holo_blue_bright" android:layout_width="match_parent" android:layout_height="match_parent" />
-    <com.transsion.postdetail.ui.view.AdCountDownView android:layout_gravity="end" android:id="@id/adCountDownView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:layout_marginEnd="12.0dp" />
-    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end|top" android:id="@id/adCloseView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dp" app:srcCompat="@mipmap/ad_close" />
-    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end|bottom" android:id="@id/rotate" android:layout_width="28.0dp" android:layout_height="28.0dp" android:layout_marginBottom="10.0dp" android:src="@mipmap/ad_fullscreen" android:layout_marginEnd="12.0dp" />
-</FrameLayout>

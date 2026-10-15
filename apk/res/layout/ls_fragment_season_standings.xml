@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:background="@color/ls_page_bg_dark" android:layout_width="match_parent" android:layout_height="match_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <androidx.recyclerview.widget.RecyclerView android:id="@id/ls_rv_season_standings" android:paddingLeft="@dimen/ls_dp_12" android:paddingTop="@dimen/ls_dp_8" android:paddingRight="@dimen/ls_dp_12" android:paddingBottom="@dimen/ls_dp_16" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never" android:paddingHorizontal="@dimen/ls_dp_12" />
-    <ProgressBar android:layout_gravity="center" android:id="@id/ls_pb_season_standings" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-</FrameLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/ls_fl_season_pill_root" android:background="@drawable/ls_bg_match_season_pill_idle" android:paddingLeft="@dimen/ls_dp_12" android:paddingTop="@dimen/ls_dp_4" android:paddingRight="@dimen/ls_dp_12" android:paddingBottom="@dimen/ls_dp_4" android:layout_width="wrap_content" android:layout_height="@dimen/ls_dp_32" android:minWidth="@dimen/ls_dp_32" android:layout_marginEnd="@dimen/ls_dp_8" android:paddingHorizontal="@dimen/ls_dp_12" android:paddingVertical="@dimen/ls_dp_4"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_gravity="center" android:id="@id/ls_iv_season_pill_icon" android:visibility="gone" android:layout_width="@dimen/ls_dp_18" android:layout_height="@dimen/ls_dp_18" android:src="@drawable/ls_ic_match_reminders_tab" android:contentDescription="@null" />
-    <TextView android:textSize="@dimen/ls_text_size_14" android:textColor="@color/ls_white_80" android:layout_gravity="center" android:id="@id/ls_tv_season_pill_label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" style="@style/style_font_400" />
-</FrameLayout>

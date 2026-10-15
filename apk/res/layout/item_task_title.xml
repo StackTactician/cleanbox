@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.tn.lib.widget.TnTextView android:textSize="@dimen/dimens_16" android:textColor="@color/earn_points" android:ellipsize="end" android:id="@id/member_item_task_title" android:layout_width="0.0dp" android:maxLines="1" android:drawablePadding="@dimen/dp_4" android:paddingEnd="16.0dp" app:drawableStartCompat="@mipmap/ic_earn_points_member" app:layout_constraintEnd_toStartOf="@id/member_item_task_title_right" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/style_import_text" />
-    <com.tn.lib.widget.TnTextView android:textSize="14.0sp" android:textColor="@color/white_60" android:id="@id/member_item_task_title_right" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/task_invite_user_detail_text" android:drawableRight="@mipmap/ic_arrow_right" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>

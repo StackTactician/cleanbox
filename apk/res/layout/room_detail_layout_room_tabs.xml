@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/ll_tab_room" android:layout_width="match_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.google.android.material.tabs.TabLayout android:id="@id/tab_room" android:layout_width="match_parent" android:layout_height="40.0dp" app:tabGravity="center" app:tabIndicator="@null" app:tabIndicatorColor="@color/transparent" app:tabMinWidth="160.0dp" app:tabRippleColor="@null" app:tabSelectedTextColor="@color/text_01" app:tabTextAppearance="@style/style_tab_layout" app:tabTextColor="@color/cl33" />
-    <View android:id="@id/divider" android:background="@color/border" android:layout_width="match_parent" android:layout_height="1.0dp" app:layout_constraintTop_toBottomOf="@id/tab_room" />
-</androidx.appcompat.widget.LinearLayoutCompat>

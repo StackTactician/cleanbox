@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector android:height="24.0dp" android:width="24.0dp" android:viewportWidth="24.0" android:viewportHeight="24.0"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
-    <path android:fillColor="@drawable/$music_collection_1__0" android:pathData="M6.57,3.286C8.42,2.689 10.462,3.041 12,4.198C13.455,3.073 15.572,2.693 17.42,3.286C20.937,4.419 22.199,8.248 21.127,11.598C19.457,16.908 12,20.998 12,20.998C12,20.998 4.598,16.97 2.872,11.598C1.799,8.248 3.053,4.419 6.57,3.286Z" android:strokeColor="@drawable/$music_collection_1__1" android:strokeWidth="1.8" android:strokeAlpha="0.4" android:fillAlpha="0.4" />
-    <path android:fillColor="#00000000" android:pathData="M13.635,19.825C13.195,20.146 12.65,20.537 12,20.998C7.065,18.313 4.023,15.18 2.872,11.598C1.799,8.248 3.053,4.419 6.57,3.286C8.42,2.689 10.462,3.041 12,4.198C13.455,3.073 15.572,2.693 17.42,3.286C20.937,4.419 22.199,8.248 21.127,11.598" android:strokeColor="#ff578b" android:strokeWidth="1.8" android:strokeLineCap="round" android:strokeLineJoin="round" />
-    <path android:fillColor="#00000000" android:pathData="M14.715,16.243L17.195,18.62L21.199,14.545" android:strokeColor="#ff578b" android:strokeWidth="1.8" android:strokeLineCap="round" android:strokeLineJoin="round" />
-</vector>

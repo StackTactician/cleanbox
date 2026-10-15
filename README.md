@@ -4,9 +4,8 @@ Watch movies. No ads. No subscription.
 
 ## Download
 
-Actions → latest build → `Cleanbox.apk`
+Releases → latest → Cleanbox.apk
 
 ## Install
 
 Enable unknown sources, install APK.
-

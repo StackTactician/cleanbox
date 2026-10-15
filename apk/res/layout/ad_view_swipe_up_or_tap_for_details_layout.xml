@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.transsion.ad.view.ArcConstraintLayout android:id="@id/ArcViewGroup" android:layout_width="match_parent" android:layout_height="120.0dp" app:aclArcAreaColor="@color/ad_transparent" app:aclArcDepth="36.0dp" app:aclArcMainBackgroundColor="@color/ad_black_40" app:aclArcSide="top" app:aclArcStrokeColor="@color/ad_white_80" app:aclArcStrokeWidth="1.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
-        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivIndicator" android:layout_width="100.0dp" android:layout_height="80.0dp" android:src="@drawable/ad_finger_double_tap_single" app:layout_constraintBottom_toTopOf="@id/tvSwipeTip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
-        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/ad_white" android:id="@id/tvSwipeTip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="@string/ad_swipe_up_or_tap_for_details" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/style_text_600" />
-    </com.transsion.ad.view.ArcConstraintLayout>
-</FrameLayout>

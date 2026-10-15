@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@drawable/ls_bg_operate_card_surface" android:paddingBottom="6.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
-        <com.google.android.material.imageview.ShapeableImageView android:id="@id/ls_iv_grid_cover" android:layout_width="match_parent" android:layout_height="92.0dp" android:scaleType="centerCrop" app:shapeAppearanceOverlay="@style/ls_corner_style_top_4" />
-        <TextView android:textSize="@dimen/ls_text_size_11" android:textColor="@color/ls_white_80" android:gravity="center" android:layout_gravity="end|bottom" android:id="@id/ls_tv_grid_duration" android:background="@drawable/ls_bg_duration_badge" android:paddingLeft="6.0dp" android:paddingTop="2.0dp" android:paddingRight="6.0dp" android:paddingBottom="2.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="18.0dp" android:layout_marginBottom="2.0dp" android:maxLines="1" android:includeFontPadding="false" android:layout_marginEnd="2.0dp" android:paddingHorizontal="6.0dp" android:paddingVertical="2.0dp" style="@style/style_font_400" />
-    </FrameLayout>
-    <TextView android:textSize="@dimen/ls_text_size_12" android:textColor="@color/ls_white" android:ellipsize="end" android:id="@id/ls_tv_grid_title" android:paddingBottom="2.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dp" android:layout_marginTop="4.0dp" android:layout_marginRight="4.0dp" android:maxLines="2" android:lineSpacingExtra="2.0dp" android:layout_marginHorizontal="4.0dp" style="@style/style_font_400" />
-</LinearLayout>
