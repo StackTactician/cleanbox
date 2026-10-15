@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.cleanbox">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
   <uses-permission android:name="android.permission.INTERNET"/>
-  <application android:allowBackup="false" android:label="Cleanbox" android:theme="@android:style/Theme.Light.NoTitleBar">
+  <application android:allowBackup="false" android:label="Cleanbox" android:theme="@style/Theme.Cleanbox">
     <activity android:name=".MainActivity" android:exported="true"><intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter></activity>
     <activity android:name=".DetailActivity" android:exported="false"/>
     <activity android:name=".DownloadsActivity" android:exported="false"/>
