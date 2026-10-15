@@ -19,10 +19,17 @@ public class DetailActivity extends Activity {
         String json=CleanboxApi.getPlayInfo(sid);
         JSONObject obj=new JSONObject(json);
         JSONObject data=obj.optJSONObject("data");
-        String playUrl=data!=null?data.optString("playUrl",""): "";
-        if(playUrl.isEmpty() && data!=null) playUrl=data.optString("url","");
+        String playUrl="";
+        if(data!=null){
+          JSONArray streams=data.optJSONArray("streams");
+          if(streams!=null && streams.length()>0) playUrl=streams.getJSONObject(streams.length()-1).optString("url","");
+          if(playUrl.isEmpty()) playUrl=data.optString("playUrl","");
+          if(playUrl.isEmpty()) playUrl=data.optString("url","");
+        }
         final String url=playUrl;
+        final String js=json;
         runOnUiThread(new Runnable(){ public void run(){
+          if(url==null || url.isEmpty()){ t.setText("No playUrl: "+js.substring(0,Math.min(600,js.length()))); return; }
           t.setText("Ready");
           Button b=new Button(DetailActivity.this); b.setText("Stream"); b.setOnClickListener(new android.view.View.OnClickListener(){public void onClick(android.view.View v){ Intent i=new Intent(Intent.ACTION_VIEW); i.setDataAndType(Uri.parse(url), "video/*"); startActivity(i); }});
           Button d=new Button(DetailActivity.this); d.setText("Download"); d.setOnClickListener(new android.view.View.OnClickListener(){public void onClick(android.view.View v){
@@ -41,8 +48,7 @@ public class DetailActivity extends Activity {
               }catch(final Exception e){ runOnUiThread(new Runnable(){public void run(){ Toast.makeText(DetailActivity.this,"Download err "+e.getMessage(),1).show(); }}); }
             }}).start();
           }});
-          if(!url.isEmpty()){ root.addView(b); root.addView(d); }
-          else t.setText("No playUrl: "+json.substring(0,Math.min(500,json.length())));
+          root.addView(b); root.addView(d);
         }});
       }catch(final Exception e){ runOnUiThread(new Runnable(){public void run(){ t.setText("Err "+e.getMessage()); }}); }
     }}).start();

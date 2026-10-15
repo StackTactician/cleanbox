@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
   void doSearch(){
     String kw=searchBox.getText().toString(); if(kw.isEmpty()) return;
     new Thread(()->{
-      try{ String json=CleanboxApi.search(kw); List<JSONObject> out=new ArrayList<>(); JSONObject obj=new JSONObject(json); JSONArray res=obj.optJSONObject("data")!=null?obj.optJSONObject("data").optJSONArray("results"):null; if(res!=null) for(int i=0;i<res.length();i++){ JSONArray subs=res.getJSONObject(i).optJSONArray("subjects"); if(subs!=null) for(int j=0;j<subs.length();j++) out.add(subs.getJSONObject(j)); } runOnUiThread(()-> adapter.setData(out)); }catch(Exception e){ runOnUiThread(()-> Toast.makeText(this,"Search err "+e.getMessage(),1).show()); }
+      try{ String json=CleanboxApi.search(kw); List<JSONObject> out=parseSubjects(json); runOnUiThread(()-> adapter.setData(out)); }catch(Exception e){ runOnUiThread(()-> Toast.makeText(this,"Search err "+e.getMessage(),1).show()); }
     }).start();
   }
   void load(){
@@ -33,12 +33,25 @@ public class MainActivity extends AppCompatActivity {
     new Thread(()->{
       try{
         String json=CleanboxApi.trending();
-        List<JSONObject> out=new ArrayList<>();
-        JSONObject obj=new JSONObject(json);
-        JSONArray res=obj.optJSONObject("data")!=null?obj.optJSONObject("data").optJSONArray("results"):null;
-        if(res!=null) for(int i=0;i<res.length();i++){ JSONArray subs=res.getJSONObject(i).optJSONArray("subjects"); if(subs!=null) for(int j=0;j<subs.length();j++) out.add(subs.getJSONObject(j)); }
+        List<JSONObject> out=parseSubjects(json);
         runOnUiThread(()->{ if(page==1) adapter.setData(out); else adapter.addData(out); loading=false; });
       }catch(Exception e){ runOnUiThread(()->{ Toast.makeText(this,"Load err "+e.getMessage(),1).show(); loading=false; }); }
     }).start();
+  }
+  List<JSONObject> parseSubjects(String json) throws Exception{
+    JSONObject obj=new JSONObject(json);
+    JSONObject data=obj.optJSONObject("data");
+    List<JSONObject> out=new ArrayList<>();
+    if(data==null) return out;
+    JSONArray results=data.optJSONArray("results");
+    if(results!=null){
+      for(int i=0;i<results.length();i++){ JSONArray subs=results.getJSONObject(i).optJSONArray("subjects"); if(subs!=null) for(int j=0;j<subs.length();j++) out.add(subs.getJSONObject(j)); }
+      return out;
+    }
+    JSONArray items=data.optJSONArray("items");
+    if(items!=null){
+      for(int i=0;i<items.length();i++){ JSONObject it=items.getJSONObject(i); JSONObject subj=it.optJSONObject("subject"); if(subj!=null) out.add(subj); }
+    }
+    return out;
   }
 }
