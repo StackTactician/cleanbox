@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.transsion.ad.view.native_ad.BiddingFloatingIrregularAnimationView android:layout_gravity="end|bottom" android:id="@id/irregularView" android:layout_width="80.0dp" android:layout_height="80.0dp" android:layout_marginBottom="100.0dp" />
+</FrameLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/holo_green_light" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/btnLoadInterstitialAd" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="加载Interstitial广告" android:textAllCaps="false" />
+</LinearLayout>

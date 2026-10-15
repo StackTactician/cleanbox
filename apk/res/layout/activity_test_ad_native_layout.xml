@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/btnLoadNativeAd" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="加载Native广告" android:textAllCaps="false" />
+    <com.transsion.ad.view.native_ad.NativeWrapperAdView android:id="@id/nativeView" android:background="@android:color/holo_green_dark" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="200.0dp" />
+</LinearLayout>

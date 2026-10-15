@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.transsion.ad.view.native_ad.NativeWrapperAdView android:id="@id/flTopAdLayout" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <com.transsion.ad.view.native_ad.NativeWrapperAdView android:id="@id/flBottomAdLayout" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</FrameLayout>
