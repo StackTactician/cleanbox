@@ -14,14 +14,14 @@ jobs:
           java-version: 17
       - run: |
           wget https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool -O apktool
-          wget https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.9.3.jar -O apktool.jar
+          wget https://github.com/iBotPeaches/Apktool/releases/download/v2.9.3/apktool_2.9.3.jar -O apktool.jar
           chmod +x apktool apktool.jar
           sudo mv apktool apktool.jar /usr/local/bin/
           apktool --version
       - run: apktool b apk -o Cleanbox.apk
       - run: |
           keytool -genkey -v -keystore debug.jks -storepass android -alias android -keypass android -keyalg RSA -validity 10000 -dname "CN=Cleanbox" || true
-          apksigner sign --ks debug.jks --ks-pass pass:android --key-pass pass:android Cleanbox.apk || true
+          apksigner sign --ks debug.jks --ks-pass pass:android --key-pass pass:android Cleanbox.apk || apksigner sign --ks debug.jks --ks-pass pass:android Cleanbox.apk || true
           apksigner verify Cleanbox.apk && echo "signed"
       - uses: actions/upload-artifact@v4
         with:
