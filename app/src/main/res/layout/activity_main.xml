@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/white">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/white">
   <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="56dp" android:padding="12dp" android:gravity="center_vertical" android:background="@color/white">
     <TextView android:text="Cleanbox" android:textSize="20sp" android:textStyle="bold" android:textColor="@color/text_primary" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"/>
     <Button android:id="@+id/btn_downloads" android:text="Downloads" android:layout_width="wrap_content" android:layout_height="36dp"/>
@@ -8,6 +8,8 @@
     <EditText android:id="@+id/search_box" android:hint="Search movies..." android:layout_width="0dp" android:layout_weight="1" android:layout_height="48dp" android:background="@drawable/bg_search" android:padding="12dp"/>
     <Button android:id="@+id/search_btn" android:text="Search" android:layout_width="wrap_content" android:layout_height="48dp" android:layout_marginStart="8dp" android:backgroundTint="@color/lime" android:textColor="@color/text_primary"/>
   </LinearLayout>
-  <com.google.android.material.tabs.TabLayout android:id="@+id/tab_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:tabIndicatorColor="@color/lime_dark" app:tabSelectedTextColor="@color/lime_dark"/>
-  <androidx.recyclerview.widget.RecyclerView android:id="@+id/recycler" android:layout_width="match_parent" android:layout_height="match_parent" android:padding="8dp" android:clipToPadding="false"/>
+  <HorizontalScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:id="@+id/tab_layout" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="8dp"/>
+  </HorizontalScrollView>
+  <androidx.recyclerview.widget.RecyclerView android:id="@+id/recycler" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:padding="8dp" android:clipToPadding="false"/>
 </LinearLayout>

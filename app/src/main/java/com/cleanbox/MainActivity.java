@@ -4,11 +4,10 @@ import android.content.Intent;
 import android.widget.*;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.*;
-import com.google.android.material.tabs.TabLayout;
 import org.json.*;
 import java.util.*;
 public class MainActivity extends AppCompatActivity {
-  RecyclerView recycler; MovieAdapter adapter; TabLayout tabs; EditText searchBox;
+  RecyclerView recycler; MovieAdapter adapter; LinearLayout tabs; EditText searchBox;
   int page=1; boolean loading=false;
   String currentTab="For You"; String[] tabNames={"For You","Movies","Series","Trending"};
   @Override protected void onCreate(Bundle s){
@@ -17,8 +16,7 @@ public class MainActivity extends AppCompatActivity {
     recycler=findViewById(R.id.recycler); tabs=findViewById(R.id.tab_layout); searchBox=findViewById(R.id.search_box);
     adapter=new MovieAdapter(sid-> { Intent i=new Intent(this, DetailActivity.class); i.putExtra("sid",sid); startActivity(i); });
     recycler.setLayoutManager(new LinearLayoutManager(this)); recycler.setAdapter(adapter);
-    for(String n:tabNames) tabs.addTab(tabs.newTab().setText(n));
-    tabs.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener(){ public void onTabSelected(TabLayout.Tab t){ currentTab=t.getText().toString(); page=1; adapter.setData(new ArrayList<>()); load(); } public void onTabUnselected(TabLayout.Tab t){} public void onTabReselected(TabLayout.Tab t){} });
+    for(String n:tabNames){ Button b=new Button(this); b.setText(n); b.setBackgroundTintList(android.content.res.ColorStateList.valueOf(n.equals("For You")?0xFFC6FF00:0xFFE0E0E0)); final String name=n; b.setOnClickListener(v->{ currentTab=name; page=1; adapter.setData(new ArrayList<>()); for(int i=0;i<tabs.getChildCount();i++) ((Button)tabs.getChildAt(i)).setBackgroundTintList(android.content.res.ColorStateList.valueOf(tabs.getChildAt(i)==b?0xFFC6FF00:0xFFE0E0E0)); load(); }); tabs.addView(b); }
     findViewById(R.id.search_btn).setOnClickListener(v-> doSearch());
     findViewById(R.id.btn_downloads).setOnClickListener(v-> startActivity(new Intent(this, DownloadsActivity.class)));
     recycler.addOnScrollListener(new RecyclerView.OnScrollListener(){ public void onScrolled(RecyclerView r, int dx,int dy){ LinearLayoutManager lm=(LinearLayoutManager)r.getLayoutManager(); if(!loading && lm.findLastVisibleItemPosition()==adapter.getItemCount()-1){ page++; load(); } } });
@@ -34,9 +32,7 @@ public class MainActivity extends AppCompatActivity {
     loading=true;
     new Thread(()->{
       try{
-        String json;
-        if(currentTab.equals("Trending")) json=CleanboxApi.trending();
-        else json=CleanboxApi.trending();
+        String json=CleanboxApi.trending();
         List<JSONObject> out=new ArrayList<>();
         JSONObject obj=new JSONObject(json);
         JSONArray res=obj.optJSONObject("data")!=null?obj.optJSONObject("data").optJSONArray("results"):null;
