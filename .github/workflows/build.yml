@@ -9,10 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-java@v4
-        with:
-          distribution: temurin
-          java-version: 17
-      - uses: actions/setup-android@v3
+        with: {distribution: temurin, java-version: 17}
       - run: |
           wget https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool -O apktool
           wget https://github.com/iBotPeaches/Apktool/releases/download/v2.9.3/apktool_2.9.3.jar -O apktool.jar
@@ -21,9 +18,10 @@ jobs:
           apktool --version
       - run: apktool b apk -o Cleanbox.apk
       - run: |
-          keytool -genkey -v -keystore debug.jks -storepass android -alias android -keypass android -keyalg RSA -validity 10000 -dname "CN=Cleanbox" || true
-          $ANDROID_HOME/build-tools/34.0.0/apksigner sign --ks debug.jks --ks-pass pass:android --key-pass pass:android Cleanbox.apk
-          $ANDROID_HOME/build-tools/34.0.0/apksigner verify Cleanbox.apk && echo "signed"
+          sudo apt-get update && sudo apt-get install -y apksigner
+          keytool -genkey -v -keystore debug.jks -storepass android -alias android -keypass android -keyalg RSA -validity 10000 -dname "CN=Cleanbox"
+          apksigner sign --ks debug.jks --ks-pass pass:android --key-pass pass:android Cleanbox.apk
+          apksigner verify Cleanbox.apk && echo "signed"
       - uses: actions/upload-artifact@v4
         with:
           name: Cleanbox-apk
