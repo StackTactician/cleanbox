@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.transsion.baseui.widget.GradientTextView android:textSize="12.0sp" android:gravity="center" android:layout_gravity="end" android:id="@id/tv_title" android:paddingLeft="12.0dp" android:paddingRight="12.0dp" android:layout_width="wrap_content" android:layout_height="28.0dp" android:includeFontPadding="false" android:paddingHorizontal="12.0dp" app:gradientTvCenterColor="@color/brand_new_gradient_center" app:gradientTvEndColor="@color/brand_new_gradient_end" app:gradientTvStartColor="@color/brand_new_gradient_start" app:layout_constraintBottom_toBottomOf="@id/tv_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/tv_title" style="@style/style_import_text" />
+    <com.noober.background.view.BLView android:layout_gravity="end|top" android:id="@id/v_dot" android:visibility="gone" android:layout_width="6.0dp" android:layout_height="6.0dp" app:bl_corners_radius="3.0dp" app:bl_solid_color="@color/error_red" />
+</merge>

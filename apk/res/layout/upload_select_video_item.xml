@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/sv_item_cover" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+    <RelativeLayout android:layout_gravity="end" android:id="@id/rl_select" android:paddingTop="6.0dp" android:layout_width="36.0dp" android:layout_height="36.0dp" android:paddingEnd="6.0dp">
+        <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/resources_button_color" android:gravity="center" android:id="@id/tv_select" android:background="@drawable/bg_linear_r16" android:layout_width="20.0dp" android:layout_height="20.0dp" android:includeFontPadding="false" android:layout_alignParentEnd="true" style="@style/robot_medium" />
+    </RelativeLayout>
+    <View android:id="@id/sv_item_layer" android:background="@color/black_60" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <View android:layout_gravity="bottom" android:background="@drawable/upload_bottom_layer_4dp" android:layout_width="match_parent" android:layout_height="24.0dp" />
+    <TextView android:textSize="@dimen/text_size_10" android:textColor="@color/white" android:gravity="center" android:layout_gravity="bottom" android:id="@id/sv_item_duration" android:background="@drawable/bg_radius4_black60" android:paddingLeft="4.0dp" android:paddingRight="4.0dp" android:layout_width="wrap_content" android:layout_height="16.0dp" android:layout_margin="4.0dp" android:paddingHorizontal="4.0dp" style="@style/robot_bold" />
+</FrameLayout>

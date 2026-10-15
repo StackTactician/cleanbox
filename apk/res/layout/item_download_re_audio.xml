@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.noober.background.view.BLLinearLayout android:gravity="center" android:paddingLeft="8.0dp" android:paddingRight="8.0dp" android:layout_width="wrap_content" android:layout_height="28.0dp" android:minWidth="68.0dp" android:paddingHorizontal="8.0dp" app:bl_corners_radius="4.0dp" app:bl_selected_solid_color="@color/main_10" app:bl_selected_stroke_color="@color/main" app:bl_stroke_width="1.0dp" app:bl_unSelected_solid_color="@color/module_09" app:bl_unSelected_stroke_color="@color/module_09" style="@style/style_medium_text"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.noober.background.view.BLTextView android:id="@id/tv_audio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" app:bl_selected_textColor="@color/main" app:bl_unSelected_textColor="@color/text_01" style="@style/style_medium_text" />
+    <com.noober.background.view.BLTextView android:id="@id/tv_audio_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/download_audio_original_tag" android:lines="1" app:bl_selected_textColor="@color/main" app:bl_unSelected_textColor="@color/text_02" style="@style/style_regular_text" />
+</com.noober.background.view.BLLinearLayout>

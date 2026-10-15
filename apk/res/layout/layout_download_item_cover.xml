@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="96.0dp" android:layout_height="54.0dp" app:cardCornerRadius="4.0dp" app:cardElevation="0.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_cover" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+    <View android:background="@color/black_40" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_width="26.0dp" android:layout_height="26.0dp" app:srcCompat="@mipmap/ic_download_item_top_left_bg" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dp" android:tint="@color/white" app:srcCompat="@drawable/ic_tag_tv" />
+    <TextView android:textSize="9.0sp" android:textColor="@color/white" android:id="@id/tv_shorts" android:background="@drawable/bg_shorts_label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dp" android:text="Shorts" />
+    <View android:layout_gravity="bottom" android:background="@drawable/download_shape_iv_bottom_bg" android:layout_width="match_parent" android:layout_height="22.0dp" />
+    <include android:id="@id/layout_no_file_tips" android:visibility="gone" layout="@layout/view_stub_local_file_delete_layout" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/iv_play" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@mipmap/ic_download_item_pause" />
+    <ProgressBar android:layout_gravity="bottom" android:id="@id/progress_bar" android:layout_width="match_parent" android:layout_height="2.0dp" android:progressDrawable="@drawable/bg_progress_bar_pause" style="@android:style/Widget.ProgressBar.Horizontal" />
+</androidx.cardview.widget.CardView>

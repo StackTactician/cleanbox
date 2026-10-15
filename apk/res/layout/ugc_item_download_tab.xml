@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:background="@drawable/selector_download_resolution_bg" android:layout_width="78.0dp" android:layout_height="32.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white_80" android:id="@id/tvLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style_medium_small_text" />
+    <com.transsion.baseui.widget.GradientTextView android:id="@id/tvLabelSelected" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" app:gradientTvCenterColor="@color/brand_new_gradient_center" app:gradientTvEndColor="@color/brand_new_gradient_end" app:gradientTvStartColor="@color/brand_new_gradient_start" style="@style/style_medium_small_text" />
+</androidx.appcompat.widget.LinearLayoutCompat>

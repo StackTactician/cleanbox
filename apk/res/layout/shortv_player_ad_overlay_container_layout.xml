@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.transsion.ad.view.RoundedCornerLayout android:id="@id/root_view" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" app:cornerRadius="8.0dp"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+        <com.transsion.ad.view.native_ad.NativeWrapperAdView android:id="@id/native_ad_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <TextView android:textSize="10.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="end|top" android:id="@id/count_down_view" android:background="@drawable/short_tv_ad_circle_black_with_white_border" android:layout_width="20.0dp" android:layout_height="20.0dp" android:layout_marginTop="8.0dp" android:fontFamily="@font/mulish_regular" android:layout_marginEnd="36.0dp" />
+        <ImageView android:layout_gravity="end|top" android:id="@id/close_view" android:background="@drawable/short_tv_ad_circle_black_with_white_border" android:padding="4.0dp" android:layout_width="20.0dp" android:layout_height="20.0dp" android:layout_marginTop="8.0dp" android:src="@mipmap/short_tv_ad_close_white_no_circle" android:layout_marginEnd="8.0dp" />
+    </com.transsion.ad.view.RoundedCornerLayout>
+</FrameLayout>

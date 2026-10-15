@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:background="@color/white_6" android:layout_width="match_parent" android:layout_height="60.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivCheck" android:paddingLeft="8.0dp" android:paddingRight="8.0dp" android:layout_width="32.0dp" android:layout_height="match_parent" android:src="@mipmap/ad_check_oval_2" android:layout_marginStart="4.0dp" android:paddingHorizontal="8.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.transsion.ad.bidding.icon.BiddingWrapperIconView android:id="@id/iconView" android:layout_width="match_parent" android:layout_height="60.0dp" />
+</androidx.appcompat.widget.LinearLayoutCompat>

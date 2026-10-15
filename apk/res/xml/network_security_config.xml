@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain includeSubdomains="true">aoneroom.com</domain>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates overridePins="true" src="system" />
+        </trust-anchors>
+    </base-config>
+    <debug-overrides>
+        <trust-anchors>
+            <certificates overridePins="true" src="user" />
+        </trust-anchors>
+    </debug-overrides>
+</network-security-config>

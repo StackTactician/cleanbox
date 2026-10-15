@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:layout_gravity="center" android:id="@id/ll_download_inner" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_icon" android:layout_width="16.0dp" android:layout_height="16.0dp" android:src="@mipmap/short_tv_ic_download_red" />
+        <com.transsion.shorttv.base.widget.TnTextView android:textSize="12.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/short_tv_tips" android:text="@string/short_tv_download_movie" android:maxLines="1" android:layout_marginStart="2.0dp" style="@style/short_tv_style_medium_text" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</merge>

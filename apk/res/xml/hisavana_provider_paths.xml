@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-files-path name="external_files" path="./net_cache" />
+    <external-files-path name="external_files" path="./offline_cache" />
+    <external-cache-path name="external_cache" path="." />
+    <external-path name="external" path="." />
+    <cache-path name="cache-path" path="." />
+    <files-path name="files-path" path="./net_cache" />
+    <files-path name="files-path" path="./offline_cache" />
+</paths>

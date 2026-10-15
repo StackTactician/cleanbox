@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.noober.background.view.BLLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="52.0dp" android:layout_marginTop="4.0dp" android:alpha="0.95" app:bl_corners_radius="4.0dp" app:bl_solid_color="@color/gray_dark_30">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="20.0dp" android:layout_height="20.0dp" android:layout_marginStart="12.0dp" app:srcCompat="@drawable/ugc_imm_video_ic_download" />
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white_80" android:id="@id/tvUGCImmDownloading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_downloading_title_loading" android:layout_marginStart="8.0dp" style="@style/style_medium_small_text" />
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white_80" android:gravity="start" android:id="@id/tvUGCImmDownloadingPercent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:textAlignment="viewStart" style="@style/style_medium_small_text" />
+        <com.noober.background.view.BLTextView android:textColor="@color/white" android:gravity="center" android:id="@id/tvUGCImmDownloadingView" android:paddingLeft="15.5dp" android:paddingRight="15.5dp" android:layout_width="wrap_content" android:layout_height="28.0dp" android:text="@string/View" android:layout_marginEnd="12.0dp" android:paddingHorizontal="15.5dp" app:bl_corners_radius="4.0dp" app:bl_solid_color="@color/white_10" style="@style/style_regular_text" />
+    </com.noober.background.view.BLLinearLayout>
+</FrameLayout>

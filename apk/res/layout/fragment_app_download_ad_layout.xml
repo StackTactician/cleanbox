@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/flRoot" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/text_01" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:text="@string/download_downloaded_to_do" android:layout_marginStart="12.0dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/style_import_text" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="@color/white_60" android:id="@id/tvAppNum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="4.0dp" app:layout_constraintBottom_toBottomOf="@id/tvApp" app:layout_constraintEnd_toStartOf="@id/tvApp" app:layout_constraintTop_toTopOf="@id/tvApp" style="@style/style_medium_text" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="@color/white_60" android:id="@id/tvApp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/download_apps_to_be_intalled" android:layout_marginEnd="12.0dp" app:layout_constraintBottom_toBottomOf="@id/tvTitle" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/tvTitle" style="@style/style_regular_text" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/appRv" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tvTitle" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

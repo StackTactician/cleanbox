@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.cloud.hisavana.sdk.common.widget.video.AdVideoView android:layout_gravity="center" android:id="@id/ad_video" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="1.0dp" />
+    <ImageView android:id="@id/im_volume" android:layout_width="25.0dp" android:layout_height="25.0dp" android:layout_marginTop="56.0dp" android:src="@drawable/hisavana_volume_close" android:contentDescription="TODO" android:layout_marginStart="16.0dp" />
+</FrameLayout>

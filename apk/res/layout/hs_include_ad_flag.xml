@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.cloud.hisavana.sdk.api.view.AdChoicesView android:id="@id/ad_choices_view" android:layout_width="@dimen/ad_badge_height" android:layout_height="@dimen/ad_badge_height" />
+    <Space android:layout_width="0.0dp" android:layout_height="0.0dp" android:layout_weight="1.0" />
+    <com.cloud.hisavana.sdk.api.view.AdBadgeView android:id="@id/ad_badge_view" android:layout_width="wrap_content" android:layout_height="@dimen/ad_badge_height" android:layout_marginStart="@dimen/ad_badge_margin_left" />
+    <com.cloud.hisavana.sdk.api.view.AdCloseView android:id="@id/ad_close_view" android:layout_width="@dimen/ad_badge_height" android:layout_height="@dimen/ad_badge_height" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/included_content" layout="@layout/layout_download_res_path_setting_content" />
+    <ViewStub android:id="@id/vs_allow_access" android:layout="@layout/dialog_download_res_path_save_allow_access" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="48.0dp" />
+</FrameLayout>

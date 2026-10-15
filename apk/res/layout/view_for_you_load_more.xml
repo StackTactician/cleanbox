@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="90.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="@color/main" android:layout_gravity="center_horizontal" android:id="@id/tv_no_more" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dp" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="@color/main" android:layout_gravity="center_horizontal" android:id="@id/tv_err" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dp" android:text="@string/base_load_err" style="@style/style_regular_text" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:layout_gravity="center_horizontal" android:id="@id/tv_complete" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dp" style="@style/style_regular_text" />
+    <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/load_view" android:layout_width="19.0dp" android:layout_height="19.0dp" android:layout_marginTop="15.0dp" android:indeterminateTint="@color/main" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center_horizontal" android:id="@id/viewBg" android:background="@drawable/ps_link_8_border_bg" android:layout_width="106.0dp" android:layout_height="214.0dp" />
+    <com.hisavana.mediation.ad.TAdNativeView android:id="@id/tAdNativeView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" />
+</FrameLayout>

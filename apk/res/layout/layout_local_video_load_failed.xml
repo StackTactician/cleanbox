@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_horizontal" android:layout_width="200.0dp" android:layout_height="102.0dp" android:src="@mipmap/ic_no_net_new" />
+    <TextView android:textColor="@color/white_60" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_fail_title" android:layout_marginBottom="12.0dp" android:text="@string/downloading_play_load_failed" style="@style/style_regular_text" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.noober.background.view.BLTextView android:textSize="12.0sp" android:textColor="@color/white_80" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_fail_left_btn" android:paddingLeft="12.0dp" android:paddingRight="12.0dp" android:layout_width="wrap_content" android:layout_height="32.0dp" android:minWidth="94.0dp" android:text="@string/go_to_setting" android:layout_marginEnd="12.0dp" android:paddingHorizontal="12.0dp" app:bl_corners_radius="6.0dp" app:bl_solid_color="@color/white_10" style="@style/style_medium_small_text" />
+        <com.noober.background.view.BLTextView android:textSize="12.0sp" android:textColor="@color/white_80" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_fail_right_btn" android:paddingLeft="12.0dp" android:paddingRight="12.0dp" android:layout_width="wrap_content" android:layout_height="32.0dp" android:minWidth="80.0dp" android:text="@string/retry_text" android:paddingHorizontal="12.0dp" app:bl_corners_radius="6.0dp" app:bl_solid_color="@color/white_10" style="@style/style_medium_small_text" />
+    </LinearLayout>
+</LinearLayout>
