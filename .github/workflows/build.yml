@@ -3,6 +3,8 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+permissions:
+  contents: write
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,14 +17,15 @@ jobs:
           wget https://github.com/iBotPeaches/Apktool/releases/download/v2.9.3/apktool_2.9.3.jar -O apktool.jar
           chmod +x apktool apktool.jar
           sudo mv apktool apktool.jar /usr/local/bin/
-          apktool --version
-      - run: apktool b apk -o Cleanbox.apk
+          apktool b apk -o Cleanbox.apk
       - run: |
           sudo apt-get update && sudo apt-get install -y apksigner
           keytool -genkey -v -keystore debug.jks -storepass android -alias android -keypass android -keyalg RSA -validity 10000 -dname "CN=Cleanbox"
           apksigner sign --ks debug.jks --ks-pass pass:android --key-pass pass:android Cleanbox.apk
           apksigner verify Cleanbox.apk && echo "signed"
-      - uses: actions/upload-artifact@v4
-        with:
-          name: Cleanbox-apk
-          path: Cleanbox.apk
+      - run: |
+          gh release delete latest --yes || true
+          git push --delete origin latest || true
+          gh release create latest Cleanbox.apk --title "latest" --notes "Cleanbox.apk"
+        env:
+          GH_TOKEN: ${{ github.token }}
