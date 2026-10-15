@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="35" android:compileSdkVersionCodename="15" package="com.community.oneroom" platformBuildVersionCode="35" platformBuildVersionName="15">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="http"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="https"/>
+        </intent>
+        <intent>
+            <action android:name="android.speech.RecognitionService"/>
+        </intent>
+        <package android:name="com.whatsapp"/>
+        <package android:name="com.whatsapp.w4b"/>
+        <package android:name="com.gbwhatsapp"/>
+        <package android:name="com.instagram.android"/>
+        <package android:name="com.infinix.xshare"/>
+        <package android:name="com.talpa.share"/>
+        <package android:name="cn.xender"/>
+        <package android:name="com.google.android.youtube"/>
+        <package android:name="org.telegram.messenger.web"/>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="http"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="https"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.MAIN"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+        </intent>
+        <package android:name="com.transsnet.store"/>
+        <package android:name="com.community.oneroom"/>
+        <intent>
+            <action android:name="com.android.vending.billing.InAppBillingService.BIND"/>
+        </intent>
+        <provider android:authorities="com.com.transsion.appmarket.data"/>
+    </queries>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission android:name="android.permission.FPOST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_SETTINGS"/>
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-feature android:name="android.hardware.microphone" android:required="false"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.wifi.direct" android:required="false"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.NEARBY_WIFI_DEVICES" android:usesPermissionFlags="neverForLocation"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.MANAGE_WIFI_NETWORK_SELECTION"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE"/>
+    <uses-permission android:name="com.vivo.notification.permission.BADGE_ICON"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:name="com.transsion.tpush.permission.WRITE_PROVIDER"/>
+    <uses-permission android:name="com.transsion.tpush.permission.READ_PROVIDER"/>
+    <uses-permission android:name="com.transsion.dataservice.permission.READ"/>
+    <uses-permission android:name="com.transsion.dataservice.permission.WRITE"/>
+    <meta-data android:name="tran_athena_version" android:value="3.1.1.4"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID"/>
+    <uses-feature android:glEsVersion="0x20000" android:required="true"/>
+    <permission android:name="com.community.oneroom.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.community.oneroom.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <meta-data android:name="tran_http_version" android:value="1.0.53.01"/>
+    <meta-data android:name="tran_gslb_version" android:value="1.0.3.2"/>
+    <meta-data android:name="tran_coreutil_version" android:value="1.0.61.09"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"/>
+    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.flash" android:required="false"/>
+    <uses-feature android:name="android.hardware.screen.landscape" android:required="false"/>
+    <uses-feature android:name="android.hardware.wifi" android:required="false"/>
+    <meta-data android:name="tran_json_version" android:value="1.0.5.01"/>
+    <application android:allowBackup="false" android:appComponentFactory="s.h.e.l.l.A" android:dataExtractionRules="@xml/data_extraction_rules" android:extractNativeLibs="true" android:fullBackupContent="@xml/backup_rules" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher" android:label="@string/base_app_name" android:largeHeap="true" android:name="s.h.e.l.l.S" android:networkSecurityConfig="@xml/network_security_config" android:requestLegacyExternalStorage="true" android:supportsRtl="true" android:theme="@style/Theme.Subroom.NoActionBar" android:usesCleartextTraffic="true">
+        <service android:exported="false" android:name="com.tencent.tinker.lib.service.TinkerPatchService" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":patch"/>
+        <service android:exported="false" android:name="com.transsion.tinker.lib.custom.service.CustomResultService" android:process=":patch"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:exported="false" android:name="com.google.android.gms.ads.AdActivity" android:theme="@style/ThemeTrans"/>
+        <activity android:configChanges="locale|layoutDirection" android:launchMode="singleTask" android:name="com.cloud.hisavana.sdk.common.activity.HisavanaSplashActivity" android:theme="@style/ThemeTrans"/>
+        <activity android:launchMode="singleTask" android:name="com.transsion.subroom.activity.NotAvailableActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:exported="true" android:launchMode="singleTask" android:name="com.transsion.subroom.activity.MainActivity" android:screenOrientation="behind" android:theme="@style/Theme.Subroom.NoActionBarAd" android:windowSoftInputMode="stateAlwaysHidden|adjustPan"/>
+        <activity android:exported="true" android:name="com.transsion.subroom.activity.SplashActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.AppStart.Compat">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.transsion.subroom.deeplink.DeepLinkHandler" android:theme="@style/AppTheme.AppStart">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="com.community.oneroom" android:scheme="oneroom"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="com.community.moviebox" android:scheme="oneroom"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="v.aoneroom.com" android:scheme="https"/>
+                <data android:host="h5.aoneroom.com" android:scheme="https"/>
+                <data android:host="moviebox.ng" android:scheme="https"/>
+                <data android:host="m.mvbrowse.com" android:scheme="https"/>
+                <data android:host="v.moviebox.ng" android:scheme="https"/>
+                <data android:host="moviebox.biz" android:scheme="https"/>
+                <data android:host="moviebox.ac" android:scheme="https"/>
+                <data android:host="movie-box.tv" android:scheme="https"/>
+                <data android:host="moviebox.ph" android:scheme="https"/>
+                <data android:host="v.moviebox.ph" android:scheme="https"/>
+                <data android:host="moviebox.club" android:scheme="https"/>
+                <data android:host="movieboxhd.net" android:scheme="https"/>
+                <data android:host="movie-box.co" android:scheme="https"/>
+                <data android:host="themoviebox.xyz" android:scheme="https"/>
+                <data android:host="movebox.run" android:scheme="https"/>
+                <data android:host="movibox.net" android:scheme="https"/>
+                <data android:host="playmoviebox.com" android:scheme="https"/>
+                <data android:host="themoviebox.org" android:scheme="https"/>
+                <data android:host="boxmovies.org" android:scheme="https"/>
+                <data android:host="movieboxonline.net" android:scheme="https"/>
+                <data android:host="moviebox.studio" android:scheme="https"/>
+                <data android:host="moviebox.fund" android:scheme="https"/>
+                <data android:host="moviebox.guru" android:scheme="https"/>
+                <data android:host="movieboxoriginal.com" android:scheme="https"/>
+                <data android:host="movieboxonlinewatch.com" android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.perf.ktx.FirebasePerfLegacyRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.ndk.CrashlyticsNdkRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.remoteconfig.FirebaseRemoteConfigKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <provider android:authorities="com.community.oneroom.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup"/>
+        </provider>
+        <meta-data android:name="com.aliyun.alivc_license.licensekey" android:value="volXpoYXKsoRJDDPt89df7215938a4eb88c536e67cd49923c"/>
+        <meta-data android:name="com.aliyun.alivc_license.licensefile" android:value="assets/license.crt"/>
+        <meta-data android:name="CHANNEL" android:value="official"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:launchMode="singleTask" android:name="com.transsion.rewardscenter.ui.RewardsCenterActivity" android:screenOrientation="portrait">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="member" android:path="/adtask" android:scheme="oneroom"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:name="com.transsion.rewardscenter.ui.ClaimRewardActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.transsion.member.MemberActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.transsion.member.history.PointsHistoryActivity"/>
+        <activity android:exported="false" android:name="com.transsion.commercialization.aha.AhaGameAllActivity"/>
+        <activity android:exported="false" android:name="com.transsion.home.category.PlayListActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.transsion.home.category.CategoryActivity" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.transsion.home.activity.OperateActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.transsion.home.activity.FilterActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.transsion.home.activity.UGCFilterActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:exported="false" android:name="com.transsion.home.activity.MovieFilterActivity"/>
+        <activity android:configChanges="navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:exported="false" android:name="com.transsion.room.sub.activity.subscription.SubscriptionActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:launchMode="singleTop" android:name="com.transsion.home.activity.RankAllActivity" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.transsion.home.activity.UGCFilmListActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.transsion.home.activity.UGCHashTagActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.transsion.home.activity.UGCRankingActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.transsion.home.tv.TvLiveDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.transsion.room.activity.HotRoomsActivity" android:screenOrientation="portrait">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:name="com.transsion.room.activity.MyRoomActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.transsion.room.activity.CreateRoomActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.transsion.room.activity.RoomDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.transsion.room.activity.RoomHomeActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.transsion.room.activity.RoomListActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.transsion.room.activity.OthersRoomListActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.transsion.room.sub.activity.likes.UgcLikesActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.transsion.room.sub.activity.subscription.SubscriptionListActivity" android:screenOrientation="portrait"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="false" android:name="com.transsion.videodetail.StreamDetailActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:taskAffinity="com.transsion.videodetail.StreamDetailActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.transsion.videodetail.music.ui.MusicDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="false" android:name="com.transsion.ugcvideodetail.activity.UGCVideoDetailActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:taskAffinity="com.transsion.ugcvideodetail.fragment.UGCVideoDetailActivity"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="true" android:label="@string/video_player" android:name="com.transsion.ugcvideodetail.activity.UGCLocalVideoDetailActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:taskAffinity="com.transsion.ugcvideodetail.activity.UGCLocalVideoDetailActivity"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="false" android:name="com.transsion.moviedetail.activity.MovieDetailActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:taskAffinity="com.transsion.moviedetail.activity.MovieDetailActivity"/>
+        <activity android:exported="false" android:name="com.transsion.moviedetail.staff.MovieStaffActivity" android:screenOrientation="fullSensor"/>
+        <activity android:exported="false" android:name="com.transsion.moviedetail.activity.MoviePosterActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.transsion.moviedetail.activity.SubjectListActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.transsion.player.longvideo.ui.TestLongVodActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.transsion.player.longvideo.member.ResolutionUnlockActivity" android:theme="@style/AdTransparentActivityTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.transsion.postdetail.ui.activity.PostDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.transsion.postdetail.comment.ui.CommentListActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.transsion.postdetail.myactivity.MyActivityActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.transsion.postdetail.ui.activity.PostDetailVideoActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.transsion.postdetail.ui.activity.PostFeedbackInputActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.transsion.postdetail.ui.activity.favorite.FavoriteActivity" android:screenOrientation="portrait"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="true" android:label="@string/video_player" android:name="com.transsion.postdetail.ui.activity.LocalVideoDetailActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:taskAffinity="com.transsion.postdetail.ui.activity.LocalVideoDetailActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="file"/>
+                <data android:scheme="content"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:mimeType="audio/*"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="com.transsion.usercenter.devicemanagement.activity.DeviceManagementActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.transsion.usercenter.tvlink.TvDownloadWebLinkActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.transsion.usercenter.laboratory.MccActivity"/>
+        <activity android:exported="false" android:name="com.transsion.usercenter.setting.labelsfeedback.LabelsFeedbackActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.transsion.usercenter.setting.dev.DevActivity"/>
+        <activity android:exported="false" android:name="com.transsion.usercenter.FollowActivity"/>
+        <activity android:exported="false" android:name="com.transsion.usercenter.UserCenterActivity"/>
+        <activity android:exported="false" android:name="com.transsion.usercenter.ProfileEditActivity"/>
+        <activity android:exported="false" android:name="com.transsion.usercenter.ProfileSettingAboutUsActivity"/>
+        <activity android:exported="false" android:name="com.transsion.usercenter.profile.ProfileActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.transsion.usercenter.profile.see.ProfileSeeActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.transsion.usercenter.edit.ProfileEditCenterActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.transsion.usercenter.setting.SettingActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.transsion.usercenter.setting.feedback.UserSettingFeedbackActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.transsion.usercenter.setting.WebViewActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.transsion.usercenter.setting.SettingAboutUsActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.transsion.usercenter.message.UserMessageActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.transsion.usercenter.message.UserRoomMessageActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.transsion.usercenter.message.detail.MessageDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.transsion.usercenter.laboratory.LaboratoryActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.transsion.usercenter.profile.ProfileQRCodeActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.transsion.usercenter.setting.SettingNoticeActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.transsion.usercenter.setting.SettingWatchActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.transsion.usercenter.laboratory.LabMiniAppSDKTestActivity"/>
+        <activity android:exported="false" android:name="com.transsion.usercenter.profile.UserProfileActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.transsion.usercenter.setting.SettingPrivacyDataActivity"/>
+        <activity android:exported="false" android:name="com.transsion.usercenter.kids.ManageProfilesActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.transsion.usercenter.kids.PinManagementActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize|fontScale" android:launchMode="singleTop" android:name="com.transsion.search.activity.SearchManagerActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize|fontScale" android:launchMode="singleTop" android:name="com.transsion.search_pugc.activity.SearchManagerActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.transsion.payment.lib.strategy.ui.PayWebActivity"/>
+        <activity android:name="com.transsion.publish.ui.SelectImageActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.transsion.publish.ui.SelectVideoActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.transsion.publish.ui.SelectMusicActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.transsion.publish.ui.FilmReviewActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.transsion.publish.ui.GalleryActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.transsion.publish.ui.ClippingImageActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.transsion.publish.ui.VideoPreviewActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.transsion.publish.ui.SelectLocationActivity" android:screenOrientation="portrait"/>
+        <service android:name="com.transsion.publish.PublishService"/>
+        <activity android:exported="false" android:name="com.transsion.mbwidget.guide.WidgetGuideActivity" android:screenOrientation="portrait"/>
+        <receiver android:exported="true" android:name="com.transsion.mbwidget.HotSubjectWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_info_big"/>
+        </receiver>
+        <receiver android:exported="true" android:name="com.transsion.mbwidget.PlayWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_info"/>
+        </receiver>
+        <receiver android:exported="true" android:name="com.transsion.mbwidget.SportSchedulePreviewWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_schedule_sport"/>
+        </receiver>
+        <receiver android:exported="true" android:name="com.transsion.mbwidget.guide.WidgetCallbackReceiver"/>
+        <receiver android:exported="false" android:name="com.transsion.mbwidget.data.SportWidgetRefreshReceiver">
+            <intent-filter>
+                <action android:name="com.transsion.mbwidget.ACTION_MATCH_REFRESH"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.transsion.edcation.list.MyCourseListActivity"/>
+        <activity android:name="com.transsion.edcation.history.EducationHistoryActivity"/>
+        <activity android:exported="false" android:name="com.transsnet.downloader.activity.AllHistoricalPlayRecordActivity"/>
+        <activity android:launchMode="singleTop" android:name="com.transsnet.downloader.activity.DownloadPanelActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="com.transsnet.downloader.activity.DownloadSeriesListActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.transsnet.downloader.activity.TransferActivity"/>
+        <activity android:launchMode="singleTop" android:name="com.transsnet.downloader.ugc.activity.UGCMyDownloadsActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="com.transsnet.downloader.ugc.activity.UGCDownloadCollectionListActivity" android:screenOrientation="portrait"/>
+        <service android:exported="false" android:name="com.transsnet.downloader.guard.DownloadGuardService">
+            <intent-filter>
+                <action android:name="com.transsnet.downloader.manager.guard.DOWNLOAD_SERVICE"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.transsnet.downloader.core.ForegroundService"/>
+        <provider android:authorities="com.community.oneroom.download.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/filepaths"/>
+        </provider>
+        <activity android:exported="false" android:name="com.transsion.ninegridview.preview.GifImagePreviewActivity" android:theme="@style/Theme.AppCompat.Translucent">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:name="com.transsion.ninegridview.preview.ImagePreviewActivity" android:theme="@style/Theme.AppCompat.Translucent"/>
+        <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-5464101117258718~2034480240"/>
+        <activity android:name="com.transsion.wrapperad.install.AppLaunchProxyActivity"/>
+        <activity android:name="com.transsnet.login.interest.LoginInterestActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.transsnet.login.LoginActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysVisible"/>
+        <activity android:name="com.transsnet.login.country.LoginSelectCountryActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.transsnet.login.phone.LoginPhoneCodeActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysVisible"/>
+        <activity android:launchMode="singleTop" android:name="com.transsnet.login.LoginLikeActivity" android:theme="@style/TranslucentStyle"/>
+        <activity android:launchMode="singleTop" android:name="com.transsnet.login.phone.LoginPwdActivity"/>
+        <activity android:launchMode="singleTop" android:name="com.transsnet.login.phone.LoginSetPwdActivity"/>
+        <activity android:launchMode="singleTop" android:name="com.transsnet.login.email.LoginEmailPwdActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.transsion.fission.FissionInvitationCodeActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.transsion.transfer.wifi.permission.PermissionsActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.transsion.transfer.wifi.ui.WifiP2PTestActivity"/>
+        <activity android:exported="false" android:launchMode="singleTop" android:name="com.transsion.transfer.wifi.ui.WifiConnectActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:launchMode="singleTop" android:name="com.transsion.transfer.wifi.ui.WifiCreateActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.transsion.transfer.impl.TransferStatusActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.transsion.web.activity.WebActivity" android:screenOrientation="portrait"/>
+        <service android:enabled="true" android:exported="true" android:name="com.transsion.al.ka.AccountService">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator"/>
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/account_auth"/>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="com.transsion.al.ka.AccountSyncService">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter"/>
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter" android:resource="@xml/sync_adapter"/>
+        </service>
+        <provider android:authorities="com.community.oneroom.storage.account.sync" android:name="com.transsion.al.ka.AccountSyncContentProvider"/>
+        <provider android:authorities="com.community.oneroom.storage.contacts.sync" android:enabled="true" android:exported="true" android:name="com.transsion.al.ka.FastCleanerProvider" android:syncable="true">
+            <meta-data android:name="android.content.ContactDirectory" android:value="true"/>
+        </provider>
+        <receiver android:exported="true" android:name="com.transsion.al.ka.BootReceiver">
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.intent.action.PACKAGE_RESTARTED"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.UID_REMOVED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+            </intent-filter>
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.intent.action.MEDIA_MOUNTED"/>
+                <action android:name="android.intent.action.MEDIA_UNMOUNTED"/>
+                <action android:name="android.intent.action.MEDIA_REMOVED"/>
+                <action android:name="android.intent.action.MEDIA_EJECT"/>
+                <data android:scheme="file"/>
+            </intent-filter>
+        </receiver>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="false" android:name="com.transsion.livesports.detail.ui.LiveSportsDetailActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:taskAffinity="com.transsion.livesports.detail.ui.LiveSportsDetailActivity"/>
+        <activity android:exported="false" android:name="com.transsion.livesports.ui.matches.MatchesContainerActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.transsion.livesports.ui.standings.StandingsContainerActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.transsion.livesports.ui.matches.SeasonDetailActivity" android:screenOrientation="portrait"/>
+        <meta-data android:name="miniProcess" android:value=":mini"/>
+        <meta-data android:name="layerHardware" android:value="false"/>
+        <meta-data android:name="WORKER_TYPE" android:value="webview"/>
+        <meta-data android:name="DEV" android:value="false"/>
+        <meta-data android:name="TCTP" android:value="false"/>
+        <meta-data android:name="MINI_CONFIG_BASE_API_HOST" android:value="api.eagllwin.com"/>
+        <meta-data android:name="MINI_CONFIG_BASE_URL" android:value="https://api.eagllwin.com/"/>
+        <meta-data android:name="MINI_APP_BASE_URL" android:value="https://api.byte-app.com/"/>
+        <meta-data android:name="MINI_APP_HOST_URL" android:value="api.byte-app.com"/>
+        <meta-data android:name="MINI_BASE_V8_URL" android:value="https://api.byte-app.com/"/>
+        <meta-data android:name="MINI_BASE_LOGIN_API_HOST" android:value="api.sunnbird.com"/>
+        <meta-data android:name="MINI_BASE_LOGIN_API_URL" android:value="https://api.sunnbird.com/"/>
+        <meta-data android:name="MINI_BASE_UPLOAD_URL" android:value="https://api-fat1.dlight-app.com/"/>
+        <meta-data android:name="MINI_BASE_OSS_URL" android:value="https://app-oss.byte-app.com/"/>
+        <meta-data android:name="MINI_CDN_URL" android:value="https://transsion-miniapp-android-cdn.oss-eu-central-1.aliyuncs.com/"/>
+        <meta-data android:name="AD_SUBMIT_FORM" android:value="https://api.eagllwin.com"/>
+        <meta-data android:name="DEV_MODE" android:value="false"/>
+        <meta-data android:name="MINI_API_WORK_MODE" android:value="online"/>
+        <meta-data android:name="SDK_VERSION" android:value="12.0.14-mb"/>
+        <meta-data android:name="OFFLINE_DOWNLOAD_MODE" android:value="online"/>
+        <meta-data android:name="MINI_APPINFO_CDN_URL" android:value="https://app-oss.byte-app.com/"/>
+        <meta-data android:name="SDK_BUILD_VARIANT_TYPE" android:value="online"/>
+        <meta-data android:name="CONFIG_DEV_MODE" android:value="false"/>
+        <meta-data android:name="MINI_APP_STATIC_URL" android:value="https://api-static.byte-app.com/"/>
+        <meta-data android:name="com.google.android.gms.ads.INTEGRATION_MANAGER" android:value="webview"/>
+        <activity android:documentLaunchMode="always" android:excludeFromRecents="true" android:exported="true" android:launchMode="standard" android:name="com.cloud.tmc.miniapp.ui.MiniSchemaFilterActivity" android:process=":mini" android:taskAffinity="com.community.oneroom.miniapp.ui.MiniSchemaFilterActivity" android:theme="@style/Theme.Miniapp.NoActionBar"/>
+        <activity android:exported="false" android:multiprocess="true" android:name="com.cloud.tmc.miniapp.ui.ImagePreviewActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Miniapp.NoActionBar.PhotoTheme"/>
+        <activity android:exported="false" android:multiprocess="true" android:name="com.cloud.tmc.miniapp.ui.ImageSelectActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Miniapp.NoActionBar.PhotoTheme"/>
+        <activity android:exported="false" android:multiprocess="true" android:name="com.cloud.tmc.miniapp.ui.WebViewActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Miniapp.NoActionBar"/>
+        <activity android:exported="false" android:multiprocess="true" android:name="com.cloud.tmc.miniapp.ad.WebviewAdFormActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Miniapp.NoActionBar"/>
+        <activity android:exported="false" android:multiprocess="true" android:name="com.cloud.tmc.miniapp.ad.WebviewAdLandingPageActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Miniapp.NoActionBar"/>
+        <activity android:exported="false" android:multiprocess="true" android:name="com.cloud.tmc.miniapp.ad.WebviewPersonalizationActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Miniapp.NoActionBar"/>
+        <activity android:name="com.cloud.tmc.miniapp.ui.AppBrandProfileActivity" android:process=":mini" android:screenOrientation="portrait" android:theme="@style/Theme.Miniapp.NoActionBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:launchMode="standard" android:name="com.cloud.tmc.miniapp.ui.multiprogress.MiniAppMiniProcessActivity" android:process=":mini" android:screenOrientation="portrait" android:theme="@style/Theme.Miniapp.NoActionBar" android:windowSoftInputMode="stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:label="@string/mini_app_name" android:launchMode="singleTask" android:name="com.cloud.tmc.miniapp.ui.multiprogress.MiniSubActivity1" android:process=":mini" android:screenOrientation="portrait" android:taskAffinity="com.community.oneroom.miniapp.mini1" android:theme="@style/Theme.Miniapp.NoActionBar" android:windowSoftInputMode="stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:label="@string/mini_app_name" android:launchMode="singleTask" android:name="com.cloud.tmc.miniapp.ui.multiprogress.MiniSubActivity2" android:process=":mini" android:screenOrientation="portrait" android:taskAffinity="com.community.oneroom.miniapp.mini2" android:theme="@style/Theme.Miniapp.NoActionBar" android:windowSoftInputMode="stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:label="@string/mini_app_name" android:launchMode="singleTask" android:name="com.cloud.tmc.miniapp.ui.multiprogress.MiniSubActivity3" android:process=":mini" android:screenOrientation="portrait" android:taskAffinity="com.community.oneroom.miniapp.mini3" android:theme="@style/Theme.Miniapp.NoActionBar" android:windowSoftInputMode="stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:label="@string/mini_app_name" android:launchMode="singleTask" android:name="com.cloud.tmc.miniapp.ui.multiprogress.MiniSubActivity4" android:process=":mini" android:screenOrientation="portrait" android:taskAffinity="com.community.oneroom.miniapp.mini4" android:theme="@style/Theme.Miniapp.NoActionBar" android:windowSoftInputMode="stateHidden"/>
+        <service android:exported="false" android:name="com.cloud.tmc.miniapp.ipc.multiprogress.IpcMiniProcessClientService" android:process=":mini"/>
+        <service android:exported="true" android:name="com.cloud.tmc.miniapp.ipc.IpcMiniLauncherService" android:process=":mini"/>
+        <service android:exported="false" android:name="com.cloud.tmc.miniapp.ipc.multiprogress.IpcMainProcessClientService"/>
+        <service android:name="com.cloud.tmc.miniapp.bluetooth.BLEService" android:process=":mini"/>
+        <service android:exported="true" android:name="com.cloud.tmc.miniapp.ipc.IpcMiniPSService" android:process=":mini"/>
+        <receiver android:exported="false" android:name="com.cloud.tmc.integration.broadcast.ShortCutBroadcast" android:process=":mini">
+            <intent-filter>
+                <action android:name="com.cloud.tmc.miniapp.shortcut"/>
+            </intent-filter>
+        </receiver>
+        <activity android:exported="false" android:name="com.tn.tranpay.activity.TranPayWebActivity" android:screenOrientation="portrait" android:theme="@style/Theme.TranPay"/>
+        <activity android:exported="true" android:name="com.tn.tranpay.activity.PayActivity" android:screenOrientation="portrait" android:theme="@style/Theme.TranPay"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.tn.tranpay.activity.TranPayTransparentActivity" android:screenOrientation="portrait" android:theme="@style/Theme.TranPay.Transparent"/>
+        <activity android:exported="false" android:name="com.transsion.spwaitkiller.test.TestSpWait2Activity"/>
+        <activity android:exported="true" android:name="com.transsion.spwaitkiller.test.TestSpWaitActivity"/>
+        <service android:exported="false" android:name="com.cloud.h5update.service.LocalH5UpdateService">
+            <intent-filter>
+                <action android:name="com.cloud.h5update.service.LocalH5UpdateService"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.cloud.h5update.service.LocalH5UpdateJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.cloud.tmc.miniutils.util.UtilsTransActivity4MainProcess" android:theme="@style/ActivityTranslucent" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:multiprocess="true" android:name="com.cloud.tmc.miniutils.util.UtilsTransActivity" android:theme="@style/ActivityTranslucent" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <provider android:authorities="com.community.oneroom.therouter.TheRouteContentProvider" android:exported="false" android:name="com.therouter.InnerTheRouterContentProvider"/>
+        <activity android:exported="false" android:label="@string/places_autocomplete_label" android:name="com.google.android.libraries.places.widget.AutocompleteActivity" android:theme="@style/PlacesAutocompleteOverlay" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.transsion.ad.test.ad_config.TestAdMccActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.transsion.ad.test.ad_example.TestViewMeasureActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.transsion.ad.test.TestAdActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.transsion.ad.test.ad_example.TestAdAExampleActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.transsion.ad.test.ad_example.TestAdBannerActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.transsion.ad.test.ad_example.TestAdSplashActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.transsion.ad.test.ad_example.TestAdH5Activity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.transsion.ad.test.ad_example.TestAdVideoActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.transsion.ad.test.ad_example.TestAdInterstitialActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.transsion.ad.test.ad_example.TestAdNativeActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.transsion.ad.test.ad_example.TestAdNativeSspActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.transsion.ad.test.ad_example.TestAdNativeMultipleActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.transsion.ad.test.ad_example.TestAdNativeListActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.transsion.ad.test.ad_config.TestAdSceneActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.transsion.ad.test.ad_config.TestAdPlansActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.transsion.ad.test.ad_config.TestAdPlanDetailActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.transsion.ad.test.ad_config.TestAdOtherConfigActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.transsion.ad.test.ad_example.TestAdIrregularViewActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.transsion.ad.test.ad_example.TestAdIconActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.transsion.ad.test.ad_config.TestAdPsOfferActivity"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.transsion.ad.bidding.h5.BiddingBuyOutH5AdSourceActivity" android:theme="@style/AdTransparentActivityTheme"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.transsion.ad.bidding.interstitial.BiddingBuyOutFullScreenInterstitialActivity" android:theme="@style/AdTransparentActivityTheme"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.transsion.ad.bidding.splash.BiddingBuyOutSplashActivity" android:theme="@style/AdTransparentActivityTheme"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.transsion.ad.bidding.video.BiddingBuyOutBuyOutVideoActivity" android:theme="@style/AdTransparentActivityTheme"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.transsion.ad.bidding.interstitial.BiddingBuyOutBuyOutInterstitialHalfScreenActivity" android:theme="@style/AdTransparentActivityTheme"/>
+        <activity android:launchMode="singleTask" android:name="com.transsion.ad.web.AdWebActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.transsion.ad.web.cct.CCTWebviewActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.transsion.ad.bidding.interstitial.BiddingBuyOutInterstitialAutoFullScreenActivity" android:theme="@style/AdTransparentActivityTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.transsion.ad.bidding.video.BiddingBuyOutVideoAutoFullScreenActivity" android:theme="@style/AdTransparentActivityTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.transsion.ad.bidding.interstitial.BiddingBuyOutInterstitialActionActivity" android:theme="@style/AdTransparentActivityTheme"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.transsion.ad.bidding.splash.BiddingHisavanaSplashActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.blankj.utilcode.util.UtilsTransActivity4MainProcess" android:theme="@style/ActivityTranslucent" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:multiprocess="true" android:name="com.blankj.utilcode.util.UtilsTransActivity" android:theme="@style/ActivityTranslucent" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <provider android:authorities="com.community.oneroom.utilcode.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.blankj.utilcode.util.UtilsFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/util_code_provider_paths"/>
+        </provider>
+        <service android:exported="false" android:name="com.blankj.utilcode.util.MessengerUtils$ServerService">
+            <intent-filter>
+                <action android:name="com.community.oneroom.messenger"/>
+            </intent-filter>
+        </service>
+        <meta-data android:name="tran_hisavana_version" android:value="3.6.3.0"/>
+        <provider android:authorities="com.community.oneroom.HisavanaConfigContentProvider" android:exported="false" android:name="com.hisavana.mediation.config.ConfigContentProvider"/>
+        <activity android:exported="false" android:name="com.cloud.hisavana.sdk.common.activity.AdvertiserLinkActivity" android:screenOrientation="behind" android:theme="@style/NoTranslucentStatusBar"/>
+        <activity android:exported="false" android:multiprocess="true" android:name="com.cloud.hisavana.sdk.common.activity.PersonalCloseAdActivity" android:screenOrientation="behind" android:theme="@style/NoTranslucentStatusBar"/>
+        <activity android:exported="false" android:name="com.cloud.hisavana.sdk.common.activity.OfflineLandingActivity" android:screenOrientation="behind" android:theme="@style/NoTranslucentStatusBar"/>
+        <activity android:exported="false" android:name="com.cloud.hisavana.sdk.common.activity.AgentPageLandingActivity" android:screenOrientation="behind" android:theme="@style/NoTranslucentStatusBar"/>
+        <activity android:exported="false" android:name="com.cloud.hisavana.sdk.common.activity.EWOfficialActivity" android:screenOrientation="behind" android:theme="@style/NoTranslucentStatusBar"/>
+        <activity android:exported="false" android:name="com.cloud.hisavana.sdk.common.activity.OnlineLandingActivity" android:screenOrientation="behind" android:theme="@style/NoTranslucentStatusBar"/>
+        <activity android:exported="false" android:name="com.cloud.hisavana.sdk.common.activity.OnlinePreloadLandingPageActivity" android:screenOrientation="behind" android:theme="@style/NoTranslucentStatusBar"/>
+        <activity android:configChanges="locale|orientation|uiMode|screenSize|layoutDirection" android:exported="false" android:launchMode="singleTask" android:multiprocess="true" android:name="com.cloud.hisavana.sdk.common.activity.TAdInterstitialActivity" android:screenOrientation="behind" android:theme="@style/InterstitialStyle"/>
+        <activity android:configChanges="locale|layoutDirection" android:exported="false" android:launchMode="singleTask" android:name="com.cloud.hisavana.sdk.common.activity.TAdWebFormsActivity" android:screenOrientation="behind" android:theme="@style/TranslucentStyle"/>
+        <activity android:configChanges="locale|layoutDirection" android:exported="false" android:launchMode="singleTask" android:name="com.cloud.hisavana.sdk.common.activity.MiniAppPopUpActivity" android:screenOrientation="behind" android:theme="@style/CustomDialog"/>
+        <activity android:documentLaunchMode="always" android:excludeFromRecents="true" android:exported="false" android:launchMode="standard" android:name="com.cloud.hisavana.sdk.common.activity.MiniAppSchemeActivity" android:theme="@style/MiniAppSchemeStyle"/>
+        <activity android:configChanges="locale|orientation|uiMode|screenSize|layoutDirection" android:exported="false" android:launchMode="singleTask" android:multiprocess="true" android:name="com.cloud.hisavana.sdk.common.activity.HisavanaRewardedActivity" android:screenOrientation="behind" android:theme="@style/NoTranslucentStatusBar"/>
+        <activity android:configChanges="locale|orientation|uiMode|screenSize|layoutDirection" android:exported="false" android:launchMode="singleTask" android:multiprocess="true" android:name="com.cloud.hisavana.sdk.common.activity.HisavanaInterstitialRewardedActivity" android:screenOrientation="behind" android:theme="@style/NoTranslucentStatusBar"/>
+        <activity android:configChanges="locale|keyboardHidden|orientation|uiMode|screenSize|layoutDirection" android:exported="false" android:launchMode="singleTask" android:multiprocess="true" android:name="com.cloud.hisavana.sdk.common.activity.HisavanaInterstitialTemplateActivity" android:theme="@style/InterstitialStyle"/>
+        <activity android:configChanges="locale|keyboardHidden|orientation|uiMode|screenSize|layoutDirection" android:exported="false" android:launchMode="singleTask" android:multiprocess="true" android:name="com.cloud.hisavana.sdk.common.activity.HisavanaRewardedTemplateActivity" android:theme="@style/NoTranslucentStatusBar"/>
+        <provider android:authorities="com.community.oneroom.HisavanaContentProvider" android:exported="false" android:name="com.cloud.hisavana.sdk.database.HisavanaContentProvider"/>
+        <provider android:authorities="com.community.oneroom.HisavanaFileProvider" android:exported="false" android:grantUriPermissions="true" android:name="com.cloud.hisavana.sdk.common.HisavanaFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/hisavana_provider_paths"/>
+        </provider>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.transsion.pushui.activity.TransparentActivity" android:taskAffinity="com.transsion.pushui" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:exported="true" android:name="com.transsion.pushui.activity.PushActivity">
+            <intent-filter>
+                <action android:name="tpush.intent.action.TPUSH"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="false" android:name="com.transsion.push.broadcast.FCMMessageService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.transsion.push.service.PushJobIntentService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.transsion.push.broadcast.HandlerBroadcastReceiver">
+            <intent-filter android:priority="999">
+                <action android:name="tpush.intent.action.TPUSH_MSG_RECEIVER"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="tran_push_version" android:value="2.0.2.01"/>
+        <meta-data android:name="tpush_app_id" android:value="8534b43bc794414987957009b5060377"/>
+        <meta-data android:name="tpush_app_key" android:value="8fc969cd4a4b4e9190c38322875b0f09"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:multiprocess="true" android:name="com.bytedance.sdk.openadsdk.activity.TTLandingPageActivity" android:theme="@style/tt_landing_page"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:multiprocess="true" android:name="com.bytedance.sdk.openadsdk.activity.TTPlayableLandingPageActivity" android:theme="@style/tt_landing_page"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:multiprocess="true" android:name="com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageLink2Activity" android:theme="@style/tt_landing_page"/>
+        <activity android:launchMode="standard" android:multiprocess="true" android:name="com.bytedance.sdk.openadsdk.activity.TTDelegateActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:launchMode="standard" android:multiprocess="true" android:name="com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity" android:screenOrientation="portrait" android:theme="@style/tt_privacy_landing_page"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:multiprocess="true" android:name="com.bytedance.sdk.openadsdk.activity.TTAppOpenAdActivity" android:theme="@style/tt_app_open_ad_no_animation"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:multiprocess="true" android:name="com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity" android:theme="@style/tt_full_screen_new"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:multiprocess="true" android:name="com.bytedance.sdk.openadsdk.activity.TTRewardExpressVideoActivity" android:theme="@style/tt_full_screen_new"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:multiprocess="true" android:name="com.bytedance.sdk.openadsdk.activity.TTFullScreenVideoActivity" android:theme="@style/tt_full_screen_new"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:multiprocess="true" android:name="com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity" android:theme="@style/tt_full_screen_new"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:multiprocess="true" android:name="com.bytedance.sdk.openadsdk.activity.TTInterstitialActivity" android:theme="@style/tt_full_screen_interaction"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:multiprocess="true" android:name="com.bytedance.sdk.openadsdk.activity.TTInterstitialExpressActivity" android:theme="@style/tt_full_screen_interaction"/>
+        <activity android:configChanges="keyboard|orientation" android:excludeFromRecents="true" android:exported="false" android:multiprocess="true" android:name="com.mbridge.msdk.activity.MBCommonActivity" android:theme="@style/mbridge_transparent_common_activity_style"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:multiprocess="true" android:name="com.mbridge.msdk.reward.player.MBRewardVideoActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:name="com.transsion.athena.aidl.AthenaTrackService"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_job_service_default" android:exported="true" android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_foreground_service_default" android:exported="false" android:name="androidx.work.impl.foreground.SystemForegroundService"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="false" android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"/>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule" android:value="GlideModule"/>
+        <meta-data android:name="com.bumptech.glide.integration.cronet.CronetGlideModule" android:value="GlideModule"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:exported="true" android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" android:visibleToInstantApps="true"/>
+        <meta-data android:name="com.google.android.play.billingclient.version" android:value="6.1.0"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:exported="false" android:name="com.android.billingclient.api.ProxyBillingActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <property android:name="android.adservices.AD_SERVICES_CONFIG" android:resource="@xml/ga_ad_services_config"/>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+            <meta-data android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED" android:value="true"/>
+        </receiver>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.messaging.FirebaseMessagingService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <provider android:authorities="com.community.oneroom.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <uses-library android:name="androidx.window.extensions" android:required="false"/>
+        <uses-library android:name="androidx.window.sidecar" android:required="false"/>
+        <uses-library android:name="android.ext.adservices" android:required="false"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <meta-data android:name="com.bytedance.sdk.pangle.version" android:value="7.1.1.4"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.activity.TTCeilingLandingPageActivity"/>
+        <service android:name="com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.activity.TTAdActivity" android:theme="@style/tt_full_screen_new"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:hardwareAccelerated="true" android:launchMode="singleTop" android:name="com.vungle.ads.internal.ui.VungleActivity"/>
+        <provider android:authorities="com.community.oneroom.vungle-provider" android:exported="false" android:initOrder="102" android:name="com.vungle.ads.VungleProvider"/>
+        <service android:exported="true" android:name="com.cloud.tmc.component_api_ps.ipc.service.MiniAppProtocolMainService"/>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+        </service>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+        <receiver android:exported="true" android:name="com.transsion.player.mediasession.MusicIntentReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.transsion.player.mediasession.MusicNotificationBroadcastReceiver"/>
+        <service android:enabled="true" android:exported="true" android:foregroundServiceType="mediaPlayback" android:name="com.transsion.player.mediasession.MediaService"/>
+        <service android:exported="false" android:foregroundServiceType="dataSync" android:name="com.transsion.player.exo.DemoDownloadService">
+            <intent-filter>
+                <action android:name="androidx.media3.exoplayer.downloadService.action.RESTART"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="androidx.media3.exoplayer.scheduler.PlatformScheduler$PlatformSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="false" android:name="com.transsion.shorttv_pugc.ui.activity.ShortTvListActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:taskAffinity="com.transsion.shorttv.ui.activity.ShortTvListActivity" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.transsion.shorttv_pugc.ui.activity.ShortTVFavoriteActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="false" android:name="com.transsion.shorttv.ui.activity.ShortTvListActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:taskAffinity="com.transsion.shorttv.ui.activity.ShortTvListActivity" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.transsion.shorttv.ui.activity.ShortTVFavoriteActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.transsion.shorttv._channel.ui.activity.ShortTvPlayListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.transsion.shorttv._channel.ui.activity.ShortTvMovieFilterActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.transsion.shorttv._channel.ui.activity.ShortTvCategoryActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <provider android:authorities="com.community.oneroom.backgroundLibrary" android:exported="false" android:multiprocess="true" android:name="com.noober.background.BackgroundContentProvider"/>
+        <service android:enabled="true" android:exported="false" android:name="com.tencent.tinker.lib.service.TinkerPatchForeService" android:process=":patch"/>
+        <service android:exported="false" android:name="com.tencent.tinker.lib.service.TinkerPatchService$InnerService" android:process=":patch"/>
+        <service android:exported="false" android:name="com.tencent.tinker.lib.service.DefaultTinkerResultService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <activity android:excludeFromRecents="true" android:exported="true" android:launchMode="singleTask" android:name="com.transsion.mpush.core.activity.SdkPushClickActivity" android:noHistory="true" android:taskAffinity="" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="com.transsion.push.newsdk.action.CLICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <receiver android:exported="true" android:name="com.transsion.mpush.core.trigger.PushTriggerReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+                <action android:name="android.intent.action.SCREEN_ON"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.transsion.mpush.core.service.SdkNotificationRefreshService"/>
+        <meta-data android:name="com.bumptech.glide.integration.webp.WebpGlideModule" android:value="GlideModule"/>
+        <activity android:clearTaskOnLaunch="true" android:name="com.journeyapps.barcodescanner.CaptureActivity" android:screenOrientation="sensorLandscape" android:stateNotNeeded="true" android:theme="@style/zxing_CaptureTheme" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <meta-data android:name="gateway_secret_test" android:value="Xqn2nnO41/L92o1iuXhSLHTbXvY4Z5ZZ62m8mSLA"/>
+        <meta-data android:name="gateway_secret_online" android:value="76iRl07s0xSN9jqmEWAt79EBJZulIQIsV64FZr2O"/>
+        <service android:exported="false" android:name="com.wecloud.load.lib.SoLoadService" android:process=":dyso"/>
+        <activity android:exported="false" android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity" android:stateNotNeeded="true" android:theme="@style/Theme.PlayCore.Transparent"/>
+        <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_00"/>
+        <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_01"/>
+        <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_02"/>
+        <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_03"/>
+        <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_04"/>
+        <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_05"/>
+        <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_06"/>
+        <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_07"/>
+        <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_08"/>
+        <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_09"/>
+        <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_00_T" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_01_T" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_02_T" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:launchMode="singleTop" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00"/>
+        <activity android:launchMode="singleTop" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_01"/>
+        <activity android:launchMode="singleTop" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_02"/>
+        <activity android:launchMode="singleTop" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_03"/>
+        <activity android:launchMode="singleTop" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_04"/>
+        <activity android:launchMode="singleTop" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_05"/>
+        <activity android:launchMode="singleTop" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_06"/>
+        <activity android:launchMode="singleTop" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_07"/>
+        <activity android:launchMode="singleTop" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_08"/>
+        <activity android:launchMode="singleTop" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_09"/>
+        <activity android:launchMode="singleTop" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00_T" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:launchMode="singleTop" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_01_T" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:launchMode="singleTop" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_02_T" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:launchMode="singleTask" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_00"/>
+        <activity android:launchMode="singleTask" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_01"/>
+        <activity android:launchMode="singleTask" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_02"/>
+        <activity android:launchMode="singleTask" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_03"/>
+        <activity android:launchMode="singleTask" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_04"/>
+        <activity android:launchMode="singleTask" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_05"/>
+        <activity android:launchMode="singleTask" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_06"/>
+        <activity android:launchMode="singleTask" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_07"/>
+        <activity android:launchMode="singleTask" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_08"/>
+        <activity android:launchMode="singleTask" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_09"/>
+        <activity android:launchMode="singleTask" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_00_T" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:launchMode="singleTask" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_01_T" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:launchMode="singleTask" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_02_T" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:launchMode="singleInstance" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_00"/>
+        <activity android:launchMode="singleInstance" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_01"/>
+        <activity android:launchMode="singleInstance" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_02"/>
+        <activity android:launchMode="singleInstance" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_03"/>
+        <activity android:launchMode="singleInstance" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_04"/>
+        <activity android:launchMode="singleInstance" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_05"/>
+        <activity android:launchMode="singleInstance" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_06"/>
+        <activity android:launchMode="singleInstance" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_07"/>
+        <activity android:launchMode="singleInstance" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_08"/>
+        <activity android:launchMode="singleInstance" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_09"/>
+        <activity android:launchMode="singleInstance" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_00_T" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:launchMode="singleInstance" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_01_T" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:launchMode="singleInstance" android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_02_T" android:theme="@android:style/Theme.Translucent"/>
+        <meta-data android:name="tinker_version" android:value="1.9.15.2"/>
+        <activity android:name="com.mbridge.msdk.out.LoadingActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:name="com.mbridge.msdk.newreward.player.MBRewardVideoActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <receiver android:exported="true" android:name="com.mbridge.msdk.foundation.same.broadcast.NetWorkChangeReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="trans_crypto_sdk_version" android:value="1.0.9.01"/>
+        <meta-data android:name="TINKER_ID" android:value="tinker_id_50020131"/>
+    </application>
+</manifest>
